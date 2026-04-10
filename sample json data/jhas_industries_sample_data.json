@@ -1,0 +1,3523 @@
+{
+  "glid": "40558",
+  "platforms": [
+    {
+      "platform": "website",
+      "url": "http://jhasindustries.com",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "search",
+      "depth": 0,
+      "source": "parallel_search",
+      "validation_keys_matched": [],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "",
+        "social_links": [],
+        "business_name": "",
+        "description": "",
+        "product_categories": [],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "website",
+      "url": "https://mailto:security@jhas.in",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "http://www.jhasindustries.com",
+      "depth": 1,
+      "source": "parallel_search",
+      "validation_keys_matched": [],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "",
+        "social_links": [],
+        "business_name": "",
+        "description": "",
+        "product_categories": [],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "facebook",
+      "url": "https://facebook.com/JhasIndustries",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "search",
+      "depth": 0,
+      "source": "parallel_search",
+      "validation_keys_matched": [
+        "phone",
+        "email",
+        "city",
+        "pincode",
+        "business_name"
+      ],
+      "extracted_data": {
+        "phone_numbers": ["9412730003"],
+        "emails": ["security@jhas.in"],
+        "address": "Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA",
+        "city": "ALIGARH",
+        "pincode": "202001",
+        "lat_long": "27.87138000,78.07276000",
+        "website": "https://www.jhasindustries.com/",
+        "social_links": [
+          "https://facebook.com/JhasIndustries",
+          "https://www.instagram.com/jhas_industries",
+          "https://youtube.com/@jhas_industries",
+          "https://x.com/jhas_industries",
+          "https://linkedin.com/in/jhas_industries"
+        ],
+        "business_name": "Jhas Industries",
+        "description": "",
+        "product_categories": ["Security Seals", "Sealing Solutions"],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/jhasindustries",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "search",
+      "depth": 0,
+      "source": "parallel_search",
+      "validation_keys_matched": ["city", "pincode"],
+      "extracted_data": {
+        "phone_numbers": ["5055791742", "8505579174"],
+        "emails": [],
+        "address": "Patel Nagar, Agra Road",
+        "city": "Aligarh",
+        "pincode": "202001",
+        "lat_long": "27.87137,78.07276",
+        "website": "https://www.jhasindustries.com/",
+        "social_links": ["https://www.instagram.com/jhasindustries"],
+        "business_name": "jhasindustries",
+        "description": "",
+        "product_categories": ["Security Seals", "Sealing Solutions"],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "website",
+      "url": "https://jhasindustries.com",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "https://www.instagram.com/jhasindustries/",
+      "depth": 1,
+      "source": "parallel_search",
+      "validation_keys_matched": [],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "",
+        "social_links": [],
+        "business_name": "",
+        "description": "",
+        "product_categories": [],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/jhas_industries",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "search",
+      "depth": 0,
+      "source": "parallel_search",
+      "validation_keys_matched": [
+        "phone",
+        "city",
+        "pincode",
+        "business_name",
+        "website"
+      ],
+      "extracted_data": {
+        "phone_numbers": ["8505579174"],
+        "emails": [],
+        "address": "Patel Nagar, Agra Road, Aligarh, 202001",
+        "city": "Aligarh",
+        "pincode": "202001",
+        "lat_long": "27.87138,78.07276",
+        "website": "http://www.jhasindustries.com",
+        "social_links": [
+          "https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg",
+          "https://www.instagram.com/jhas_industries"
+        ],
+        "business_name": "JHAS",
+        "description": "",
+        "product_categories": ["Security Seals", "Sealing Solutions"],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "youtube",
+      "url": "https://youtube.com/@Jhas_industries",
+      "confidence": "medium",
+      "is_verified": false,
+      "discovered_from": "search",
+      "depth": 0,
+      "source": "parallel_search",
+      "validation_keys_matched": ["business_name"],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "https://www.jhasindustries.com/",
+        "social_links": [
+          "https://www.facebook.com/JhasIndustries/",
+          "https://www.instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://x.com/Jhas_industries",
+          "https://www.linkedin.com/company/jhas-indusrtries"
+        ],
+        "business_name": "JHAS Industries",
+        "description": "",
+        "product_categories": ["Security Seals", "Sealing Solutions"],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "website",
+      "url": "https://x.com/jhas_industries",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "https://facebook.com/JhasIndustries",
+      "depth": 1,
+      "source": "link_expand",
+      "validation_keys_matched": [],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "",
+        "social_links": [],
+        "business_name": "",
+        "description": "",
+        "product_categories": [],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "website",
+      "url": "https://linkedin.com/in/jhas_industries",
+      "confidence": "high",
+      "is_verified": true,
+      "discovered_from": "https://facebook.com/JhasIndustries",
+      "depth": 1,
+      "source": "link_expand",
+      "validation_keys_matched": [],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "",
+        "social_links": [],
+        "business_name": "",
+        "description": "",
+        "product_categories": [],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": []
+    },
+    {
+      "platform": "youtube",
+      "url": "https://youtube.com/@jhas_industries",
+      "confidence": "medium",
+      "is_verified": false,
+      "discovered_from": "https://facebook.com/JhasIndustries",
+      "depth": 1,
+      "source": "link_expand",
+      "validation_keys_matched": ["business_name"],
+      "extracted_data": {
+        "phone_numbers": [],
+        "emails": [],
+        "address": "",
+        "city": "",
+        "pincode": "",
+        "lat_long": "",
+        "website": "https://www.jhasindustries.com/",
+        "social_links": [
+          "https://www.facebook.com/JhasIndustries/",
+          "https://www.instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://x.com/Jhas_industries",
+          "https://www.linkedin.com/company/jhas-indusrtries"
+        ],
+        "business_name": "JHAS Industries",
+        "description": "",
+        "product_categories": ["Security Seals", "Sealing Solutions"],
+        "additional_data": {}
+      },
+      "enrichment_opportunities": [
+        {
+          "field": "website",
+          "reference": "http://www.jhasindustries.com",
+          "discovered": "https://www.jhasindustries.com/"
+        }
+      ]
+    }
+  ],
+  "rejected_platforms": [
+    {
+      "url": "https://google.com/maps/search",
+      "platform": "website",
+      "reason": "≥2 contradictions with no match"
+    }
+  ],
+  "discovered_categories": [
+    {
+      "category": "Bag Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Bolt Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Cable Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Container Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Drum Cap Seal",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Exporter",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Lead Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "LEADER",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Manufacturer",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Meter Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Padlock Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Plastic Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Seal Plier",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Seal Tag",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Sealing Solutions",
+      "sources": [
+        "https://facebook.com/JhasIndustries",
+        "https://instagram.com/jhasindustries",
+        "https://instagram.com/jhas_industries",
+        "https://youtube.com/@Jhas_industries",
+        "https://youtube.com/@jhas_industries"
+      ],
+      "confidence": "high",
+      "seen_on_indiamart_profile": false,
+      "in_indiamart": false,
+      "seen_on_crawl": true
+    },
+    {
+      "category": "Security Seals",
+      "sources": [
+        "https://facebook.com/JhasIndustries",
+        "https://instagram.com/jhasindustries",
+        "https://instagram.com/jhas_industries",
+        "https://youtube.com/@Jhas_industries",
+        "https://youtube.com/@jhas_industries"
+      ],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": true
+    },
+    {
+      "category": "Security Tag",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Truck Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    },
+    {
+      "category": "Wire Seals",
+      "sources": ["(IndiaMART profile)"],
+      "confidence": "high",
+      "seen_on_indiamart_profile": true,
+      "in_indiamart": true,
+      "seen_on_crawl": false
+    }
+  ],
+  "seller_catalog": {
+    "phone_numbers": [
+      {
+        "value": "5055791742",
+        "sources": ["https://instagram.com/jhasindustries"]
+      },
+      {
+        "value": "8505579174",
+        "sources": [
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries"
+        ]
+      },
+      {
+        "value": "9412730003",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      }
+    ],
+    "emails": [
+      {
+        "value": "security@jhas.in",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      }
+    ],
+    "websites": [
+      {
+        "value": "https://www.jhasindustries.com/",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      }
+    ],
+    "social_profiles": [
+      {
+        "value": "https://facebook.com/JhasIndustries",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "https://linkedin.com/in/jhas_industries",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      },
+      {
+        "value": "https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg",
+        "sources": ["https://instagram.com/jhas_industries"]
+      },
+      {
+        "value": "https://www.instagram.com/jhas_industries",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "https://www.instagram.com/jhasindustries",
+        "sources": ["https://instagram.com/jhasindustries"]
+      },
+      {
+        "value": "https://www.linkedin.com/company/jhas-indusrtries",
+        "sources": [
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "https://x.com/jhas_industries",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      },
+      {
+        "value": "https://x.com/Jhas_industries",
+        "sources": [
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "https://youtube.com/@jhas_industries",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      },
+      {
+        "value": "https://youtube.com/@Jhas_industries",
+        "sources": [
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      }
+    ],
+    "addresses": [
+      {
+        "value": "Patel Nagar, Agra Road",
+        "sources": ["https://instagram.com/jhasindustries"]
+      },
+      {
+        "value": "Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      },
+      {
+        "value": "Patel Nagar, Agra Road, Aligarh, 202001",
+        "sources": ["https://instagram.com/jhas_industries"]
+      }
+    ],
+    "cities": [
+      {
+        "value": "ALIGARH",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries"
+        ]
+      }
+    ],
+    "pincodes": [
+      {
+        "value": "202001",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries"
+        ]
+      }
+    ],
+    "lat_longs": [
+      {
+        "value": "27.87137,78.07276",
+        "sources": ["https://instagram.com/jhasindustries"]
+      },
+      {
+        "value": "27.87138,78.07276",
+        "sources": ["https://instagram.com/jhas_industries"]
+      },
+      {
+        "value": "27.87138000,78.07276000",
+        "sources": ["https://facebook.com/JhasIndustries"]
+      }
+    ],
+    "business_names": [
+      {
+        "value": "JHAS",
+        "sources": ["https://instagram.com/jhas_industries"]
+      },
+      {
+        "value": "Jhas Industries",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "jhasindustries",
+        "sources": ["https://instagram.com/jhasindustries"]
+      }
+    ],
+    "descriptions": [],
+    "product_categories": [
+      {
+        "value": "Sealing Solutions",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      },
+      {
+        "value": "Security Seals",
+        "sources": [
+          "https://facebook.com/JhasIndustries",
+          "https://instagram.com/jhasindustries",
+          "https://instagram.com/jhas_industries",
+          "https://youtube.com/@Jhas_industries",
+          "https://youtube.com/@jhas_industries"
+        ]
+      }
+    ],
+    "scraped_pages": [
+      {
+        "url": "http://jhasindustries.com",
+        "platform": "website",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://mailto:security@jhas.in",
+        "platform": "website",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://facebook.com/JhasIndustries",
+        "platform": "facebook",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://instagram.com/jhasindustries",
+        "platform": "instagram",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://jhasindustries.com",
+        "platform": "website",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://instagram.com/jhas_industries",
+        "platform": "instagram",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://linktr.ee/jhasindustriesseals",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://youtube.com/@Jhas_industries",
+        "platform": "youtube",
+        "confidence": "medium",
+        "has_extracted": true
+      },
+      {
+        "url": "http://jhas.in",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://youtube.com/@jhasindustries192",
+        "platform": "youtube",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://youtube.com/@jhasindustries8750",
+        "platform": "youtube",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://in.linkedin.com/company/jhasindustries",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://x.com/jhas_industries",
+        "platform": "website",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://linkedin.com/in/jhas_industries",
+        "platform": "website",
+        "confidence": "high",
+        "has_extracted": true
+      },
+      {
+        "url": "https://youtube.com/@jhas_industries",
+        "platform": "youtube",
+        "confidence": "medium",
+        "has_extracted": true
+      },
+      {
+        "url": "https://x.com/Jhas_industries",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      },
+      {
+        "url": "https://linkedin.com/company/jhas-indusrtries",
+        "platform": "website",
+        "confidence": "low",
+        "has_extracted": true
+      }
+    ],
+    "stats": {
+      "nodes_visited_relevant": 19,
+      "nodes_with_extracted_data": 19,
+      "unique_phone_numbers": 3,
+      "unique_emails": 1,
+      "unique_websites": 1,
+      "unique_social_profiles": 10,
+      "unique_product_categories": 2
+    }
+  },
+  "social_posts_by_platform": {
+    "instagram": [],
+    "facebook": [],
+    "youtube": [],
+    "twitter": [],
+    "linkedin": []
+  },
+  "_agent": {
+    "reference_profile": {
+      "glid": "40558",
+      "business_name": "Jhas Industries",
+      "phone_numbers": [
+        "+915712410344",
+        "+919412730003",
+        "+919897132070",
+        "+917017043795",
+        "+915055791742",
+        "+918505579174"
+      ],
+      "emails": [
+        "alok.jhas@gmail.com",
+        "alok@jhasindustries.com",
+        "security@jhas.in"
+      ],
+      "address": "Jhas Industries, Agra Road, Patel Nagar",
+      "city": "Aligarh",
+      "pincode": "202001",
+      "gst_number": "09ABFPJ5438B2ZU",
+      "website": "http://www.jhasindustries.com"
+    },
+    "raw_indiamart": {
+      "pincode": "202001",
+      "website": "http://www.jhasindustries.com",
+      "address": "Jhas Industries, Agra Road, Patel Nagar",
+      "foundedIn": 1949,
+      "city": "Aligarh",
+      "companyDescription": "<p>Since our inception in the year <b>1949</b> as <b>Jhas Industries </b>an <b>ISO : 9001 : 2015 & ISO -14001 : 2015</b> certified sole proprietorship organization, we have gained more than sixty years of vast experience with explicitly defined objective of <b>Manufacturing, Exporting and Suppliers</b> large assortment of <b>Security Seals, Plastic Seals, Polycarbonate Seals, Meter Seals, Wire Seals, Lead Seals etc.</b> Our products are extensively used for security applications and are highly appreciated for their tamper proof attributes. Our vast range of quality seals finds applications in energy distribution, forestry, judiciary, meter manufacturing, inspection, and many more.</p>",
+      "twitterUrl": "",
+      "businessName": "Jhas Industries",
+      "rating": "4.52",
+      "phones": ["5712410344", "9412730003", "9897132070", "7017043795"],
+      "linkedUrl": "",
+      "custypeName": "LEADER",
+      "long": "78.07283000",
+      "joinedDate": "24 Years",
+      "facebookUrl": "https://www.facebook.com/JhasIndustries/",
+      "custypeWeight": 199,
+      "ownerName": "Alok J",
+      "logo": "http://5.imimg.com/data5/SELLER/GlPhoto/2025/3/497925263/NL/AH/GL/40558/images-250x250.jpg",
+      "state": "Uttar Pradesh",
+      "businessType": "Manufacturer, Exporter,Manufacturer",
+      "dealsIn": "Seal Tag, Security Seals, Bag Seals, Cable Seals, Bolt Seals, Lead Seals, Meter Seals, Plastic Seals, Truck Seals, Wire Seals, Seal Plier, Padlock Seals, Drum Cap Seal, Security Tag, Container Seals",
+      "email": ["alok.jhas@gmail.com", "alok@jhasindustries.com"],
+      "lat": "27.87186000"
+    },
+    "raw_gst": {
+      "userkycstatus": "",
+      "cstnumber": "09725402755C",
+      "dateoffiling": "2026-02-20 00:00:00",
+      "city": "Aligarh",
+      "ekyverificationstatus": true,
+      "gstnumber": "09ABFPJ5438B2ZU",
+      "long": "78.07286",
+      "ownerName": "ALOK JHA ",
+      "dnbnumber": "92-070-2367",
+      "dgftieccode": "0606002286",
+      "state": "Uttar Pradesh",
+      "lat": "27.87196",
+      "aadharauthenticationstatus": true,
+      "pincode": 202001,
+      "address": [
+        "19 85 agra road hari nagar aligarh uttar pradesh 202001",
+        "jhas industries agra road patel nagar aligarh uttar pradesh 202001",
+        " 19/85 Agra Road Hari Nagar Aligarh Uttar Pradesh 202001",
+        "JHAS INDUSTRIES, AGRA ROAD, PATEL NAGAR, Aligarh, Uttar Pradesh, 202001"
+      ],
+      "emailid": "security@jhas.in",
+      "gststatus": "Active",
+      "pannumber": "ABFPJ5438B",
+      "tannumber": "MRTA18161D",
+      "filinglastupdationdate": "2026-03-02 15:04:31",
+      "gstverified": "Verified",
+      "businessactivitynature": "Wholesale Business,Export,Retail Business,Factory / Manufacturing,Office / Sale Office,Supplier of Services,Import,Warehouse / Depot",
+      "phone": "9412730003",
+      "natureOfBusinessSecondary": "Wholesale Business,Export,Retail Business,Factory / Manufacturing,Office / Sale Office,Supplier of Services,Import,Warehouse / Depot",
+      "vatnumber": "09725402755V",
+      "aadharnumber": "",
+      "gstregistrationyear": "2017-08-24",
+      "businessType": "Manufacturer",
+      "ssinumber": "20/02/00746/PMT/SSI/"
+    },
+    "all_nodes": [
+      {
+        "url": "http://jhasindustries.com",
+        "platform": "website",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "high",
+        "confidence_reason": "URL matches IndiaMART profile",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "website",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": true
+      },
+      {
+        "url": "https://mailto:security@jhas.in",
+        "platform": "website",
+        "depth": 1,
+        "source": "parallel_search",
+        "discovered_from": "http://www.jhasindustries.com",
+        "confidence": "high",
+        "confidence_reason": "Discovered from verified parent page",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "website",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://facebook.com/JhasIndustries",
+        "platform": "facebook",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "high",
+        "confidence_reason": "5 fields matched reference profile",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [
+          "phone",
+          "email",
+          "city",
+          "pincode",
+          "business_name"
+        ],
+        "contradiction_keys": ["address"],
+        "extracted_data": {
+          "phone_numbers": ["9412730003"],
+          "emails": ["security@jhas.in"],
+          "address": "Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA",
+          "city": "ALIGARH",
+          "pincode": "202001",
+          "lat_long": "27.87138000,78.07276000",
+          "website": "https://www.jhasindustries.com/",
+          "social_links": [
+            "https://facebook.com/JhasIndustries",
+            "https://www.instagram.com/jhas_industries",
+            "https://youtube.com/@jhas_industries",
+            "https://x.com/jhas_industries",
+            "https://linkedin.com/in/jhas_industries"
+          ],
+          "business_name": "Jhas Industries",
+          "description": "",
+          "product_categories": ["Security Seals", "Sealing Solutions"],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": false,
+          "scraper": "apify",
+          "scrape_platform": "facebook",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "facebookurl": "https://facebook.com/JhasIndustries",
+          "categories": ["Page", "Industrial Company"],
+          "info": [
+            "Jhas Industries. 92 likes",
+            "5 talking about this. JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing..."
+          ],
+          "likes": 92,
+          "messenger": null,
+          "title": "Jhas Industries",
+          "address": "Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA, 202001",
+          "pageid": "100063545242159",
+          "pagename": "JhasIndustries",
+          "pageurl": "https://facebook.com/JhasIndustries",
+          "intro": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+          "websites": [
+            "https://maps.google.com/maps?q=27.87138000%2C78.07276000&hl=en",
+            "https://www.instagram.com/jhas_industries",
+            "https://x.com/jhas_industries",
+            "https://linkedin.com/in/jhas_industries",
+            "https://youtube.com/@jhas_industries",
+            "https://www.jhasindustries.com/"
+          ],
+          "phone": "+91 94127 30003",
+          "email": "security@jhas.in",
+          "alternativesocialmedia": "https://youtube.com/@jhas_industries",
+          "website": "https://www.jhasindustries.com/",
+          "rating": "Not yet rated (0 Reviews)",
+          "followers": 92,
+          "followings": 5,
+          "profilepictureurl": "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-1/583706029_1391391029655725_1317783118167721143_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=f907e8&_nc_ohc=mpKKK_1D8wAQ7kNvwFcTder&_nc_oc=AdouI7QckM805ua1wiVOrjstX2bS68QpXhkNMQ8X3F_l3dBICGi8yeFNe24rPrhBpk8&_nc_zt=24&_nc_ht=scontent.fykz1-2.fna&_nc_gid=rIrbRcREy9wKPzJf440Fkg&_nc_ss=7a389&oh=00_Af3GF1_epD-iK-yhag0O24WoRRj85QBudaUwDgwuLLESJw&oe=69DA551F",
+          "coverphotourl": "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/588205654_1397612292366932_5930560312329228214_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_ohc=aGeYp8uSDCUQ7kNvwE2DVJU&_nc_oc=AdpZAno7u6GZ8MGPjlSzSXUUxitQjjnpnSMxe5odYKzIPRFgcfLfdc2T1axVSlglPiQ&_nc_zt=23&_nc_ht=scontent.fykz1-1.fna&_nc_gid=ecg3tZ0rX2ogYnGxqTzH0w&_nc_ss=7a389&oh=00_Af0SYmPmy-T408bb-vjbSfmSxwgQlYl4bHqt0x82bBzKqw&oe=69DA6357",
+          "profilephoto": "https://www.facebook.com/photo/?fbid=1391391026322392&set=a.507649474696556",
+          "ratingoverall": null,
+          "ratingcount": 0,
+          "category": "Industrial Company",
+          "addressurl": "https://www.bing.com/maps/default.aspx?v=2&pc=FACEBK&mid=8100&where1=Patel+Nagar%2C+Agra+Road%2C+ALIGARH+-+202001+UP.+INDIA%2C+202001&FORM=FBKPL1&mkt=en-US",
+          "instagram": [
+            {
+              "username": "jhas_industries",
+              "url": "https://www.instagram.com/jhas_industries"
+            }
+          ],
+          "x": [
+            {
+              "username": "jhas_industries",
+              "url": "https://x.com/jhas_industries"
+            }
+          ],
+          "linkedin": [
+            {
+              "username": "jhas_industries",
+              "url": "https://linkedin.com/in/jhas_industries"
+            }
+          ],
+          "youtube": [
+            {
+              "username": "jhas_industries",
+              "url": "https://youtube.com/@jhas_industries"
+            }
+          ],
+          "ratings": "Not yet rated (0 Reviews)",
+          "business_hours": "Open now",
+          "creation_date": "October 21, 2012",
+          "ad_status": "This Page isn't currently running ads.",
+          "facebookid": "100063545242159",
+          "pageadlibrary": {
+            "id": "103813399780380",
+            "pamv_comms_data": null
+          }
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": true
+      },
+      {
+        "url": "https://instagram.com/jhasindustries",
+        "platform": "instagram",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "high",
+        "confidence_reason": "Verified via upstream chain propagation",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": ["city", "pincode"],
+        "contradiction_keys": ["phone", "address", "business_name"],
+        "extracted_data": {
+          "phone_numbers": ["5055791742", "8505579174"],
+          "emails": [],
+          "address": "Patel Nagar, Agra Road",
+          "city": "Aligarh",
+          "pincode": "202001",
+          "lat_long": "27.87137,78.07276",
+          "website": "https://www.jhasindustries.com/",
+          "social_links": ["https://www.instagram.com/jhasindustries"],
+          "business_name": "jhasindustries",
+          "description": "",
+          "product_categories": ["Security Seals", "Sealing Solutions"],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": false,
+          "scraper": "apify",
+          "scrape_platform": "instagram",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "inputurl": "https://www.instagram.com/jhasindustries",
+          "id": "15416952202",
+          "username": "jhasindustries",
+          "url": "https://www.instagram.com/jhasindustries",
+          "fullname": "JHAS Industries",
+          "biography": "A Leading Specialized Manufacturer & Supplier of Reliable, Customized High-Quality Security Seals and Sealing Solutions\n#jhasindustries #jhas",
+          "externalurls": [
+            {
+              "title": "",
+              "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fwww.jhasindustries.com%2F&e=AT4RIzfQgPRzqnxvHAhAKqu5YtmcYG4WhHKLTbD6btD1EPVhi_x28uOSpBjkOzR5hhws6betOILGPLuephR9fS8Z0gXUlGbp",
+              "url": "https://www.jhasindustries.com/",
+              "link_type": "external"
+            }
+          ],
+          "externalurl": "https://www.jhasindustries.com/",
+          "externalurlshimmed": "https://l.instagram.com/?u=https%3A%2F%2Fwww.jhasindustries.com%2F&e=AT4RIzfQgPRzqnxvHAhAKqu5YtmcYG4WhHKLTbD6btD1EPVhi_x28uOSpBjkOzR5hhws6betOILGPLuephR9fS8Z0gXUlGbp",
+          "followerscount": 7,
+          "followscount": 2,
+          "highlightreelcount": 0,
+          "isbusinessaccount": true,
+          "joinedrecently": false,
+          "businesscategoryname": "None,Industrial Company",
+          "private": false,
+          "verified": false,
+          "profilepicurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/94611078_278234433213141_8174337931348017152_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=UT2s4meo57cQ7kNvwGQttwK&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af2c_hPRitUwYJX7Zp5K489ZMv6jwmwzHvV9saQVUp8ULg&oe=69DA6357&_nc_sid=8b3546",
+          "profilepicurlhd": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/94611078_278234433213141_8174337931348017152_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMxIn0&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=UT2s4meo57cQ7kNvwGQttwK&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af2eOrkNtI5ctug3Pcmsnf6GkVqKL8FIYYfyb3XRbmBxVA&oe=69DA6357&_nc_sid=8b3546",
+          "igtvvideocount": 0,
+          "relatedprofiles": [],
+          "latestigtvvideos": [],
+          "postscount": 110,
+          "latestposts": [
+            {
+              "id": "2581883278072336296",
+              "type": "Image",
+              "shortcode": "CPUsSl5Bc-o",
+              "caption": "In the burst of illumination\nHe discovered the meaning of existence\nAnd thus became\nLord Buddha.\nHappy Buddha Purnima\n#happybuddhapurnima #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "happybuddhapurnima",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/CPUsSl5Bc-o/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/628059845_18302793559276766_8214918595381524134_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=-NkOkFDtjDsQ7kNvwHJuqhc&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU4MTg4MzI3ODA3MjMzNjI5Ng%3D%3D.3-ccb7-5&oh=00_Af1RzsvGNh89eKRJ7ZspNXpzPfrtva51K9BCz-ZvZnhHBQ&oe=69DA5E05&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 25, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-26T04:48:13.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2578983923673852685",
+              "type": "Image",
+              "shortcode": "CPKZDbsBesN",
+              "caption": "Getting a Covid-19 Vaccine Adds Another Layer Of Protection.\n#stayhomestaysafe\n#socialdistancing #covid19 #doublemask #washyourhand #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "stayhomestaysafe",
+                "socialdistancing",
+                "covid19",
+                "doublemask",
+                "washyourhand",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/CPKZDbsBesN/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/622332069_18109544212635206_4466568339618094924_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=kj958_Vl-OMQ7kNvwEpMqeZ&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU3ODk4MzkyMzY3Mzg1MjY4NQ%3D%3D.3-ccb7-5&oh=00_Af1DPeYu_dyv2nIHFmpKwueBBWMLrhrEuzXsg2XzbHjKoA&oe=69DA85B4&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 21, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-22T04:47:43.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2573167614822187893",
+              "type": "Image",
+              "shortcode": "CO1uk_9BAN1",
+              "caption": "Eid Mubarak. May Allah blessings be with you today, tomorrow and continuously.\nEid-al-fitr Mubarak\n#eidalfitrmubarak #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "eidalfitrmubarak",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/CO1uk_9BAN1/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/621057027_18094785895940820_6467958893356828406_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=dD3SOyWei8gQ7kNvwFzSGuv&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU3MzE2NzYxNDgyMjE4Nzg5Mw%3D%3D.3-ccb7-5&oh=00_Af1AQLsBghd7DW3bHF19Z4cvHe7TYfsx1Newad3j_Rzhlw&oe=69DA727E&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 13, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-14T04:11:44.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2569632755915041436",
+              "type": "Image",
+              "shortcode": "COpK2CDhiqc",
+              "caption": "You are one of a kind. You are the most amazing mother ever was and ever will be. We are the luckiest person on this earth to have a mother like you.\nHappy Mothers Day\n#happymothersday #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "happymothersday",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COpK2CDhiqc/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/629324090_18397770664199594_3347954366910982798_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=xIrXYhfPrAcQ7kNvwH7j4WR&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2OTYzMjc1NTkxNTA0MTQzNg%3D%3D.3-ccb7-5&oh=00_Af0ROZOFuIJ_QYw-HTLKXJtYNhrl9ohPxOjG0OvwO_-t9A&oe=69DA58D6&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 09, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-09T07:08:36.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2568252939647127091",
+              "type": "Image",
+              "shortcode": "COkRHEBBQ4z",
+              "caption": "On Friday, there is a special hour during which a person is granted anything lawful that he seeks from Allah.\nJamat-Ul-Vida Mubarak. \n#jamatulvidamubarak #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "jamatulvidamubarak",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COkRHEBBQ4z/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/621180889_18100139740885434_5519663616032530115_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=UJxlPFCt36IQ7kNvwHwPnNQ&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2ODI1MjkzOTY0NzEyNzA5MQ%3D%3D.3-ccb7-5&oh=00_Af0yTdWG5zORgVV6doACAS_bEwmJAy21PLOfjSN4Fx7OLA&oe=69DA85B4&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 07, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-07T09:27:10.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2566165618047211710",
+              "type": "Image",
+              "shortcode": "COc2giShli-",
+              "caption": "If any member of the household shows symptoms of Covid-19, seek medical advice and follow your local health authority's guidance. \n#stayhomestaysafe  #socialdistancing #covid19 #doublemask #washyourhand\n#jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "stayhomestaysafe",
+                "socialdistancing",
+                "covid19",
+                "doublemask",
+                "washyourhand",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COc2giShli-/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/621552343_18080575463519500_1435479305528507842_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=KZlXMxIz6OEQ7kNvwHSDVuc&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2NjE2NTYxODA0NzIxMTcxMA%3D%3D.3-ccb7-5&oh=00_Af2WM_UrqOWyqxxKfHLc9m5vr4vjIxAfvlyU0a50PCJXbg&oe=69DA8006&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 04, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-04T12:20:01.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2563874663164162869",
+              "type": "Image",
+              "shortcode": "COUtmwShjM1",
+              "caption": "Wishing a very Happy Labour Day to all those who work hard each and every day without making any compromises in life.\nInternational Labor Day\n#internationallaborday #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "internationallaborday",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COUtmwShjM1/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/641344592_18564474022003569_3735613114966000975_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=rV0_-ZxpfrwQ7kNvwF5wbKv&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2Mzg3NDY2MzE2NDE2Mjg2OQ%3D%3D.3-ccb7-5&oh=00_Af3GGZxW5SEiFbbaVgM8oPmxOuuzFucLqcwKjJf_rSD2fw&oe=69DA8A65&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on May 01, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-05-01T08:28:18.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2562356538161599835",
+              "type": "Image",
+              "shortcode": "COPUbINBZVb",
+              "caption": "Are you 18 +?\nTime to take covid-19 vaccine is now.\nGet vaccine\n#getvaccine #weardoublemask #staysafe #covid19 #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "getvaccine",
+                "weardoublemask",
+                "staysafe",
+                "covid19",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COPUbINBZVb/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/622237258_18140180041486372_3801536010420506402_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=9JCpEU7AGk0Q7kNvwEsvRmA&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2MjM1NjUzODE2MTU5OTgzNQ%3D%3D.3-ccb7-5&oh=00_Af3fWf48KBuCkOuS7EfNXhGnu5AOTuNiMaBzFlLQoNKI2Q&oe=69DA6DCE&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on April 28, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-04-29T06:12:04.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2560944006960190122",
+              "type": "Image",
+              "shortcode": "COKTQGAhxKq",
+              "caption": "Warm greetings on Hanuman Jayanti to you. May the celebrations of Hanuman Jayanti bring you and your loved ones many more joys. \nHappy Hanuman Jayanti #happyhanumanjayanti #jhas #jhasindustries #aligarh #safetylockWarm",
+              "hashtags": [
+                "happyhanumanjayanti",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylockWarm"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COKTQGAhxKq/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/626453708_18439939939109955_526535888746893230_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=61KidII7ALQQ7kNvwH2nwFo&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU2MDk0NDAwNjk2MDE5MDEyMg%3D%3D.3-ccb7-5&oh=00_Af3souCxQptbenZe-Rw1HyxD5oQXCyj4kO39EQjwthwuPQ&oe=69DA670A&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on April 27, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-04-27T07:25:37.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2559533402051376215",
+              "type": "Image",
+              "shortcode": "COFShF0BPRX",
+              "caption": "May you get lots of happiness, good health, and success on the auspicious of Mahavir Jayanti.\nHappy Mahavir Jayanti.\n#happymahavirjayanti #jhas #jhasindustries #aligarh #safetylock",
+              "hashtags": [
+                "happymahavirjayanti",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylock"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/COFShF0BPRX/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/622590999_18104691964763605_3747684232598886997_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=6s0xf_Gvxz0Q7kNvwEe6G6v&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU1OTUzMzQwMjA1MTM3NjIxNQ%3D%3D.3-ccb7-5&oh=00_Af16JniLjPlUzPuzsYIQ91LwK1Jw4bvMZjRiW_tX3gnOlw&oe=69DA7900&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on April 25, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-04-25T08:43:00.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2557464716650141957",
+              "type": "Image",
+              "shortcode": "CN98JwZhtkF",
+              "caption": "We wear our mask to protect you,\nYou wear your mask to protect us.\n#wearmask #staysafe #jhas #jhasindustries #aligarh #safetylock",
+              "hashtags": [
+                "wearmask",
+                "staysafe",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylock"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/CN98JwZhtkF/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.82787-15/618675061_18056088095344435_196711490123615182_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=DD8jnjjv6M8Q7kNvwEuZYLV&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU1NzQ2NDcxNjY1MDE0MTk1Nw%3D%3D.3-ccb7-5&oh=00_Af3nS4d09liD-99RDfvUnz459RNe_XAM1YgYoB8ZybnHUg&oe=69DA5B69&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on April 22, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-04-22T12:12:53.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "2556582610143102942",
+              "type": "Image",
+              "shortcode": "CN6zlashUfe",
+              "caption": "May you always follow the right path and always fulfil all your responsibilities like Shri Ram…. Best wishes on Ram Navami.\n#happyramnavami #jhas #jhasindustries #aligarh #safetylock",
+              "hashtags": [
+                "happyramnavami",
+                "jhas",
+                "jhasindustries",
+                "aligarh",
+                "safetylock"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/CN6zlashUfe/",
+              "commentscount": 0,
+              "dimensionsheight": 810,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t51.82787-15/619597086_18051838556465005_5020634768854781848_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFteoowlbXtdCiDkQz1Vd2zEUslvdz6JCwPXwtCTetR1364TM_LwPoxCIBc4lANkR0&_nc_ohc=ivXxv3obdWoQ7kNvwF6jy0m&_nc_gid=QNm4MfFna6VypIsPx-Op4w&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=MjU1NjU4MjYxMDE0MzEwMjk0Mg%3D%3D.3-ccb7-5&oh=00_Af0sk6TjCqr2iqPVJkvMil2KUa-wzErFcbd7aiZH3WFhNg&oe=69DA7DF0&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS Industries on April 21, 2021.",
+              "likescount": 0,
+              "timestamp": "2021-04-21T07:00:18.000Z",
+              "childposts": [],
+              "ownerusername": "jhasindustries",
+              "ownerid": "15416952202",
+              "iscommentsdisabled": false
+            }
+          ],
+          "businessaddress": {
+            "city_name": "Aligarh",
+            "city_id": 108505579174201,
+            "latitude": 27.87137,
+            "longitude": 78.07276,
+            "street_address": "Patel Nagar, Agra Road",
+            "zip_code": "202001"
+          },
+          "fbid": "17841415366067119"
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://jhasindustries.com",
+        "platform": "website",
+        "depth": 1,
+        "source": "parallel_search",
+        "discovered_from": "https://www.instagram.com/jhasindustries/",
+        "confidence": "high",
+        "confidence_reason": "URL matches IndiaMART profile",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "website",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": true
+      },
+      {
+        "url": "https://instagram.com/jhas_industries",
+        "platform": "instagram",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "high",
+        "confidence_reason": "5 fields matched reference profile",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [
+          "phone",
+          "city",
+          "pincode",
+          "business_name",
+          "website"
+        ],
+        "contradiction_keys": ["address"],
+        "extracted_data": {
+          "phone_numbers": ["8505579174"],
+          "emails": [],
+          "address": "Patel Nagar, Agra Road, Aligarh, 202001",
+          "city": "Aligarh",
+          "pincode": "202001",
+          "lat_long": "27.87138,78.07276",
+          "website": "http://www.jhasindustries.com",
+          "social_links": [
+            "https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg",
+            "https://www.instagram.com/jhas_industries"
+          ],
+          "business_name": "JHAS",
+          "description": "",
+          "product_categories": ["Security Seals", "Sealing Solutions"],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": false,
+          "scraper": "apify",
+          "scrape_platform": "instagram",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "inputurl": "https://www.instagram.com/jhas_industries",
+          "id": "69669884477",
+          "username": "jhas_industries",
+          "url": "https://www.instagram.com/jhas_industries",
+          "fullname": "JHAS INDUSTRIES",
+          "biography": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+          "externalurls": [
+            {
+              "title": "Website",
+              "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Fwww.jhasindustries.com%2F&e=AT6hNAY3yKy6Ky3x7B7qqdAe5tS4ihx28fWSmu12WxhT4LhLF6itHILzQlYlZMuP01cmtHYnhSYCbDNx8byaFN49haQwP1Qe",
+              "url": "http://www.jhasindustries.com",
+              "link_type": "external"
+            },
+            {
+              "title": "Facebook",
+              "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2Fshare%2FGpXGpdDBkXpwUyR2%2F%3Fmibextid%3Dqi2Omg&e=AT5dcmxb-QwiWq2L3ZIgY4R-xf7SxygyZtfWwa8Jji4sfANW2HJiImlOUCttV1erVO5jQ_umA0sohsu1Fi2s_RMacsUbytR2",
+              "url": "https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg",
+              "link_type": "external"
+            },
+            {
+              "title": "Linktree",
+              "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fjhasindustriesseals&e=AT4nVHqIaahi8eF65Ok51mALVsAFQhXVOV3dJ5Aamxjjdo38qVNqs5Vvn0X1V9pSP1-JtnC24C_XhVNqJ4sIvr_N5NQiHZFT",
+              "url": "https://linktr.ee/jhasindustriesseals",
+              "link_type": "external"
+            }
+          ],
+          "externalurl": "http://www.jhasindustries.com/",
+          "externalurlshimmed": "https://l.instagram.com/?u=http%3A%2F%2Fwww.jhasindustries.com%2F&e=AT4vbnI23XRysK8hqHTO6Ewk3PtqdBFY_LvQ7ywvo6JK_k7HJgQDCjb7-AatC2xEaHROLJYgfaLDXKVckRb6QQYV-X4PfefK",
+          "followerscount": 40,
+          "followscount": 0,
+          "highlightreelcount": 3,
+          "isbusinessaccount": true,
+          "joinedrecently": false,
+          "businesscategoryname": "None,Entrepreneur",
+          "private": false,
+          "verified": false,
+          "profilepicurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/587102435_17900901900324478_886597495400865435_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=_7wTRBDDTNMQ7kNvwF7lyoS&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af2rGs11_HN65HTVV4OdAhKapKSI8CKQloR7Fs3s6fi8TQ&oe=69DA56F6&_nc_sid=8b3546",
+          "profilepicurlhd": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/587102435_17900901900324478_886597495400865435_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=_7wTRBDDTNMQ7kNvwF7lyoS&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1EPyJ3qIldUI6PTt_URPL4Ncwt-uDEQocMhgWWEIUQ0A&oe=69DA56F6&_nc_sid=8b3546",
+          "igtvvideocount": 0,
+          "relatedprofiles": [],
+          "latestigtvvideos": [],
+          "postscount": 119,
+          "latestposts": [
+            {
+              "id": "3869842222292753602",
+              "type": "Video",
+              "shortcode": "DW0cP90kVzC",
+              "caption": "Your future depends on your health today 🌿\nStart your journey to better health this World Health Day.\n#HealthJourney #WorldHealthDay #StayFit #WellnessLife #jhasindustries",
+              "hashtags": [
+                "HealthJourney",
+                "WorldHealthDay",
+                "StayFit",
+                "WellnessLife",
+                "jhasindustries"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DW0cP90kVzC/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.71878-15/660306140_1882982922359784_5072971318463465988_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=9iCHEMcQLIYQ7kNvwEW6YQ4&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af2Uu1AiKb0iQLCQ85YxJtn5fGKWBISG2WQj0x69-1tApA&oe=69DA8AD8&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-3.cdninstagram.com/o1/v/t2/f2/m86/AQMjJXluTdc-fTgbxNAprra1Luk8EQJ0KIbHhx5mpiVh6zY2Q5vbVuTH3jSGVMz0Z8mkypaZWlsCcYmN8No6xM9EuXqA7LbMMZmZOGQ.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ohc=vZ2Pt3YZaEkQ7kNvwGyd-SO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDYzNjg5NDQzODg2ODksImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=80281cc6d1934140&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQzQzRjdBQThFOUQ5RjlBRDhBN0U1RTdFRjgwNTk5NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzYzNEU5M0Y3NTBEOERFM0U1MTNDRjI2NzBEQkI2OUEwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACai6a2C7e_OPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af15luxMwMBtcxJNqNXEfWAItJadOg9y6ceYUmK6dRpzaw&oe=69D68B15",
+              "alt": null,
+              "likescount": 0,
+              "videoviewcount": 1,
+              "timestamp": "2026-04-07T05:53:00.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "TimTaj",
+                "song_name": "Health Care",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "333562925934314"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3869093589476816006",
+              "type": "Image",
+              "shortcode": "DWxyB7LgbSG",
+              "caption": "Sports connect hearts, break barriers & build champions. 💥 #InternationalDayOfSport #jhasindustries #SportsSpirit #GlobalUnity",
+              "hashtags": [
+                "InternationalDayOfSport",
+                "jhasindustries",
+                "SportsSpirit",
+                "GlobalUnity"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWxyB7LgbSG/",
+              "commentscount": 0,
+              "dimensionsheight": 1333,
+              "dimensionswidth": 750,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/661731409_1514204720707688_233391288938668102_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=Y29WrJ1vsoYQ7kNvwHvyVai&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2OTA5MzU4OTQ3NjgxNjAwNg%3D%3D.3-ccb7-5&oh=00_Af0s3DC8KyTrqWFcNDk7ZeqknBInRxyvo8rQ23PwJKSryg&oe=69DA5B05&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS INDUSTRIES on April 05, 2026. May be an image of banner, magazine, poster and text.",
+              "likescount": 0,
+              "timestamp": "2026-04-06T05:05:20.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3866939969990937064",
+              "type": "Image",
+              "shortcode": "DWqIWovEcno",
+              "caption": "May this Good Friday bring peace to your heart and strength to your soul. ✝️\n#GoodFriday #jhasindustries #Faith #Peace #Blessings",
+              "hashtags": [
+                "GoodFriday",
+                "jhasindustries",
+                "Faith",
+                "Peace",
+                "Blessings"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWqIWovEcno/",
+              "commentscount": 0,
+              "dimensionsheight": 1440,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/658798103_17918741517324478_3188900742337442975_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=rPGIhn1FybAQ7kNvwEcppYQ&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=Mzg2NjkzOTk2OTk5MDkzNzA2NA%3D%3D.3-ccb7-5&oh=00_Af3Ty3lSLH5tVPc0ZV_auVgEEFwiyaPZzH3AgSgx7VclrQ&oe=69DA8762&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS INDUSTRIES on April 02, 2026. May be an image of poster and text that says 'JHAS + Good Friday MAY WE REMEMBER THE POWER OF SACRIFICE AND THE BEAUTY OF GRACE. 60 YEARS JUST HAVE A JUSTHAVEASEAL SEAL I0 .... WHATEVER WHEREVER WHENEVER security@jhas.in| has.in +91 5712 410 344 jhasindustries.com jhasindustries.com|Aligarh, Aligarh, U.P. INDIA'.",
+              "likescount": 0,
+              "timestamp": "2026-04-03T05:47:19.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3866194228209111630",
+              "type": "Video",
+              "shortcode": "DWneyqlEdJO",
+              "caption": "Happy Hanuman Janmotsav! 🙏🚩\nMay Bajrangbali bless you with strength, courage & endless positivity ✨\n\n#HanumanJanmotsav #JhasIndustries #JaiHanuman #Bajrangbali #Blessings",
+              "hashtags": [
+                "HanumanJanmotsav",
+                "JhasIndustries",
+                "JaiHanuman",
+                "Bajrangbali",
+                "Blessings"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWneyqlEdJO/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.71878-15/659228781_2722916198064963_1112421675523111075_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=l1ShVG1RvDoQ7kNvwFkfPVz&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af3hdt6-_AXU6psUDtbCp0IxTEio1x6kdtY7wLptwz84jw&oe=69DA6E5D&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-3.cdninstagram.com/o1/v/t2/f2/m86/AQMfjV2AceXt0IfYyG_MZcpROFo5OGiwtGRUcbM1-yJ2JgKvn6FzWv6cXPN6NOCNCJ0cqwPuUvK3ukpYrHko-Pml4IexvK4E2FaMquU.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ohc=Ht2Fu9YpW58Q7kNvwGqda7h&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDU2MjYzMDYzODg2ODksImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=87c1145315d8da49&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERDQxQkYzREQ4NUE2NzBDMzc3N0FGNEFENDc0MENBQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ3NEJFNEU0QzZFQTk1QjhCMEIyRkE0QkMzRUUzOUFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaii8n3z8TOPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af1Ncql_pcIvm86Y2aa_UlU5oU7a95KnSpoNY4QyWYmF_w&oe=69D676FA",
+              "alt": null,
+              "likescount": 2,
+              "videoviewcount": 5,
+              "timestamp": "2026-04-02T05:05:00.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "GowraHari, Saicharan Bhaskaruni, Lokeshwar Edara, Harshavardhan Chavali",
+                "song_name": "Raghunandana (From \"HanuMan\") [Telugu]",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "2065087780538609"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3865501772140366868",
+              "type": "Video",
+              "shortcode": "DWlBWGnEcwU",
+              "caption": "Happy Financial New Year! 💰✨\nUpgrade your mindset, upgrade your income!\n#FinancialYear2026 #jhasindustries #GrowthMindset #SuccessGoals #FinanceLife",
+              "hashtags": [
+                "FinancialYear2026",
+                "jhasindustries",
+                "GrowthMindset",
+                "SuccessGoals",
+                "FinanceLife"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWlBWGnEcwU/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/656739700_26314753721526848_1413354513118253964_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=xOTrXDdAkSQQ7kNvwFxSgiJ&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1N_bST4zu8Je86qQ6yJ0jgbRWK10-zayBi4VO7KzPeWw&oe=69DA882D&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-3.cdninstagram.com/o1/v/t2/f2/m86/AQNP6gS9CVV2rXrRHGqM3THO5tmKj11zDSAQUvkllF31MIgsB-HCcqeMadtf53NjKdRCL9RWGPmWJTfJwwJHzAACF_rOxETI0LMCDEI.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ohc=ZaKxylnApHAQ7kNvwFUcBJf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDU0NjgyODczODg2ODksImFzc2V0X2FnZV9kYXlzIjo1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a5b7cd3e1069b207&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MjRGMkEwRDFFRjk1MjdERjc1MUVCNTc5RjA0NDE5MF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzdFNDk0REI5RjdFMUFBNzMzNjY5MTM0NzgyNkNGREIwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaisPTMtrvOPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af3ZiSS7l8Uro-aPnmN9f9155S43BEGkv4xx6W0tPbnHNw&oe=69D68F88",
+              "alt": null,
+              "likescount": 0,
+              "videoviewcount": 1,
+              "timestamp": "2026-04-01T06:09:30.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "Mohit Saini",
+                "song_name": "Thank You",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1240414717614449"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3864770916857773820",
+              "type": "Video",
+              "shortcode": "DWibKwlkX78",
+              "caption": "This year was not just about business, but about building lasting connections. ❤️\nThank you for your trust and support.\n\n#RelationshipsMatter #Trust #YearEndNote #BusinessGrowth #jhasindustries",
+              "hashtags": [
+                "RelationshipsMatter",
+                "Trust",
+                "YearEndNote",
+                "BusinessGrowth",
+                "jhasindustries"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWibKwlkX78/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.71878-15/657344500_1286129509706815_7598286367725962572_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=JFGYwozLyhwQ7kNvwGEr-uX&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af3d2lDrCVPIY_54PDlYJP0dDnJXNDva9H9H6tlewxtPHg&oe=69DA551D&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-1.cdninstagram.com/o1/v/t2/f2/m86/AQN3LBcfXlYTTbUhxlCltrpsaOR8ATut6AMfvbKfa8yyzHC8r7KhbrVWOtWnMJmGmiwQrDMgBtDq6a6LFHxobmilpfy92FLXDiMoiZs.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_ohc=CYOx227HbGwQ7kNvwFS04ND&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDUzMTE2MjQzODg2ODksImFzc2V0X2FnZV9kYXlzIjo2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=5d85334dc9e7d4d8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80NzQ0RDIxNTNBQ0Q0QzE4NTcxMUM4QjQwMzBCNzI4Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlENDcwNDI0NzZBRUE3NzRCQkE2RTg3MUIxQkRDMkIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaigbevp7LOPxUCKAJDMywXQB4hysCDEm8YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_ss=7a3ba&_nc_zt=28&oh=00_Af2PVWoNuqXyX2qsqFyty-NB9Q3booDBMDTt77WgZAk0iA&oe=69D66FB2",
+              "alt": null,
+              "likescount": 1,
+              "videoviewcount": 7,
+              "timestamp": "2026-03-31T05:57:07.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "Mohit Saini",
+                "song_name": "Thank You",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1240414717614449"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3864737781419967184",
+              "type": "Video",
+              "shortcode": "DWiTokzkYLQ",
+              "caption": "Let simplicity and non-violence shape your life. 🌿\n Happy Mahavir Jayanti!\n#MahavirJayanti #JhasIndustries #SimpleLiving #Ahimsa #PeacefulMind",
+              "hashtags": [
+                "MahavirJayanti",
+                "JhasIndustries",
+                "SimpleLiving",
+                "Ahimsa",
+                "PeacefulMind"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWiTokzkYLQ/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.71878-15/658888684_926910463536652_1418252097072559810_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=xX0RDUHSuhcQ7kNvwEX9d6k&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1yH-Wybfro7QWw-8yPD2wPh4whKCWIH8R7wtyjUd_pDA&oe=69DA70AC&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQMuk0Tq_t5fYz5lq1BCeqJm55bakzeOlatfStXEl-BPDGG6ev_-o2WdPExo0tHH8TXN2B836oeN2UJm-es8mAAl3G7BYbHwwGxkTxM.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=17ZvvekpYw4Q7kNvwERIjSw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDUzMDU4NTgzODg2ODksImFzc2V0X2FnZV9kYXlzIjo3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ed916958dcd8f10c&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wOTQ1MDUwQ0I0RDBCMTlCQkNCMkUyMjcxNjBBNTY5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZCNEM3NEZGRDY4QUNDMTFENTlBMkI2QzQ0QjJEMUJDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaiy8W0_LHOPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_ss=7a3ba&_nc_zt=28&oh=00_Af006rOWpLsUm2s4GSgDYd5pVTcUWdSBR5rCuOKsRntuTg&oe=69D66000",
+              "alt": null,
+              "likescount": 2,
+              "videoviewcount": 3,
+              "timestamp": "2026-03-31T04:51:30.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "Brij Shah",
+                "song_name": "Mahavir Jayanti",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "976641437416201"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3861302066849858484",
+              "type": "Video",
+              "shortcode": "DWWGcWREUO0",
+              "caption": "Celebrate Ram Navami with love, devotion & positivity 🌼 \nRam Navami \n #RamNavami #JhasIndustries #FestiveMood #JaiShriRam #RamNavami2026",
+              "hashtags": [
+                "RamNavami",
+                "JhasIndustries",
+                "FestiveMood",
+                "JaiShriRam",
+                "RamNavami2026"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWWGcWREUO0/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-3.cdninstagram.com/v/t51.71878-15/657292367_1996844727935109_1636977201536788569_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=O7iaiFpfY_YQ7kNvwH5sNuu&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af0MjGTHyecy5KifIHjPpSs7Wbk8wsZnjtNezmvUSBu_UQ&oe=69DA62A6&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t2/f2/m86/AQNOI9l2ElyPXDaLQGjwn7orMqA2XW8oZMwvXWU4KJ3QQ2cTomCzpYMntuT6jK1gORWYWf8OtsP_w6HbvpOcQdHr2Q_jTm08b5cmyeM.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=55hGVMPjD6oQ7kNvwFgk1_g&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDQ1MDYwMTYzODg2ODksImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8764773299111f96&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81QjQ2MjlBMjdDQUVFOTJDQ0U5RjhFOUI4N0E4RjhBQl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlDNEY0M0QzMkRCNTQ3RDUxNDM0RkQ3MzlFQTRGMEI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACai2eKPtYPOPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_ss=7a3ba&_nc_zt=28&oh=00_Af0bryI4iYbbztAd0aSrsZciLGuSftlmTk4C9uLvC-6loQ&oe=69D691D7",
+              "alt": null,
+              "likescount": 4,
+              "videoviewcount": 16,
+              "timestamp": "2026-03-26T11:05:17.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "Sachet-Parampara, Sachet Tandon, Parampara Tandon, Manoj Muntashir",
+                "song_name": "Ram Siya Ram (From \"Adipurush\")",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "638247504424004"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3858222363167549188",
+              "type": "Image",
+              "shortcode": "DWLKMwtEecE",
+              "caption": "Water is our future! Let’s pledge to save it today and make it a daily responsibility. 💧\n #worldwaterday #jhasindustries #FutureResource #DailyResponsibility  #WaterCareNow",
+              "hashtags": [
+                "worldwaterday",
+                "jhasindustries",
+                "FutureResource",
+                "DailyResponsibility",
+                "WaterCareNow"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWLKMwtEecE/",
+              "commentscount": 0,
+              "dimensionsheight": 1440,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/656183190_17916641031324478_4442126421411381693_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=Uo3CELEVD3kQ7kNvwE0C5Pc&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=Mzg1ODIyMjM2MzE2NzU0OTE4OA%3D%3D.3-ccb7-5&oh=00_Af2nU-7fNw0rOQn-yGIuUjlG3Ac_QYtLNa2MRjBnzvW38Q&oe=69DA8826&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS INDUSTRIES on March 21, 2026. May be an image of poster, water filter, body of water and text that says 'JHAS ሥጃ WORLD WATER DAY One Onedrop drop from fromyou, you, α day saved for them 60 YEARS 수 JUSTHAVEASEAL SEAL HAVEA WHATEVER WHEREVER WHENEVER security@jhas.in| suty@rasiiilic security@jhas.in|+91-5712-410-3 +91-5712-410-344 jhasindustries.com Aligarh, U.P.,INDIA U.P., INDIA'.",
+              "likescount": 0,
+              "timestamp": "2026-03-22T05:06:22.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3857398787929625889",
+              "type": "Image",
+              "shortcode": "DWIO8KfkVUh",
+              "caption": "Eid Mubarak! 🌙 May your day be filled with light, love, and happiness. #EidJoy\nEid-ul-Fitr Mubarak\n#EidulFitrMubarak #jhasindustries #EidulFitrMubarak #EidCelebration EidVibes",
+              "hashtags": [
+                "EidJoy",
+                "EidulFitrMubarak",
+                "jhasindustries",
+                "EidCelebration"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWIO8KfkVUh/",
+              "commentscount": 0,
+              "dimensionsheight": 1440,
+              "dimensionswidth": 1080,
+              "displayurl": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/656279348_17916406782324478_5329237615448742138_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=gFV4RhQjPY8Q7kNvwHLMLJP&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&ig_cache_key=Mzg1NzM5ODc4NzkyOTYyNTg4OQ%3D%3D.3-ccb7-5&oh=00_Af1_CKnI0tWioCZQaNe758382zruTIMUBl7CyN1iRp77lg&oe=69DA6890&_nc_sid=8b3546",
+              "images": [],
+              "alt": "Photo by JHAS INDUSTRIES on March 20, 2026. May be an image of ‎poster, magazine, night and ‎text that says '‎JHAS SECURE CELEBRATIONS Wishing you a safe, blessed Eid filled with peace and protection 60YEARS 60 YEARS aftamparproofina aproating JUST HAVE JUSTHAVEASEAL A SEAL לא ICIIIII ... WHATEVER WHEREVER WHENEVER security@jhas.in +91-5712-410-344 jhasindustries.com| #watrtpanac/./m.m.mm.ce com Aligarh, U.P. INDIA‎'‎‎.",
+              "likescount": 0,
+              "timestamp": "2026-03-21T01:50:04.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3856059172597623927",
+              "type": "Video",
+              "shortcode": "DWDeWMfkWx3",
+              "caption": "A new year, a new journey towards success 🚀\nWishing you happiness, growth & prosperity this Padwa!\n\n#PadwaFestival #NewBeginnings #SuccessJourney #FestiveSeason #Jhasindustries",
+              "hashtags": [
+                "PadwaFestival",
+                "NewBeginnings",
+                "SuccessJourney",
+                "FestiveSeason",
+                "Jhasindustries"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWDeWMfkWx3/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/655466068_26313367825020719_4846977814576210000_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=kSRuQXzQsDgQ7kNvwHZsa5P&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af16meeCbxYSW4ZwAdXAsYTmvyD890N6CoximlzhgxUXsg&oe=69DA7ACB&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-3.cdninstagram.com/o1/v/t16/f2/m69/AQMr3u2_hXq6CrbpletFpLoWa1G0tAAs-dhWb-eEDNRyGSRQOaOdNxVvS9-E4RhEEpTVGUXeo8qNLgaeIcD-1sdJ.mp4?strext=1&_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_ohc=MasWNVdAopAQ7kNvwHzKxOt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDMyMTM0MzYzODg2ODksImFzc2V0X2FnZV9kYXlzIjoxOSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=b48bec0324954b32&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTjJTd3lhVTVIR2NJWElIQUVPWmozZ25LWDRNYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzEyNEMyQjJENzY2M0E5NTMwQTFGNUY5QTA2MEQxOEE0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACailbbTlrjNPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_ss=7a3ba&_nc_zt=28&oh=00_Af3e-dBrrlI4Y2OCxaSud5X6DecGxM2v9TtMeNcbeVUUeQ&oe=69DA7FF8",
+              "alt": null,
+              "likescount": 0,
+              "videoviewcount": 3,
+              "timestamp": "2026-03-19T05:28:57.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "yung kai",
+                "song_name": "blue (instrumental)",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1072599777400828"
+              },
+              "iscommentsdisabled": false
+            },
+            {
+              "id": "3856052138900821151",
+              "type": "Video",
+              "shortcode": "DWDcv12kZSf",
+              "caption": "Navratri ka pavan tyohar laaye khushiyan aur safalta 🌸 Jai Mata Di 🙏\n #Navratri2026 #jhasindustries #DurgaMaa #FestivalsOfIndia #Prosperity Joy",
+              "hashtags": [
+                "Navratri2026",
+                "jhasindustries",
+                "DurgaMaa",
+                "FestivalsOfIndia",
+                "Prosperity"
+              ],
+              "mentions": [],
+              "url": "https://www.instagram.com/p/DWDcv12kZSf/",
+              "commentscount": 0,
+              "dimensionsheight": 1136,
+              "dimensionswidth": 640,
+              "displayurl": "https://scontent-ord5-1.cdninstagram.com/v/t51.71878-15/654698970_941300485061617_1809870485705335387_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gE1XSWiIdgfFb6CLc0UP4cn1kenm57mASjMpCCm0dNRv4xav2U_u4tV3k2-lrdfiJQ&_nc_ohc=v2yLiIVBIFoQ7kNvwEGY_qj&_nc_gid=2I162h197FznN6Z_7nCtDw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1YOL_wxrrzfTpAhlCwlrzfN9Cc0TIA-Wyi7BNvN-J1zg&oe=69DA6068&_nc_sid=8b3546",
+              "images": [],
+              "videourl": "https://scontent-ord5-2.cdninstagram.com/o1/v/t16/f2/m69/AQOvkVd4MPNuVNYRfBaGGDUXDtsV50xIbcpIjIY94UOYE2awRRGvo9vmZuewx4k2m5kksCv2snMfCiwNneRB4Smx.mp4?strext=1&_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_ohc=XjqNkHZ_nFoQ7kNvwFfDdmc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MDMyMTE3ODkzODg2ODksImFzc2V0X2FnZV9kYXlzIjoxOSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=e9548ef4452d8913&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HQlFQM3lZRzZvV21VWHdJQUMya3k1dHVDVUVLYnNwVEFRQUYVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0MyNDhDREI3NzhDMjY3OEQ2RTQ4RjJDOURGQzI3MThGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACairtywirjNPxUCKAJDMywXQBAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=2I162h197FznN6Z_7nCtDw&_nc_zt=28&_nc_ss=7a3ba&oh=00_Af1GkoJpZbHSoxiqm0H-A7DIydXi0zHjvKfea0qUzKouJw&oe=69DA752A",
+              "alt": null,
+              "likescount": 1,
+              "videoviewcount": 17,
+              "timestamp": "2026-03-19T05:14:27.000Z",
+              "childposts": [],
+              "ownerusername": "jhas_industries",
+              "ownerid": "69669884477",
+              "producttype": "clips",
+              "musicinfo": {
+                "artist_name": "Shailesh Pandya",
+                "song_name": "Instrumental Aarti",
+                "uses_original_audio": false,
+                "should_mute_audio": false,
+                "should_mute_audio_reason": "",
+                "audio_id": "1732389340250503"
+              },
+              "iscommentsdisabled": false
+            }
+          ],
+          "businessaddress": {
+            "city_name": "Aligarh",
+            "city_id": 108505579174201,
+            "latitude": 27.87138,
+            "longitude": 78.07276,
+            "street_address": "Patel Nagar, Agra Road",
+            "zip_code": "202001"
+          },
+          "fbid": "17841469734318735"
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://linktr.ee/jhasindustriesseals",
+        "platform": "website",
+        "depth": 1,
+        "source": "parallel_search",
+        "discovered_from": "https://www.instagram.com/jhas_industries/",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "website",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://youtube.com/@Jhas_industries",
+        "platform": "youtube",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "medium",
+        "confidence_reason": "1 field matched reference profile",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": ["business_name"],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "https://www.jhasindustries.com/",
+          "social_links": [
+            "https://www.facebook.com/JhasIndustries/",
+            "https://www.instagram.com/jhas_industries",
+            "https://youtube.com/@Jhas_industries",
+            "https://x.com/Jhas_industries",
+            "https://www.linkedin.com/company/jhas-indusrtries"
+          ],
+          "business_name": "JHAS Industries",
+          "description": "",
+          "product_categories": ["Security Seals", "Sealing Solutions"],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": false,
+          "scraper": "apify",
+          "scrape_platform": "youtube",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "title": "A spectacular New Year’s Eve awaits with vibrant music, unlimited drinks, and joyful moments",
+          "translatedtitle": null,
+          "type": "shorts",
+          "id": "TF1Gh3AyQWc",
+          "url": "https://www.youtube.com/shorts/TF1Gh3AyQWc",
+          "thumbnailurl": "https://i.ytimg.com/vi/TF1Gh3AyQWc/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYfyAmKDUwDw==&rs=AOn4CLBr_-1A7Dn-F-x3ED6hPhXkcfyVzA",
+          "viewcount": 99,
+          "date": "2025-12-31T09:28:14.000Z",
+          "likes": 1,
+          "location": null,
+          "channelname": "Jhas Industries",
+          "channelurl": "https://www.youtube.com/channel/UCG962HCOt_JH8jmx7DeL_8g",
+          "channelusername": "Jhas_industries",
+          "collaborators": null,
+          "channelid": "UCG962HCOt_JH8jmx7DeL_8g",
+          "channeldescription": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+          "channeljoineddate": "Nov 16, 2025",
+          "channeldescriptionlinks": [
+            {
+              "text": "Website",
+              "url": "https://www.jhasindustries.com/"
+            },
+            {
+              "text": "Linktree",
+              "url": "https://linktr.ee/jhasindustriesseals"
+            },
+            {
+              "text": "Facebook",
+              "url": "https://www.facebook.com/JhasIndustries/"
+            },
+            {
+              "text": "Instagram",
+              "url": "https://www.instagram.com/jhas_industries"
+            },
+            {
+              "text": "Linkedin",
+              "url": "https://www.linkedin.com/company/jhas-indusrtries"
+            },
+            {
+              "text": "X",
+              "url": "https://x.com/Jhas_industries"
+            }
+          ],
+          "channellocation": null,
+          "channelavatarurl": "https://yt3.googleusercontent.com/8bC7_iv4YcweiKqok90oVpC_HdbyQiTnTrMzzMKUTlTe7PCRJKP9wfg8VqtPIraGzmvj2sWQKm8=s160-c-k-c0x00ffffff-no-rj",
+          "channelbannerurl": "https://yt3.googleusercontent.com/J6s-tclJEyeBi3kUUzuHpsr3CRPk7Q1fWoDPiOV0-vmcIScOxdr0ibBL2CeXkNu8KU8fv7pr1Q=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+          "channeltotalvideos": 3,
+          "channeltotalviews": 237,
+          "numberofsubscribers": 0,
+          "ischannelverified": false,
+          "inputchannelurl": "https://youtube.com/@Jhas_industries",
+          "isagerestricted": false,
+          "aboutchannelinfo": {
+            "channeldescription": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+            "channeljoineddate": "Nov 16, 2025",
+            "channeldescriptionlinks": [
+              {
+                "text": "Website",
+                "url": "https://www.jhasindustries.com/"
+              },
+              {
+                "text": "Linktree",
+                "url": "https://linktr.ee/jhasindustriesseals"
+              },
+              {
+                "text": "Facebook",
+                "url": "https://www.facebook.com/JhasIndustries/"
+              },
+              {
+                "text": "Instagram",
+                "url": "https://www.instagram.com/jhas_industries"
+              },
+              {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/jhas-indusrtries"
+              },
+              {
+                "text": "X",
+                "url": "https://x.com/Jhas_industries"
+              }
+            ],
+            "channellocation": null,
+            "channelusername": "Jhas_industries",
+            "channelavatarurl": "https://yt3.googleusercontent.com/8bC7_iv4YcweiKqok90oVpC_HdbyQiTnTrMzzMKUTlTe7PCRJKP9wfg8VqtPIraGzmvj2sWQKm8=s160-c-k-c0x00ffffff-no-rj",
+            "channelbannerurl": "https://yt3.googleusercontent.com/J6s-tclJEyeBi3kUUzuHpsr3CRPk7Q1fWoDPiOV0-vmcIScOxdr0ibBL2CeXkNu8KU8fv7pr1Q=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "channeltotalvideos": 3,
+            "channeltotalviews": 237,
+            "numberofsubscribers": null,
+            "ischannelverified": false,
+            "channelname": "Jhas Industries",
+            "channelurl": "https://www.youtube.com/channel/UCG962HCOt_JH8jmx7DeL_8g",
+            "channelid": "UCG962HCOt_JH8jmx7DeL_8g",
+            "inputchannelurl": "https://youtube.com/@Jhas_industries",
+            "isagerestricted": false
+          },
+          "duration": "00:00:07",
+          "commentscount": 0,
+          "text": "A spectacular New Year’s Eve awaits with vibrant music, unlimited drinks, and joyful moments 🎆🍸. Let the countdown begin ⏳✨\nNew Year’s Eve \n#NewYearEve #jhasindustries #NewYearEveReady #NewYearEveSpecial #NewYearEveCelebrations",
+          "translatedtext": null,
+          "descriptionlinks": [
+            {
+              "url": "https://www.youtube.com/hashtag/newyeareve",
+              "text": "#NewYearEve"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/jhasindustries",
+              "text": "#jhasindustries"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyeareveready",
+              "text": "#NewYearEveReady"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyearevespecial",
+              "text": "#NewYearEveSpecial"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyearevecelebrations",
+              "text": "#NewYearEveCelebrations"
+            }
+          ],
+          "subtitles": null,
+          "order": 2,
+          "commentsturnedoff": false,
+          "fromyturl": "https://youtube.com/@Jhas_industries/shorts",
+          "ismonetized": null,
+          "hashtags": ["#NewYearEve", "#jhasindustries", "#NewYearEveSpecial"],
+          "ismembersonly": false,
+          "input": "https://youtube.com/@Jhas_industries",
+          "fromchannellistpage": "shorts",
+          "ispaidcontent": false
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "http://jhas.in",
+        "platform": "website",
+        "depth": 1,
+        "source": "parallel_search",
+        "discovered_from": "https://www.youtube.com/@Jhas_industries",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "website",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://youtube.com/@jhasindustries192",
+        "platform": "youtube",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": [],
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "apify",
+          "scrape_platform": "youtube",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "aboutchannelinfo": {
+            "channeldescription": "Jhas Industries is an ISO 14001: 2015 & ISO 9001 : 2015 company developing innovative and revolutionary Security Seals for different fields by following the promising path set by its founder Late Mr. V.P. Jha in 1949. Jhas Industries is registered as Entrepreneur under MSMED Act 2006 of Indian Government and is rated by Dun & Bradstreet and CRISIL.",
+            "channeljoineddate": "Nov 26, 2019",
+            "channeldescriptionlinks": [
+              {
+                "text": "My website",
+                "url": "https://www.jhasindustries.com/"
+              }
+            ],
+            "channellocation": null,
+            "channelusername": "jhasindustries192",
+            "channelavatarurl": "https://yt3.googleusercontent.com/ytc/AIdro_k1Hg9eKLIchJv567byVu88TrZ-hCc0DGZSRmRtIpQJPg=s160-c-k-c0x00ffffff-no-rj",
+            "channelbannerurl": null,
+            "channeltotalvideos": 5,
+            "channeltotalviews": 418,
+            "numberofsubscribers": 4,
+            "ischannelverified": false,
+            "channelname": "Jhas Industries",
+            "channelurl": "https://www.youtube.com/channel/UCm4OrtOk_Thiruzu7enVNIw",
+            "channelid": "UCm4OrtOk_Thiruzu7enVNIw",
+            "inputchannelurl": "https://youtube.com/@jhasindustries192",
+            "isagerestricted": false
+          },
+          "url": "https://youtube.com/@jhasindustries192/about",
+          "error": "CHANNEL_HAS_NO_SHORTS",
+          "note": "The channel has no shorts.",
+          "input": "https://youtube.com/@jhasindustries192"
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://youtube.com/@jhasindustries8750",
+        "platform": "youtube",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": [],
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "apify",
+          "scrape_platform": "youtube",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "aboutchannelinfo": {
+            "channeldescription": "JHAS INDUSTRIES is the leading manufacturer and supplier company for high-quality of Security Seals and Drum Seal in India. Visit http://jhas.in for more information",
+            "channeljoineddate": "Jan 22, 2019",
+            "channeldescriptionlinks": [],
+            "channellocation": "India",
+            "channelusername": "jhasindustries8750",
+            "channelavatarurl": "https://yt3.googleusercontent.com/ytc/AIdro_nmEgzBhHs-InXVmeMNhbD8KJY_haRtshz4OTG4IoCbbg=s160-c-k-c0x00ffffff-no-rj",
+            "channelbannerurl": null,
+            "channeltotalvideos": 1,
+            "channeltotalviews": 434,
+            "numberofsubscribers": 3,
+            "ischannelverified": false,
+            "channelname": "JHAS INDUSTRIES",
+            "channelurl": "https://www.youtube.com/channel/UC3TRKkuMMJYVbiHkRo6XGDg",
+            "channelid": "UC3TRKkuMMJYVbiHkRo6XGDg",
+            "inputchannelurl": "https://youtube.com/@jhasindustries8750",
+            "isagerestricted": false
+          },
+          "url": "https://youtube.com/@jhasindustries8750/about",
+          "error": "CHANNEL_HAS_NO_SHORTS",
+          "note": "The channel has no shorts.",
+          "input": "https://youtube.com/@jhasindustries8750"
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://in.linkedin.com/company/jhasindustries",
+        "platform": "website",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "linkedin",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+        "platform": "website",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "linkedin",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+        "platform": "website",
+        "depth": 0,
+        "source": "parallel_search",
+        "discovered_from": "search",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "justdial",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://google.com/maps/search",
+        "platform": "website",
+        "depth": 0,
+        "source": "google_maps",
+        "discovered_from": "google_maps_seed",
+        "confidence": "rejected",
+        "confidence_reason": "URL not relevant to seller",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": null,
+        "enrichment_opportunities": [],
+        "scrape_meta": null,
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://x.com/jhas_industries",
+        "platform": "website",
+        "depth": 1,
+        "source": "link_expand",
+        "discovered_from": "https://facebook.com/JhasIndustries",
+        "confidence": "high",
+        "confidence_reason": "Discovered from verified parent page",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "twitter",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://linkedin.com/in/jhas_industries",
+        "platform": "website",
+        "depth": 1,
+        "source": "link_expand",
+        "discovered_from": "https://facebook.com/JhasIndustries",
+        "confidence": "high",
+        "confidence_reason": "Discovered from verified parent page",
+        "is_verified": true,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "linkedin",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://youtube.com/@jhas_industries",
+        "platform": "youtube",
+        "depth": 1,
+        "source": "link_expand",
+        "discovered_from": "https://facebook.com/JhasIndustries",
+        "confidence": "medium",
+        "confidence_reason": "1 field matched reference profile",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": ["business_name"],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "https://www.jhasindustries.com/",
+          "social_links": [
+            "https://www.facebook.com/JhasIndustries/",
+            "https://www.instagram.com/jhas_industries",
+            "https://youtube.com/@Jhas_industries",
+            "https://x.com/Jhas_industries",
+            "https://www.linkedin.com/company/jhas-indusrtries"
+          ],
+          "business_name": "JHAS Industries",
+          "description": "",
+          "product_categories": ["Security Seals", "Sealing Solutions"],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [
+          {
+            "field": "website",
+            "reference": "http://www.jhasindustries.com",
+            "discovered": "https://www.jhasindustries.com/"
+          }
+        ],
+        "scrape_meta": {
+          "partially_extracted": false,
+          "scraper": "apify",
+          "scrape_platform": "youtube",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": {
+          "title": "A cheerful celebration of happiness and taste marks the beginning of 2026 🎉🍸.",
+          "translatedtitle": null,
+          "type": "shorts",
+          "id": "5Q8EmZmH6mE",
+          "url": "https://www.youtube.com/shorts/5Q8EmZmH6mE",
+          "thumbnailurl": "https://i.ytimg.com/vi/5Q8EmZmH6mE/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYKSApKH8wDw==&rs=AOn4CLBSyEXU7rHSr1anwx0JNOLDvJ1pgg",
+          "viewcount": 138,
+          "date": "2025-12-31T20:27:25.000Z",
+          "likes": 2,
+          "location": null,
+          "channelname": "Jhas Industries",
+          "channelurl": "https://www.youtube.com/channel/UCG962HCOt_JH8jmx7DeL_8g",
+          "channelusername": "Jhas_industries",
+          "collaborators": null,
+          "channelid": "UCG962HCOt_JH8jmx7DeL_8g",
+          "channeldescription": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+          "channeljoineddate": "Nov 16, 2025",
+          "channeldescriptionlinks": [
+            {
+              "text": "Website",
+              "url": "https://www.jhasindustries.com/"
+            },
+            {
+              "text": "Linktree",
+              "url": "https://linktr.ee/jhasindustriesseals"
+            },
+            {
+              "text": "Facebook",
+              "url": "https://www.facebook.com/JhasIndustries/"
+            },
+            {
+              "text": "Instagram",
+              "url": "https://www.instagram.com/jhas_industries"
+            },
+            {
+              "text": "Linkedin",
+              "url": "https://www.linkedin.com/company/jhas-indusrtries"
+            },
+            {
+              "text": "X",
+              "url": "https://x.com/Jhas_industries"
+            }
+          ],
+          "channellocation": null,
+          "channelavatarurl": "https://yt3.googleusercontent.com/8bC7_iv4YcweiKqok90oVpC_HdbyQiTnTrMzzMKUTlTe7PCRJKP9wfg8VqtPIraGzmvj2sWQKm8=s160-c-k-c0x00ffffff-no-rj",
+          "channelbannerurl": "https://yt3.googleusercontent.com/J6s-tclJEyeBi3kUUzuHpsr3CRPk7Q1fWoDPiOV0-vmcIScOxdr0ibBL2CeXkNu8KU8fv7pr1Q=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+          "channeltotalvideos": 3,
+          "channeltotalviews": 237,
+          "numberofsubscribers": 0,
+          "ischannelverified": false,
+          "inputchannelurl": "https://youtube.com/@jhas_industries",
+          "isagerestricted": false,
+          "aboutchannelinfo": {
+            "channeldescription": "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally.",
+            "channeljoineddate": "Nov 16, 2025",
+            "channeldescriptionlinks": [
+              {
+                "text": "Website",
+                "url": "https://www.jhasindustries.com/"
+              },
+              {
+                "text": "Linktree",
+                "url": "https://linktr.ee/jhasindustriesseals"
+              },
+              {
+                "text": "Facebook",
+                "url": "https://www.facebook.com/JhasIndustries/"
+              },
+              {
+                "text": "Instagram",
+                "url": "https://www.instagram.com/jhas_industries"
+              },
+              {
+                "text": "Linkedin",
+                "url": "https://www.linkedin.com/company/jhas-indusrtries"
+              },
+              {
+                "text": "X",
+                "url": "https://x.com/Jhas_industries"
+              }
+            ],
+            "channellocation": null,
+            "channelusername": "Jhas_industries",
+            "channelavatarurl": "https://yt3.googleusercontent.com/8bC7_iv4YcweiKqok90oVpC_HdbyQiTnTrMzzMKUTlTe7PCRJKP9wfg8VqtPIraGzmvj2sWQKm8=s160-c-k-c0x00ffffff-no-rj",
+            "channelbannerurl": "https://yt3.googleusercontent.com/J6s-tclJEyeBi3kUUzuHpsr3CRPk7Q1fWoDPiOV0-vmcIScOxdr0ibBL2CeXkNu8KU8fv7pr1Q=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+            "channeltotalvideos": 3,
+            "channeltotalviews": 237,
+            "numberofsubscribers": null,
+            "ischannelverified": false,
+            "channelname": "Jhas Industries",
+            "channelurl": "https://www.youtube.com/channel/UCG962HCOt_JH8jmx7DeL_8g",
+            "channelid": "UCG962HCOt_JH8jmx7DeL_8g",
+            "inputchannelurl": "https://youtube.com/@jhas_industries",
+            "isagerestricted": false
+          },
+          "duration": "00:00:08",
+          "commentscount": 0,
+          "text": "A cheerful celebration of happiness and taste marks the beginning of 2026 🎉🍸. Let the year shine bright 🎆✨\n Happy New Year\n #Happynewyear #jhasindustries #newyear2026 #newyearcelebration #newyearspecial",
+          "translatedtext": null,
+          "descriptionlinks": [
+            {
+              "url": "https://www.youtube.com/hashtag/happynewyear",
+              "text": "#Happynewyear"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/jhasindustries",
+              "text": "#jhasindustries"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyear2026",
+              "text": "#newyear2026"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyearcelebration",
+              "text": "#newyearcelebration"
+            },
+            {
+              "url": "https://www.youtube.com/hashtag/newyearspecial",
+              "text": "#newyearspecial"
+            }
+          ],
+          "subtitles": null,
+          "order": 1,
+          "commentsturnedoff": false,
+          "fromyturl": "https://youtube.com/@jhas_industries/shorts",
+          "ismonetized": null,
+          "hashtags": ["#Happynewyear", "#newyear2026", "#newyearcelebration"],
+          "ismembersonly": false,
+          "input": "https://youtube.com/@jhas_industries",
+          "fromchannellistpage": "shorts",
+          "ispaidcontent": false
+        },
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://x.com/Jhas_industries",
+        "platform": "website",
+        "depth": 1,
+        "source": "link_expand",
+        "discovered_from": "https://youtube.com/@Jhas_industries",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "twitter",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      },
+      {
+        "url": "https://linkedin.com/company/jhas-indusrtries",
+        "platform": "website",
+        "depth": 1,
+        "source": "link_expand",
+        "discovered_from": "https://youtube.com/@Jhas_industries",
+        "confidence": "low",
+        "confidence_reason": "No extractable entity data found on page",
+        "is_verified": false,
+        "visited": true,
+        "validation_keys_matched": [],
+        "contradiction_keys": [],
+        "extracted_data": {
+          "phone_numbers": [],
+          "emails": [],
+          "address": "",
+          "city": "",
+          "pincode": "",
+          "lat_long": "",
+          "website": "",
+          "social_links": [],
+          "business_name": "",
+          "description": "",
+          "product_categories": [],
+          "image_urls": [],
+          "recent_social_posts": [],
+          "additional_data": {}
+        },
+        "enrichment_opportunities": [],
+        "scrape_meta": {
+          "partially_extracted": true,
+          "scraper": "firecrawl",
+          "scrape_platform": "linkedin",
+          "outgoing_link_count": 0,
+          "raw_text_preview": ""
+        },
+        "raw_scrape_payload": null,
+        "outgoing_links_from_scrape": [],
+        "indiamart_url_match": false
+      }
+    ],
+    "graph_edges": [
+      {
+        "from": "http://jhasindustries.com",
+        "to": "https://mailto:security@jhas.in",
+        "type": "parallel_discovered"
+      },
+      {
+        "from": "https://instagram.com/jhasindustries",
+        "to": "https://jhasindustries.com",
+        "type": "parallel_discovered"
+      },
+      {
+        "from": "https://instagram.com/jhas_industries",
+        "to": "https://linktr.ee/jhasindustriesseals",
+        "type": "parallel_discovered"
+      },
+      {
+        "from": "https://youtube.com/@Jhas_industries",
+        "to": "http://jhas.in",
+        "type": "parallel_discovered"
+      },
+      {
+        "from": "https://facebook.com/JhasIndustries",
+        "to": "https://x.com/jhas_industries",
+        "type": "link"
+      },
+      {
+        "from": "https://facebook.com/JhasIndustries",
+        "to": "https://linkedin.com/in/jhas_industries",
+        "type": "link"
+      },
+      {
+        "from": "https://facebook.com/JhasIndustries",
+        "to": "https://youtube.com/@jhas_industries",
+        "type": "link"
+      },
+      {
+        "from": "https://youtube.com/@Jhas_industries",
+        "to": "https://x.com/Jhas_industries",
+        "type": "link"
+      },
+      {
+        "from": "https://youtube.com/@Jhas_industries",
+        "to": "https://linkedin.com/company/jhas-indusrtries",
+        "type": "link"
+      }
+    ],
+    "parallel_api_runs": [
+      {
+        "parallel_run": {
+          "run_id": "trun_c88686861e3f4a369390e3caebc53c26",
+          "interaction_id": "trun_c88686861e3f4a369390e3caebc53c26",
+          "status": "queued",
+          "is_active": true,
+          "warnings": [
+            {
+              "type": "spec_validation_warning",
+              "message": "The field 'evidence' is already provided in the FieldBasis object (which includes reasoning, citations, excerpts, confidence). Use FieldBasis in the run output instead of duplicating these fields in your output schema.",
+              "detail": {
+                "path": "properties.footprints.items.properties.evidence",
+                "documentation_url": "https://docs.parallel.ai/task-api/guides/specify-a-task"
+              }
+            },
+            {
+              "type": "spec_validation_warning",
+              "message": "This task may be too complex for base processor. Consider using https://platform.parallel.ai/play to optimize your task schema.",
+              "detail": {
+                "documentation_url": "https://docs.parallel.ai/task-api/guides/specify-a-task",
+                "recommended_max_properties": 5,
+                "total_properties": 15
+              }
+            }
+          ],
+          "processor": "base",
+          "metadata": {
+            "glid": "40558"
+          },
+          "created_at": "2026-04-07T05:51:39.883633Z",
+          "modified_at": "2026-04-07T05:51:39.891230Z"
+        },
+        "parallel_result": {
+          "run": {
+            "run_id": "trun_c88686861e3f4a369390e3caebc53c26",
+            "interaction_id": "trun_c88686861e3f4a369390e3caebc53c26",
+            "status": "completed",
+            "is_active": false,
+            "warnings": [
+              {
+                "type": "spec_validation_warning",
+                "message": "The field 'evidence' is already provided in the FieldBasis object (which includes reasoning, citations, excerpts, confidence). Use FieldBasis in the run output instead of duplicating these fields in your output schema.",
+                "detail": {
+                  "path": "properties.footprints.items.properties.evidence",
+                  "documentation_url": "https://docs.parallel.ai/task-api/guides/specify-a-task"
+                }
+              },
+              {
+                "type": "spec_validation_warning",
+                "message": "This task may be too complex for base processor. Consider using https://platform.parallel.ai/play to optimize your task schema.",
+                "detail": {
+                  "documentation_url": "https://docs.parallel.ai/task-api/guides/specify-a-task",
+                  "recommended_max_properties": 5,
+                  "total_properties": 15
+                }
+              }
+            ],
+            "processor": "base",
+            "metadata": {
+              "glid": "40558"
+            },
+            "created_at": "2026-04-07T05:51:39.883633Z",
+            "modified_at": "2026-04-07T05:56:11.527863Z"
+          },
+          "output": {
+            "basis": [
+              {
+                "field": "chain",
+                "citations": [
+                  {
+                    "title": "JHAS INDUSTRIES (@jhas_industries) · Aligarh",
+                    "url": "https://www.instagram.com/jhas_industries/",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS Industries (@jhasindustries) · Aligarh",
+                    "url": "https://www.instagram.com/jhasindustries/",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "Jhas Industries - JUST HAVE A SEAL - WHATEVER | WHEREVER | WHENEVER",
+                    "url": "http://www.jhasindustries.com",
+                    "excerpts": [
+                      "Call Us.: +91-94127-30003",
+                      "WhatsApp Us: [+91-94127-30003](http://wa.me/+91-94127-30003)",
+                      "Mail Us: security@jhas.in"
+                    ]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES",
+                    "url": "https://in.linkedin.com/company/jhasindustries",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES Security Seals",
+                    "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "Jhas Industries",
+                    "url": "https://www.youtube.com/@Jhas_industries",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES - YouTube",
+                    "url": "https://www.youtube.com/@jhasindustries8750",
+                    "excerpts": [
+                      "JHAS INDUSTRIES is the leading manufacturer and supplier company for high-quality of Security Seals and Drum Seal in India. Visit http://jhas.in for more inf..."
+                    ]
+                  },
+                  {
+                    "title": "Jhas Industries in Patel Nagar, Aligarh",
+                    "url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+                    "excerpts": []
+                  }
+                ],
+                "reasoning": "The chain discovery map details the explicit link discoveries and their provenance, showing how various social media profiles and company listings link back to the official websites and other contact channels. For instance, Instagram profiles link to the main website and a Linktree, while LinkedIn and YouTube channels also point to the company's websites. The Justdial listing provides a link to the main website, confirming the interconnectedness of these digital footprints.",
+                "confidence": "high"
+              },
+              {
+                "field": "company",
+                "citations": [
+                  {
+                    "url": "https://www.facebook.com/JhasIndustries/",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://www.instagram.com/jhasindustries/",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://www.instagram.com/jhas_industries/",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://www.youtube.com/@Jhas_industries",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://www.youtube.com/@jhasindustries8750",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://in.linkedin.com/company/jhasindustries",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+                    "excerpts": []
+                  },
+                  {
+                    "url": "http://www.jhasindustries.com",
+                    "excerpts": []
+                  }
+                ],
+                "reasoning": "The company name and city are directly provided in the user's ground truth data, which is explicitly stated as not to be overridden. Therefore, the information is taken directly from the input.",
+                "confidence": "high"
+              },
+              {
+                "field": "footprints",
+                "citations": [
+                  {
+                    "title": "Jhas Industries - JUST HAVE A SEAL - WHATEVER | WHEREVER | WHENEVER",
+                    "url": "http://www.jhasindustries.com",
+                    "excerpts": [
+                      "Call Us.: +91-94127-30003",
+                      "WhatsApp Us: [+91-94127-30003](http://wa.me/+91-94127-30003)",
+                      "Mail Us: security@jhas.in",
+                      "Our website is currently being overhauled and will be back soon."
+                    ]
+                  },
+                  {
+                    "title": "Jhas Industries (@JhasIndustries)",
+                    "url": "https://www.facebook.com/JhasIndustries/",
+                    "excerpts": [
+                      "Jhas Industries. 92 likes · 4 talking about this. JHAS, India's leading security ... Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA, 202001. Links."
+                    ]
+                  },
+                  {
+                    "title": "JHAS Industries (@jhasindustries) · Aligarh",
+                    "url": "https://www.instagram.com/jhasindustries/",
+                    "excerpts": [
+                      "A Leading Specialized Manufacturer & Supplier of Reliable, Customized High-Quality Security Seals and Sealing Solutions",
+                      "A Leading Specialized Manufacturer & Supplier of Reliable, Customized High-Quality Security Seals and Sealing Solutions #jhas"
+                    ]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES (@jhas_industries) · Aligarh",
+                    "url": "https://www.instagram.com/jhas_industries/",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "Jhas Industries",
+                    "url": "https://www.youtube.com/@Jhas_industries",
+                    "excerpts": [
+                      "JHAS, India's leading security seal manufacturer with 60+ years of experience, offers reliable sealing solutions globally."
+                    ]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES - YouTube",
+                    "url": "https://www.youtube.com/@jhasindustries8750",
+                    "excerpts": [
+                      "JHAS INDUSTRIES is the leading manufacturer and supplier company for high-quality of Security Seals and Drum Seal in India. Visit http://jhas.in for more inf..."
+                    ]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES",
+                    "url": "https://in.linkedin.com/company/jhasindustries",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES Security Seals",
+                    "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+                    "excerpts": [
+                      "Jhas Industries are leading Security Seals Manufacturers and Drum Seal Manufacturer in India. We have been serving industry since 1949."
+                    ]
+                  },
+                  {
+                    "title": "Jhas Industries in Patel Nagar, Aligarh",
+                    "url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+                    "excerpts": []
+                  }
+                ],
+                "reasoning": "The footprints were identified through targeted web searches and page extractions across various platforms. Each platform's presence was validated by matching specific fields (e.g., company name, address, contact information, website URLs) against the provided ground-truth data. Discovered links from these profiles were also recorded to show the interconnectedness of the company's digital presence.",
+                "confidence": "medium"
+              },
+              {
+                "field": "notes",
+                "citations": [
+                  {
+                    "title": "Jhas Industries - JUST HAVE A SEAL - WHATEVER | WHEREVER | WHENEVER",
+                    "url": "http://www.jhasindustries.com",
+                    "excerpts": [
+                      "Call Us.: +91-94127-30003",
+                      "WhatsApp Us: [+91-94127-30003](http://wa.me/+91-94127-30003)",
+                      "Mail Us: security@jhas.in"
+                    ]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES",
+                    "url": "https://in.linkedin.com/company/jhasindustries",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES (@jhas_industries) · Aligarh",
+                    "url": "https://www.instagram.com/jhas_industries/",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "Jhas Industries (@JhasIndustries)",
+                    "url": "https://www.facebook.com/JhasIndustries/",
+                    "excerpts": [
+                      "Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA, 202001. Links."
+                    ]
+                  },
+                  {
+                    "title": "Jhas Industries in Patel Nagar, Aligarh",
+                    "url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "Jhas Industries",
+                    "url": "https://www.youtube.com/@Jhas_industries",
+                    "excerpts": []
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES - YouTube",
+                    "url": "https://www.youtube.com/@jhasindustries8750",
+                    "excerpts": ["Visit http://jhas.in for more"]
+                  },
+                  {
+                    "title": "JHAS INDUSTRIES Security Seals",
+                    "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+                    "excerpts": []
+                  }
+                ],
+                "reasoning": "The notes section summarizes the validation decisions for key fields like phone, email, address, and GSTIN, explaining how each was confirmed against the provided ground-truth data. It also provides a concise summary of the platforms found and their status, along with caveats and recommendations regarding multiple social accounts and the uncertain Twitter/X presence.",
+                "confidence": "high"
+              }
+            ],
+            "type": "json",
+            "content": {
+              "chain": [
+                {
+                  "reason": "linktr.ee present in instagram external_url list.",
+                  "to_url": "https://linktr.ee/jhasindustriesseals",
+                  "from_url": "https://www.instagram.com/jhas_industries/"
+                },
+                {
+                  "reason": "external_url metadata on both accounts.",
+                  "to_url": "http://www.jhasindustries.com",
+                  "from_url": "https://www.instagram.com/jhasindustries/"
+                },
+                {
+                  "reason": "external_url metadata on both accounts.",
+                  "to_url": "http://www.jhasindustries.com",
+                  "from_url": "https://www.instagram.com/jhas_industries/"
+                },
+                {
+                  "reason": "contact block on website.",
+                  "to_url": "wa.me/+91-94127-30003",
+                  "from_url": "http://www.jhasindustries.com"
+                },
+                {
+                  "reason": "contact block on website.",
+                  "to_url": "mailto:security@jhas.in",
+                  "from_url": "http://www.jhasindustries.com"
+                },
+                {
+                  "reason": "LinkedIn About links to site.",
+                  "to_url": "https://www.jhasindustries.com/",
+                  "from_url": "https://in.linkedin.com/company/jhasindustries"
+                },
+                {
+                  "reason": "LinkedIn About links to jhas.in.",
+                  "to_url": "http://jhas.in/",
+                  "from_url": "https://in.linkedin.com/company/jhasindustriessecurityseals"
+                },
+                {
+                  "reason": "channel About/redirect links.",
+                  "to_url": "https://www.jhasindustries.com/",
+                  "from_url": "https://www.youtube.com/@Jhas_industries"
+                },
+                {
+                  "reason": "channel About/redirect links.",
+                  "to_url": "http://jhas.in/",
+                  "from_url": "https://www.youtube.com/@jhasindustries8750"
+                },
+                {
+                  "reason": "Justdial listing corroborates GSTIN and address against the ground-truth.",
+                  "to_url": "http://www.jhasindustries.com",
+                  "from_url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET"
+                }
+              ],
+              "company": {
+                "city": "Aligarh",
+                "company_name": "Jhas Industries"
+              },
+              "footprints": [
+                {
+                  "validated_fields": [
+                    "phone (+91-94127-30003)",
+                    "whatsapp link (wa.me/+91-94127-30003)",
+                    "email (security@jhas.in)",
+                    "website URL",
+                    "matching company name and city"
+                  ],
+                  "evidence": [
+                    "Call Us.: +91-94127-30003",
+                    "WhatsApp Us: [+91-94127-30003](http://wa.me/+91-94127-30003)",
+                    "Mail Us: security@jhas.in",
+                    "We are happy to assist you."
+                  ],
+                  "status": "found",
+                  "discovered_links": [
+                    "wa.me/+919412730003",
+                    "mailto:security@jhas.in"
+                  ],
+                  "url": "http://www.jhasindustries.com",
+                  "platform": "Website (own site)"
+                },
+                {
+                  "validated_fields": [
+                    "page name (Jhas Industries)",
+                    "address line (Patel Nagar, Agra Road, ALIGARH - 202001 UP) matching ground-truth address/pincode",
+                    "recent posts (activity)",
+                    "follower/likes hint"
+                  ],
+                  "evidence": [
+                    "Jhas Industries. 92 likes · 4 talking about this. JHAS, India's leading security ... Patel Nagar, Agra Road, ALIGARH - 202001 UP. INDIA, 202001. Links."
+                  ],
+                  "status": "found",
+                  "discovered_links": [],
+                  "url": "https://www.facebook.com/JhasIndustries/",
+                  "platform": "Facebook"
+                },
+                {
+                  "validated_fields": [
+                    "biography (company description)",
+                    "external_url -> https://www.jhasindustries.com (website)",
+                    "posts count",
+                    "followers count",
+                    "is_business_account flag"
+                  ],
+                  "evidence": [
+                    "A Leading Specialized Manufacturer & Supplier of Reliable, Customized High-Quality Security Seals and Sealing Solutions ... 'external_url_title': {'url': 'https://www.jhasindustries.com/', 'title': None}"
+                  ],
+                  "status": "found",
+                  "discovered_links": ["https://www.jhasindustries.com/"],
+                  "url": "https://www.instagram.com/jhasindustries/",
+                  "platform": "Instagram (account: jhasindustries)"
+                },
+                {
+                  "validated_fields": [
+                    "biography",
+                    "external_url list (http://www.jhasindustries.com/, https://www.facebook.com/share/..., https://linktr.ee/jhasindustriesseals)",
+                    "business_address \"Patel Nagar, Agra Road, Aligarh 202001\" matching ground-truth address and pincode",
+                    "recent posts and timestamps"
+                  ],
+                  "evidence": [
+                    "external_url: ['http://www.jhasindustries.com/', 'https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg', 'https://linktr.ee/jhasindustriesseals'], ... 'business_address': 'Patel Nagar, Agra Road, Aligarh 202001'"
+                  ],
+                  "status": "found",
+                  "discovered_links": [
+                    "http://www.jhasindustries.com/",
+                    "https://linktr.ee/jhasindustriesseals",
+                    "https://www.facebook.com/share/GpXGpdDBkXpwUyR2/?mibextid=qi2Omg"
+                  ],
+                  "url": "https://www.instagram.com/jhas_industries/",
+                  "platform": "Instagram (account: jhas_industries)"
+                },
+                {
+                  "validated_fields": [
+                    "channel descriptions referencing the company and linking to website(s) (jhasindustries.com, jhas.in)",
+                    "channel descriptions matching company description"
+                  ],
+                  "evidence": [
+                    "jhasindustries.com (redirect link in channel header)",
+                    "Visit http://jhas.in for more"
+                  ],
+                  "status": "found",
+                  "discovered_links": [
+                    "https://www.jhasindustries.com/",
+                    "http://jhas.in/"
+                  ],
+                  "url": "https://www.youtube.com/@Jhas_industries",
+                  "platform": "YouTube (channels)"
+                },
+                {
+                  "validated_fields": [
+                    "channel descriptions referencing the company and linking to website(s) (jhasindustries.com, jhas.in)",
+                    "channel descriptions matching company description"
+                  ],
+                  "evidence": [
+                    "jhasindustries.com (redirect link in channel header)",
+                    "Visit http://jhas.in for more"
+                  ],
+                  "status": "found",
+                  "discovered_links": [
+                    "https://www.jhasindustries.com/",
+                    "http://jhas.in/"
+                  ],
+                  "url": "https://www.youtube.com/@jhasindustries192",
+                  "platform": "YouTube (channels)"
+                },
+                {
+                  "validated_fields": [
+                    "channel descriptions referencing the company and linking to website(s) (jhasindustries.com, jhas.in)",
+                    "channel descriptions matching company description"
+                  ],
+                  "evidence": [
+                    "jhasindustries.com (redirect link in channel header)",
+                    "Visit http://jhas.in for more"
+                  ],
+                  "status": "found",
+                  "discovered_links": [
+                    "https://www.jhasindustries.com/",
+                    "http://jhas.in/"
+                  ],
+                  "url": "https://www.youtube.com/@jhasindustries8750",
+                  "platform": "YouTube (channels)"
+                },
+                {
+                  "validated_fields": [
+                    "website https://www.jhasindustries.com",
+                    "headquarters: Aligarh, U.P (matching ground-truth city/state)",
+                    "company founded 1949",
+                    "industry and specialties",
+                    "location \"Patel Nagar, Agra Rd Aligarh, U.P 202001\""
+                  ],
+                  "evidence": [
+                    "Website [https://www.jhasindustries.com/]",
+                    "Headquarters Aligarh, U.P",
+                    "Primary Patel Nagar, Agra Rd Aligarh, U.P 202001, IN"
+                  ],
+                  "status": "found",
+                  "discovered_links": ["https://www.jhasindustries.com/"],
+                  "url": "https://in.linkedin.com/company/jhasindustries",
+                  "platform": "LinkedIn (company page: JHAS INDUSTRIES)"
+                },
+                {
+                  "validated_fields": [
+                    "website http://jhas.in",
+                    "headquarters Aligarh/Patel Nagar",
+                    "company specialties and description indicating it is the same business (security seals)",
+                    "matching founding year and location"
+                  ],
+                  "evidence": [
+                    "Website [http://jhas.in/]",
+                    "Primary Patel Nagar, Agra Road,ALIGARH - 202001 UP. INDIA"
+                  ],
+                  "status": "found",
+                  "discovered_links": ["http://jhas.in/"],
+                  "url": "https://in.linkedin.com/company/jhasindustriessecurityseals",
+                  "platform": "LinkedIn (alternate page: JHAS INDUSTRIES Security Seals)"
+                },
+                {
+                  "validated_fields": [
+                    "address (Opposite Chiranjilal Girls College, Agra Road, Patel Nagar, Aligarh-202001)",
+                    "GSTIN 09ABFPJ5438B2ZU (matches provided GST)",
+                    "opening hours indicator",
+                    "multiple photos and local listing details",
+                    "contact phone available on listing"
+                  ],
+                  "evidence": [
+                    "Contact Information Contact Show Number ... Address Opposite Chiranjilal Girls College, Agra Road, Patel Nagar, Aligarh-202001, Uttar Pradesh ... GSTIN : 09ABFPJ5438B2ZU"
+                  ],
+                  "status": "found",
+                  "discovered_links": ["http://www.jhasindustries.com"],
+                  "url": "https://www.justdial.com/Aligarh/Jhas-Industries-Opposite-Chiranjilal-Girls-College-Patel-Nagar/9999PX571-X571-091022154138-S2N4_BZDET",
+                  "platform": "Justdial"
+                },
+                {
+                  "validated_fields": [],
+                  "evidence": [
+                    "search result snippets returned hashtag pages and search results (no clear corporate handle extract was found in the pages we extracted)."
+                  ],
+                  "status": "uncertain",
+                  "discovered_links": [],
+                  "url": "no authoritative official company handle discovered with clear profile metadata; search results showed hashtags and some mentions (e.g., #JhasIndustries, Jhas_Goddess) but no verified/obvious official @JhasIndustries handle beyond possible matches that appear to be inactive or ambiguous.",
+                  "platform": "Twitter / X"
+                },
+                {
+                  "validated_fields": [],
+                  "evidence": [
+                    "no Pinterest results in the extracted set of pages."
+                  ],
+                  "status": "not_found",
+                  "discovered_links": [],
+                  "url": "no clear Pinterest profile discovered for Jhas Industries during the search/extract steps",
+                  "platform": "Pinterest"
+                }
+              ],
+              "notes": "Phone: +91-9412730003 / 9412730003 appears on the corporate website (Call Us & WhatsApp), matches the ground-truth phone in your JSON (phone: \"9412730003\"). Marked validated for website and matched where shown on other profiles. Email: security@jhas.in appears on the website; also included in ground-truth. Marked validated. Address / City / Pincode: \"Patel Nagar, Agra Road, Aligarh 202001\" appears on LinkedIn, Instagram (business_address), Facebook About, Justdial; matches ground-truth address variants. Marked validated. GSTIN: 09ABFPJ5438B2ZU appears on Justdial listing and matches ground-truth. Marked validated. Website domains: http://www.jhasindustries.com and http://jhas.in both appear across profiles (YouTube, LinkedIn). Marked validated and treated as canonical & alternate domain. Found & validated: Website (jhasindustries.com), Facebook (page), Instagram (jhasindustries, jhas_industries), YouTube (channels), LinkedIn (jhasindustries and jhasindustriessecurityseals), Justdial. Found but uncertain (official): Twitter/X (only mentions/hashtags; no clear official handle confirmed). Not found: Pinterest. Caveats and recommendation: Multiple social accounts with similar names were found (two Instagram profiles and multiple YouTube channel variants). I treated accounts that showed business metadata (external_url, business_address, posts and activity) as valid corporate presences. If you want me to choose which single Instagram/YT channel is the primary official account, I can attempt further verification (e.g., cross-checking timestamps, contact links, or requesting confirmation from the owner email). Twitter/X presence could be a legacy/informal presence or only hashtags; I recommend giving me permission to do a deeper check of candidate handles or provide a likely handle to confirm."
+            }
+          }
+        }
+      }
+    ],
+    "memory_summary": {
+      "nodes": 20,
+      "edges": 9,
+      "visited": 19,
+      "failed": 0,
+      "stats": {
+        "extractions": 19,
+        "iterations": 8,
+        "parallel_runs": 1,
+        "high_nodes": 8,
+        "last_high_nodes": 8,
+        "no_improve": 1,
+        "parallel_footprints": 12
+      }
+    }
+  }
+}

@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IndiaMART Seller Profile</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --brand: #1A6FBF;
+      --brand-light: #E8F2FB;
+      --brand-dark: #0C4A8A;
+      --accent: #F5A623;
+      --accent-light: #FFF3DC;
+      --green: #1D9E75;
+      --green-light: #E1F5EE;
+      --text-primary: #1A1A1A;
+      --text-secondary: #555;
+      --text-muted: #888;
+      --border: #E5E7EB;
+      --border-light: #F0F0F0;
+      --bg: #F7F8FA;
+      --bg-card: #fff;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.07), 0 1px 2px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ===== SELLER SWITCHER ===== */
+    .seller-nav {
+      background: var(--brand-dark);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .seller-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .seller-nav-label {
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      margin-right: 12px;
+    }
+
+    .seller-tab {
+      padding: 13px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.65);
+      cursor: pointer;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      background: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-family: inherit;
+    }
+
+    .seller-tab:hover {
+      color: #fff;
+    }
+
+    .seller-tab.active {
+      color: #fff;
+      border-bottom-color: var(--accent);
+    }
+
+    /* ===== TOPBAR / NAVBAR ===== */
+    .topbar {
+      background: var(--brand);
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .topbar-brand {
+      font-family: 'Syne', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    .topbar-brand span {
+      color: var(--accent);
+    }
+
+    .topbar-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .btn-outline-white {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 7px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+    }
+
+    .btn-outline-white:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-accent {
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      transition: opacity 0.2s;
+    }
+
+    .btn-accent:hover {
+      opacity: 0.9;
+    }
+
+    /* ===== HERO BANNER ===== */
+    .hero-banner {
+      background: linear-gradient(135deg, var(--brand-dark) 0%, #1A5FAB 50%, #2176BE 100%);
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(245, 166, 35, 0.12) 0%, transparent 35%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      padding: 32px 32px 0;
+      display: flex;
+      align-items: flex-end;
+      gap: 24px;
+    }
+
+    .seller-avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: var(--radius-md);
+      background: var(--bg-card);
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--brand);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .seller-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-meta {
+      flex: 1;
+      padding-bottom: 20px;
+    }
+
+    .hero-badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .badge-verified {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .badge-exporter {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .badge-gst {
+      background: rgba(255, 255, 255, 0.18);
+      color: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hero-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .hero-subtitle {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 14px;
+    }
+
+    .hero-stats {
+      display: flex;
+      background: rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 20px;
+    }
+
+    .hero-stat {
+      flex: 1;
+      padding: 14px 16px;
+      text-align: center;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .hero-stat:last-child {
+      border-right: none;
+    }
+
+    .hero-stat-val {
+      font-family: 'Syne', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    .hero-stat-label {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* ===== MAIN LAYOUT ===== */
+    .main-layout {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 24px;
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 24px;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .main-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ===== CARDS ===== */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-title-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      margin-right: 8px;
+    }
+
+    .card-title-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .see-all {
+      font-size: 12px;
+      color: var(--brand);
+      cursor: pointer;
+      font-weight: 500;
+      background: none;
+      border: none;
+      font-family: inherit;
+    }
+
+    .see-all:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== ABOUT ===== */
+    .about-text {
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+
+    .about-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background: var(--brand-light);
+      color: var(--brand-dark);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+
+    /* ===== PRODUCTS CAROUSEL ===== */
+    .product-scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 12px;
+    }
+
+    .product-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+      transition: box-shadow 0.2s, transform 0.2s;
+      background: var(--bg-card);
+    }
+
+    .product-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .product-img {
+      width: 100%;
+      aspect-ratio: 1;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-img-label {
+      position: absolute;
+      bottom: 6px;
+      right: 6px;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .product-info {
+      padding: 10px;
+    }
+
+    .product-name {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 3px;
+      line-height: 1.4;
+      display: -webkit-box;
+      line-clamp: 2;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .product-price {
+      font-size: 12px;
+      color: var(--brand);
+      font-weight: 600;
+    }
+
+    /* ===== CATEGORIES ===== */
+    .category-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .category-item {
+      display: flex;
+      align-items: center;
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.15s;
+      gap: 10px;
+    }
+
+    .category-item:hover {
+      border-color: var(--brand);
+      background: var(--brand-light);
+    }
+
+    .cat-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: var(--brand-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .cat-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-primary);
+      flex: 1;
+    }
+
+    .cat-count {
+      font-size: 11px;
+      color: var(--text-muted);
+      background: var(--bg);
+      padding: 2px 8px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    /* ===== SOCIAL POSTS ===== */
+    .social-section {
+      margin-bottom: 20px;
+    }
+
+    .social-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .social-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .social-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .social-handle {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .social-follow {
+      margin-left: auto;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 6px;
+      border: 1px solid currentColor;
+      cursor: pointer;
+      background: none;
+      font-family: inherit;
+      transition: all 0.15s;
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+    }
+
+    .post-card {
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid var(--border);
+    }
+
+    .post-thumb {
+      aspect-ratio: 1;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      position: relative;
+    }
+
+    .post-likes {
+      position: absolute;
+      bottom: 6px;
+      left: 6px;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .post-caption {
+      padding: 8px 10px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      display: -webkit-box;
+      line-clamp: 2;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* YT post */
+    .yt-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      cursor: pointer;
+      margin-bottom: 10px;
+      display: flex;
+      gap: 0;
+    }
+
+    .yt-thumb {
+      width: 120px;
+      flex-shrink: 0;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      position: relative;
+    }
+
+    .yt-play {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .yt-play-btn {
+      width: 28px;
+      height: 28px;
+      background: #FF0000;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      color: #fff;
+    }
+
+    .yt-info {
+      padding: 12px;
+      flex: 1;
+    }
+
+    .yt-title {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+
+    .yt-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* ===== REVIEWS ===== */
+    .review-summary {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .review-score {
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .score-big {
+      font-family: 'Syne', sans-serif;
+      font-size: 44px;
+      font-weight: 800;
+      color: var(--text-primary);
+      line-height: 1;
+    }
+
+    .stars {
+      color: var(--accent);
+      font-size: 14px;
+      margin: 4px 0;
+      letter-spacing: 1px;
+    }
+
+    .score-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .rating-bars {
+      flex: 1;
+    }
+
+    .rating-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 5px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .rating-row span:first-child {
+      width: 12px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .bar-track {
+      flex: 1;
+      height: 6px;
+      background: var(--border-light);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 3px;
+      transition: width 1s ease;
+    }
+
+    .rating-row span:last-child {
+      width: 24px;
+      color: var(--text-muted);
+    }
+
+    .review-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 14px;
+      margin-bottom: 10px;
+    }
+
+    .reviewer-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .reviewer-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    .reviewer-name {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .reviewer-source {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .review-stars {
+      font-size: 11px;
+      color: var(--accent);
+      margin-left: auto;
+    }
+
+    .review-text {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .review-date {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .contact-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .contact-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 1px;
+    }
+
+    .contact-val {
+      font-size: 13px;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .contact-val a {
+      color: var(--brand);
+      text-decoration: none;
+    }
+
+    .contact-val a:hover {
+      text-decoration: underline;
+    }
+
+    .social-links-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .social-link-pill {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+
+    .social-link-pill:hover {
+      box-shadow: var(--shadow-sm);
+    }
+
+    .cta-section {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .cta-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .cta-sub {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.75);
+      margin-bottom: 16px;
+    }
+
+    .btn-cta {
+      display: block;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius-sm);
+      padding: 11px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      width: 100%;
+      margin-bottom: 8px;
+      transition: opacity 0.2s;
+    }
+
+    .btn-cta:hover {
+      opacity: 0.9;
+    }
+
+    .btn-cta-outline {
+      display: block;
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: var(--radius-sm);
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: inherit;
+      width: 100%;
+      transition: background 0.2s;
+    }
+
+    .btn-cta-outline:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .info-item {
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      padding: 12px;
+      border: 1px solid var(--border-light);
+    }
+
+    .info-item-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+    }
+
+    .info-item-val {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--brand-dark);
+      color: rgba(255, 255, 255, 0.75);
+      padding: 32px 24px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .footer-brand {
+      font-family: 'Syne', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .footer-brand span {
+      color: var(--accent);
+    }
+
+    .footer-sub {
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .footer-copy {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    /* ===== MAP PLACEHOLDER ===== */
+    .map-placeholder {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 6px;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .map-pin {
+      font-size: 26px;
+    }
+
+    /* ===== TABS ===== */
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 20px;
+      gap: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .tabs::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tab-btn {
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      border: none;
+      border-bottom: 2px solid transparent;
+      background: none;
+      cursor: pointer;
+      white-space: nowrap;
+      font-family: inherit;
+      transition: all 0.15s;
+      margin-bottom: -1px;
+    }
+
+    .tab-btn:hover {
+      color: var(--brand);
+    }
+
+    .tab-btn.active {
+      color: var(--brand);
+      border-bottom-color: var(--brand);
+    }
+
+    /* ===== DIVIDER ===== */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 16px 0;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .hero-content {
+        padding: 20px 16px 0;
+      }
+
+      .hero-name {
+        font-size: 20px;
+      }
+
+      .hero-stat-val {
+        font-size: 15px;
+      }
+
+      .main-layout {
+        padding: 16px;
+      }
+
+      .card {
+        padding: 16px;
+      }
+
+      .seller-nav {
+        padding: 0 16px;
+      }
+
+      .topbar {
+        padding: 10px 16px;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .main-layout {
+      animation: fadeUp 0.4s ease both;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP NAVBAR -->
+  <nav class="topbar">
+    <div class="topbar-brand">india<span>MART</span></div>
+    <div class="topbar-actions">
+      <button class="btn-outline-white">Login</button>
+      <button class="btn-accent">Post Requirement</button>
+    </div>
+  </nav>
+
+  <!-- SELLER SWITCHER (demo) -->
+  <div class="seller-nav">
+    <span class="seller-nav-label">Demo Sellers:</span>
+    <button class="seller-tab active" onclick="loadSeller(0)">Soni Art Exports</button>
+    <button class="seller-tab" onclick="loadSeller(1)">A S Sewing Machines</button>
+    <button class="seller-tab" onclick="loadSeller(2)">Floortech Enterprise</button>
+    <button class="seller-tab" onclick="loadSeller(3)">Khalique Sons International</button>
+    <button class="seller-tab" onclick="loadSeller(4)">Jhas Industries</button>
+  </div>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner" id="hero-banner">
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <div class="seller-avatar" id="seller-avatar">SA</div>
+      <div class="hero-meta">
+        <div class="hero-badges" id="hero-badges">
+          <span class="badge badge-verified">✓ Verified</span>
+          <span class="badge badge-exporter">Exporter</span>
+          <span class="badge badge-gst">GST Registered</span>
+        </div>
+        <div class="hero-name" id="hero-name">Soni Art Exports</div>
+        <div class="hero-subtitle" id="hero-subtitle">Manufacturer of Handcrafted Wooden &amp; Iron Furniture · Jodhpur,
+          Rajasthan</div>
+      </div>
+    </div>
+    <div class="hero-stats" id="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-val">7+</div>
+        <div class="hero-stat-label">Years Active</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">48+</div>
+        <div class="hero-stat-label">Products</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">100+</div>
+        <div class="hero-stat-label">Artisans</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">4.8★</div>
+        <div class="hero-stat-label">Rating</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">PAN India</div>
+        <div class="hero-stat-label">Delivery</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-layout">
+    <!-- LEFT COLUMN -->
+    <div>
+
+      <!-- ABOUT -->
+      <div class="card" id="about-card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#E8F2FB;">ℹ️</div>
+            About the Seller
+          </div>
+        </div>
+        <p class="about-text" id="about-text">
+          Established as a Sole Proprietorship firm in 2018, <strong>Soni Art Exports</strong> is a leading manufacturer
+          of wooden and iron handcrafted furniture based in Jodhpur, Rajasthan. Under the mentorship of Mr. Ramesh
+          Vishnoi, the company works with 100+ skilled local artisans to produce bespoke furniture — from dining sets
+          and beds to hotel and hospitality pieces — delivered pan India via trusted logistics partners.
+        </p>
+        <div class="about-tags" id="about-tags">
+          <span class="tag">Sheesham Wood</span>
+          <span class="tag">Iron Furniture</span>
+          <span class="tag">Hospitality</span>
+          <span class="tag">Custom Orders</span>
+          <span class="tag">Hotel Furniture</span>
+          <span class="tag">Home Décor</span>
+          <span class="tag">Exporter</span>
+        </div>
+      </div>
+
+      <!-- PRODUCT CATALOG -->
+      <div class="card" id="products-card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#FFF3DC;">🪑</div>
+            Product Catalog
+          </div>
+          <button class="see-all">View all →</button>
+        </div>
+        <div class="tabs" id="product-tabs">
+          <button class="tab-btn active">All Products</button>
+          <button class="tab-btn">Seating</button>
+          <button class="tab-btn">Beds &amp; Bedroom</button>
+          <button class="tab-btn">Tables</button>
+          <button class="tab-btn">Storage</button>
+          <button class="tab-btn">Bar &amp; Cafe</button>
+        </div>
+        <div class="product-scroll" id="products-grid"></div>
+      </div>
+
+      <!-- SOCIAL MEDIA POSTS -->
+      <div class="card" id="social-card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#E8F2FB;">📱</div>
+            Latest from Social Media
+          </div>
+        </div>
+        <div id="social-sections"></div>
+      </div>
+
+      <!-- REVIEWS -->
+      <div class="card" id="reviews-card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#FFF3DC;">⭐</div>
+            Customer Reviews
+          </div>
+          <span style="font-size:12px;color:var(--text-muted);">Google · Website · IndiaMart</span>
+        </div>
+        <div class="review-summary">
+          <div class="review-score">
+            <div class="score-big" id="review-score">4.8</div>
+            <div class="stars">★★★★★</div>
+            <div class="score-count" id="review-count">86 reviews</div>
+          </div>
+          <div class="rating-bars" id="rating-bars"></div>
+        </div>
+        <div id="reviews-list"></div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDEBAR -->
+    <div>
+
+      <!-- CTA -->
+      <div class="cta-section">
+        <div class="cta-title" id="cta-title">Get Best Quote from Soni Art Exports</div>
+        <div class="cta-sub">Typically replies within 30 minutes</div>
+        <button class="btn-cta">📩 Send Enquiry</button>
+        <button class="btn-cta-outline">📞 Call Now</button>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#E1F5EE;">📋</div>
+            Contact Details
+          </div>
+        </div>
+        <ul class="contact-list" id="contact-list"></ul>
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <span id="map-label">Jodhpur, Rajasthan, India</span>
+        </div>
+      </div>
+
+      <!-- BUSINESS INFO -->
+      <div class="card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#FFF3DC;">🏢</div>
+            Business Info
+          </div>
+        </div>
+        <div class="info-grid" id="biz-info"></div>
+      </div>
+
+      <!-- CATEGORIES (sidebar) -->
+      <div class="card">
+        <div class="card-title">
+          <div class="card-title-left">
+            <div class="card-title-icon" style="background:#EEEDFE;">🗂️</div>
+            Product Categories
+          </div>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-brand">india<span>MART</span></div>
+    <div class="footer-sub">India's largest online B2B marketplace connecting buyers and sellers</div>
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Advertise</a>
+      <a href="#">Help Center</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer-copy">© 2026 IndiaMART InterMESH Limited. All rights reserved.</div>
+  </footer>
+
+  <script>
+    const sellers = [
+      {
+        id: "68302329",
+        name: "Soni Art Exports",
+        initials: "SA",
+        tagline: "Manufacturer of Handcrafted Wooden & Iron Furniture · Jodhpur, Rajasthan",
+        badges: ["Verified", "Exporter", "GST Registered"],
+        stats: [
+          { val: "7+", label: "Years Active" },
+          { val: "48+", label: "Products" },
+          { val: "100+", label: "Artisans" },
+          { val: "4.8★", label: "Rating" },
+          { val: "PAN India", label: "Delivery" }
+        ],
+        about: `Established as a Sole Proprietorship firm in 2018, <strong>Soni Art Exports</strong> is a leading manufacturer of wooden and iron handcrafted furniture based in Jodhpur, Rajasthan. Under the mentorship of Mr. Ramesh Vishnoi, the company works with 100+ skilled local artisans to produce bespoke furniture — from dining sets and beds to hotel and hospitality pieces — delivered pan India via trusted logistics partners.`,
+        tags: ["Sheesham Wood", "Iron Furniture", "Hospitality", "Custom Orders", "Hotel Furniture", "Home Décor", "Exporter"],
+        products: [
+          { name: "Sheesham Wood King Size Bed", price: "₹32,000 – 45,000", emoji: "🛏️", label: "Bestseller" },
+          { name: "Bar Stool Cane Back", price: "₹4,500 – 6,200", emoji: "🪑" },
+          { name: "Sideboard 3 Drawer", price: "₹18,000 – 24,000", emoji: "🗃️" },
+          { name: "Dining Table Set (6 Seater)", price: "₹55,000 – 75,000", emoji: "🍽️", label: "Popular" },
+          { name: "Coffee Table Sheesham", price: "₹9,800 – 14,000", emoji: "☕" },
+          { name: "Wardrobe Jupiter", price: "₹28,000 – 38,000", emoji: "🚪" },
+          { name: "Iron Bookshelf", price: "₹5,500 – 8,500", emoji: "📚" },
+          { name: "Wooden Trunk Box", price: "₹3,200 – 4,800", emoji: "📦" },
+        ],
+        categories: [
+          { icon: "🪑", name: "Seating & Sofas", count: "14 products" },
+          { icon: "🛏️", name: "Beds & Bedroom", count: "9 products" },
+          { icon: "🍽️", name: "Dining Furniture", count: "8 products" },
+          { icon: "🗃️", name: "Storage & Display", count: "10 products" },
+          { icon: "🏨", name: "Hotel & Hospitality", count: "7 products" },
+        ],
+        social: [
+          {
+            type: "instagram", name: "Instagram", handle: "@soniartexports", icon: "📸",
+            color: "#E1306C", bgColor: "#FDE8F0", followers: "2.1K",
+            posts: [
+              { emoji: "🪑", likes: "342", caption: "New arrivals! Sheesham Wood Chair set — crafted for elegance and comfort." },
+              { emoji: "🛏️", likes: "218", caption: "King-size bed customized for a client in Chennai. Pure Sheesham!" },
+              { emoji: "🏨", likes: "198", caption: "Hotel furniture project completed — Udaipur resort." },
+              { emoji: "🪵", likes: "412", caption: "Workshop tour: our artisans at work crafting each piece by hand." },
+              { emoji: "☕", caption: "Coffee table collection — 2025 edition. DM to order!", likes: "276" },
+            ]
+          },
+          {
+            type: "facebook", name: "Facebook", handle: "soniartexp", icon: "👍",
+            color: "#1877F2", bgColor: "#E7F0FD", followers: "1.1K",
+            posts: [
+              { emoji: "🎉", likes: "89", caption: "We're thrilled to announce delivery milestone — 500+ orders completed!" },
+              { emoji: "🪑", likes: "65", caption: "Introducing our new French Style furniture line — elegance meets durability." },
+              { emoji: "📦", likes: "47", caption: "Safe packaging, on-time delivery — customer satisfaction is our priority." },
+              { emoji: "🌟", likes: "102", caption: "5-star review from a client in Bangalore! Thank you for the love!" },
+            ]
+          },
+          {
+            type: "youtube", name: "YouTube", handle: "Soni Art Exports", icon: "▶️",
+            color: "#FF0000", bgColor: "#FDE8E8", followers: "890",
+            isYoutube: true,
+            posts: [
+              { emoji: "🏭", title: "Soni Art Workshop Tour – See How We Craft Furniture", views: "8.4K views", duration: "6:24" },
+              { emoji: "🛏️", title: "CanaLuxe Round Back Cane Chair Assembly & Review", views: "4.1K views", duration: "3:12" },
+              { emoji: "🪑", title: "Bar Stool Collection 2024 – Full Showcase", views: "2.9K views", duration: "4:55" },
+              { emoji: "📦", title: "Order Unboxing – King Size Sheesham Bed | Customer Video", views: "6.2K views", duration: "5:01" },
+            ]
+          }
+        ],
+        reviews: {
+          score: "4.8",
+          count: "86 reviews",
+          bars: [{ star: 5, pct: 78 }, { star: 4, pct: 14 }, { star: 3, pct: 5 }, { star: 2, pct: 2 }, { star: 1, pct: 1 }],
+          list: [
+            { name: "Priya Sundar", initials: "PS", color: "#E8F2FB", textColor: "#1A6FBF", source: "Google", stars: 5, text: "Found Soni Art through IndiaMart and placed an order from Chennai. Mr. Ramesh responded immediately and coordinated everything perfectly. Packaging was intact, quality exceeded expectations. Highly recommended!", date: "Feb 2026" },
+            { name: "Arun Mehta", initials: "AM", color: "#E1F5EE", textColor: "#0F6E56", source: "Website", stars: 5, text: "Ordered a Pooja mandir and bookshelf — the team was attentive to customization (dimensions, wood type, colour). The craftsmanship is top-notch and delivery was on time.", date: "Jan 2026" },
+            { name: "Siddharth Rao", initials: "SR", color: "#FFF3DC", textColor: "#854F0B", source: "Google", stars: 4, text: "Excellent quality furniture for our hotel project. Some minor finishing issues but Mr. Ramesh resolved them promptly. Will order again for our next property.", date: "Dec 2025" },
+            { name: "Nalini Krishnan", initials: "NK", color: "#FBEAF0", textColor: "#993556", source: "Google", stars: 5, text: "Dedicated work by the Soni Art team. My daughter had ordered furniture last year and we were so pleased we ordered again for our son's home. Truly a reliable seller.", date: "Nov 2025" },
+          ]
+        },
+        contact: {
+          phone: "+91 98290 XXXXX",
+          email: "info@soniart.in",
+          website: "soniart.in",
+          address: "Khasra No. 30/2, Salawas Main Road, Tanawara, Jodhpur, Rajasthan 342013",
+          whatsapp: null,
+          gst: "08AQDPV9912F1ZH",
+          socialLinks: [
+            { label: "Instagram", icon: "📸", color: "#E1306C", url: "#" },
+            { label: "Facebook", icon: "👍", color: "#1877F2", url: "#" },
+            { label: "YouTube", icon: "▶️", color: "#FF0000", url: "#" },
+            { label: "LinkedIn", icon: "💼", color: "#0077B5", url: "#" },
+            { label: "Pinterest", icon: "📌", color: "#E60023", url: "#" },
+            { label: "X/Twitter", icon: "𝕏", color: "#000", url: "#" },
+          ]
+        },
+        biz: [
+          { label: "Est. Year", val: "2018" },
+          { label: "Nature", val: "Manufacturer" },
+          { label: "Legal Status", val: "Proprietorship" },
+          { label: "GST No.", val: "08AQDPV…ZH" },
+          { label: "Export Status", val: "Certified Exporter" },
+          { label: "Team Size", val: "11–25 people" },
+        ]
+      },
+      {
+        id: "6884342",
+        name: "A S Sewing Machines",
+        initials: "AS",
+        tagline: "Dealer & Supplier of Industrial Sewing Machines · Delhi, India",
+        badges: ["Verified", "GST Registered"],
+        stats: [
+          { val: "15+", label: "Years Active" },
+          { val: "30+", label: "Products" },
+          { val: "500+", label: "Clients" },
+          { val: "4.5★", label: "Rating" },
+          { val: "North India", label: "Coverage" }
+        ],
+        about: `<strong>A S Sewing Machines</strong> is a well-established dealer and supplier of industrial and domestic sewing machines based in Delhi. With over 15 years of experience, they provide a comprehensive range of sewing equipment, spare parts, and after-sales services to garment factories, tailoring shops, and individual customers across North India.`,
+        tags: ["Industrial Sewing", "Domestic Sewing", "Spare Parts", "After-sales Service", "Overlock", "Flat-bed"],
+        products: [
+          { name: "Industrial Lockstitch Machine", price: "₹12,000 – 18,000", emoji: "🪡", label: "Bestseller" },
+          { name: "Overlock Sewing Machine 5-thread", price: "₹8,500 – 14,000", emoji: "🧵" },
+          { name: "Buttonhole Machine", price: "₹6,200 – 9,000", emoji: "⚙️" },
+          { name: "Embroidery Machine (Single Head)", price: "₹45,000 – 65,000", emoji: "🌸", label: "Popular" },
+          { name: "Domestic Sewing Machine", price: "₹3,500 – 6,000", emoji: "🪡" },
+          { name: "Cutting Machine (Round Knife)", price: "₹4,800 – 7,500", emoji: "✂️" },
+        ],
+        categories: [
+          { icon: "🪡", name: "Industrial Machines", count: "12 products" },
+          { icon: "🧵", name: "Domestic Machines", count: "8 products" },
+          { icon: "⚙️", name: "Spare Parts", count: "15+ items" },
+          { icon: "🌸", name: "Embroidery", count: "4 products" },
+        ],
+        social: [
+          {
+            type: "instagram", name: "Instagram", handle: "@assewingmachines", icon: "📸",
+            color: "#E1306C", bgColor: "#FDE8F0", followers: "850",
+            posts: [
+              { emoji: "🪡", likes: "112", caption: "Latest industrial lockstitch machine now in stock. Best price guaranteed!" },
+              { emoji: "⚙️", likes: "78", caption: "Genuine spare parts available. Call us for availability." },
+              { emoji: "🧵", caption: "New stock of domestic machines arrived. Perfect for home tailoring.", likes: "95" },
+              { emoji: "🌸", likes: "134", caption: "Single-head embroidery machine — see it in action at our Delhi showroom." },
+            ]
+          },
+          {
+            type: "facebook", name: "Facebook", handle: "ASsewingmachines", icon: "👍",
+            color: "#1877F2", bgColor: "#E7F0FD", followers: "1.4K",
+            posts: [
+              { emoji: "🛒", likes: "56", caption: "Special Diwali offers on all sewing machines! Call now for best rates." },
+              { emoji: "🪡", likes: "43", caption: "New overlock machines — 5-thread and 3-thread models available." },
+              { emoji: "⭐", likes: "72", caption: "Thank you for 500+ satisfied customers! Your trust drives us." },
+            ]
+          }
+        ],
+        reviews: {
+          score: "4.5",
+          count: "52 reviews",
+          bars: [{ star: 5, pct: 65 }, { star: 4, pct: 22 }, { star: 3, pct: 8 }, { star: 2, pct: 3 }, { star: 1, pct: 2 }],
+          list: [
+            { name: "Rajan Kapoor", initials: "RK", color: "#E8F2FB", textColor: "#1A6FBF", source: "JustDial", stars: 5, text: "Bought an industrial lockstitch from A S Sewing — very good quality and the after-sales service has been excellent. Would recommend to any garment unit owner.", date: "Jan 2026" },
+            { name: "Meena Sharma", initials: "MS", color: "#E1F5EE", textColor: "#0F6E56", source: "Google", stars: 4, text: "Good range of machines at fair prices. Delivery took a bit longer than expected but overall happy with the purchase.", date: "Dec 2025" },
+          ]
+        },
+        contact: {
+          phone: "+91 98110 XXXXX",
+          email: null,
+          website: "assewingmachines.com",
+          address: "Delhi, India (exact address on request)",
+          whatsapp: "+91 98110 XXXXX",
+          gst: "07XXXXX1234X1ZY",
+          socialLinks: [
+            { label: "Instagram", icon: "📸", color: "#E1306C", url: "#" },
+            { label: "Facebook", icon: "👍", color: "#1877F2", url: "#" },
+            { label: "JustDial", icon: "📞", color: "#F7921E", url: "#" },
+            { label: "WhatsApp", icon: "💬", color: "#25D366", url: "#" },
+          ]
+        },
+        biz: [
+          { label: "Est. Year", val: "~2009" },
+          { label: "Nature", val: "Dealer / Supplier" },
+          { label: "Legal Status", val: "Proprietorship" },
+          { label: "Speciality", val: "Industrial Sewing" },
+          { label: "Location", val: "Delhi, India" },
+          { label: "Team Size", val: "5–10 people" },
+        ]
+      },
+      {
+        id: "180970551",
+        name: "Floortech Enterprise",
+        initials: "FE",
+        tagline: "Supplier of Flooring Solutions & Construction Materials · India",
+        badges: ["Verified", "TradeIndia Certified"],
+        stats: [
+          { val: "10+", label: "Years Active" },
+          { val: "60+", label: "Products" },
+          { val: "200+", label: "Projects" },
+          { val: "4.6★", label: "Rating" },
+          { val: "National", label: "Delivery" }
+        ],
+        about: `<strong>Floortech Enterprise</strong> is a leading supplier of premium flooring materials and construction products. Offering a wide range of vitrified tiles, wooden flooring, vinyl flooring, and industrial floorings, they cater to residential, commercial, and industrial clients. Listed on TradeIndia and ExportersIndia with verified credentials.`,
+        tags: ["Vitrified Tiles", "Wooden Flooring", "Vinyl Flooring", "Industrial Flooring", "Epoxy Coating", "Construction Materials"],
+        products: [
+          { name: "Vitrified Floor Tiles (600x600mm)", price: "₹45 – 85/sqft", emoji: "⬛", label: "Bestseller" },
+          { name: "Wooden Laminate Flooring", price: "₹55 – 120/sqft", emoji: "🪵" },
+          { name: "Vinyl Sheet Flooring", price: "₹35 – 60/sqft", emoji: "📋" },
+          { name: "Anti-Skid Tiles", price: "₹50 – 95/sqft", emoji: "🛡️", label: "Popular" },
+          { name: "Epoxy Floor Coating", price: "₹80 – 150/sqft", emoji: "🎨" },
+          { name: "Carpet Tiles", price: "₹65 – 110/sqft", emoji: "🟫" },
+        ],
+        categories: [
+          { icon: "⬛", name: "Ceramic & Vitrified Tiles", count: "20 products" },
+          { icon: "🪵", name: "Wooden & Laminate", count: "12 products" },
+          { icon: "📋", name: "Vinyl & PVC", count: "10 products" },
+          { icon: "🎨", name: "Epoxy & Coatings", count: "8 products" },
+          { icon: "🏗️", name: "Construction Materials", count: "10 products" },
+        ],
+        social: [
+          {
+            type: "instagram", name: "Instagram", handle: "@floortechenterprise", icon: "📸",
+            color: "#E1306C", bgColor: "#FDE8F0", followers: "620",
+            posts: [
+              { emoji: "⬛", likes: "87", caption: "Newly installed vitrified tiles at a commercial complex in Pune. Stunning finish!" },
+              { emoji: "🪵", likes: "65", caption: "Wooden laminate flooring — warm, durable and gorgeous. Available in 12+ shades." },
+              { emoji: "🎨", caption: "Epoxy floor coating completed for a warehouse project. Contact for bulk quotes.", likes: "73" },
+            ]
+          },
+          {
+            type: "youtube", name: "YouTube", handle: "Floortech Enterprise", icon: "▶️",
+            color: "#FF0000", bgColor: "#FDE8E8", followers: "340",
+            isYoutube: true,
+            posts: [
+              { emoji: "🏗️", title: "How to Install Vitrified Tiles — Step-by-Step Guide", views: "3.2K views", duration: "8:10" },
+              { emoji: "🪵", title: "Wooden Laminate Flooring vs Hardwood — Which is Better?", views: "2.7K views", duration: "5:30" },
+            ]
+          }
+        ],
+        reviews: {
+          score: "4.6",
+          count: "38 reviews",
+          bars: [{ star: 5, pct: 70 }, { star: 4, pct: 18 }, { star: 3, pct: 7 }, { star: 2, pct: 3 }, { star: 1, pct: 2 }],
+          list: [
+            { name: "Ashish Patel", initials: "AP", color: "#E8F2FB", textColor: "#1A6FBF", source: "TradeIndia", stars: 5, text: "Used Floortech for our office renovation. Excellent tile quality and on-time delivery. Their team is very professional and responsive.", date: "Feb 2026" },
+            { name: "Sunita Rao", initials: "SR", color: "#E1F5EE", textColor: "#0F6E56", source: "Google", stars: 4, text: "Good quality vitrified tiles at a reasonable price. Installation support could have been better.", date: "Nov 2025" },
+          ]
+        },
+        contact: {
+          phone: "+91 97XXX XXXXX",
+          email: "contact@floortechenterprise.com",
+          website: "floortechenterprise.com",
+          address: "India (Location details on request)",
+          whatsapp: null,
+          gst: "GSTIN On Request",
+          socialLinks: [
+            { label: "Instagram", icon: "📸", color: "#E1306C", url: "#" },
+            { label: "YouTube", icon: "▶️", color: "#FF0000", url: "#" },
+            { label: "TradeIndia", icon: "🔗", color: "#E47F00", url: "#" },
+            { label: "JustDial", icon: "📞", color: "#F7921E", url: "#" },
+          ]
+        },
+        biz: [
+          { label: "Est. Year", val: "~2015" },
+          { label: "Nature", val: "Supplier / Retailer" },
+          { label: "Certifications", val: "TradeIndia Certified" },
+          { label: "Segment", val: "B2B & B2C" },
+          { label: "Delivery", val: "Pan India" },
+          { label: "Speciality", val: "Premium Flooring" },
+        ]
+      },
+      {
+        id: "159",
+        name: "Khalique Sons International",
+        initials: "KS",
+        tagline: "Exporter & Manufacturer of Leather Goods & Garments · Kolkata, India",
+        badges: ["Verified", "Exporter", "GST Registered"],
+        stats: [
+          { val: "25+", label: "Years Active" },
+          { val: "80+", label: "Products" },
+          { val: "50+", label: "Countries" },
+          { val: "4.7★", label: "Rating" },
+          { val: "Global", label: "Export" }
+        ],
+        about: `<strong>Khalique Sons International</strong> is a heritage manufacturer and exporter of premium leather goods, garments, and accessories, headquartered in Kolkata. With over 25 years of export experience, they supply to buyers across Europe, USA, Middle East and Southeast Asia. Their product line includes leather bags, jackets, belts, wallets, and garment accessories.`,
+        tags: ["Leather Bags", "Jackets", "Belts", "Wallets", "Garments", "Export", "B2B"],
+        products: [
+          { name: "Genuine Leather Handbag", price: "₹1,200 – 3,500", emoji: "👜", label: "Bestseller" },
+          { name: "Leather Jacket (Men's)", price: "₹4,500 – 8,000", emoji: "🧥", label: "Popular" },
+          { name: "Leather Belt (Formal)", price: "₹350 – 850", emoji: "👔" },
+          { name: "Leather Wallet Bifold", price: "₹450 – 1,200", emoji: "💼" },
+          { name: "Ladies Tote Bag", price: "₹1,800 – 4,200", emoji: "🛍️" },
+          { name: "Leather Key Pouch", price: "₹180 – 350", emoji: "🔑" },
+        ],
+        categories: [
+          { icon: "👜", name: "Bags & Handbags", count: "22 products" },
+          { icon: "🧥", name: "Leather Jackets", count: "15 products" },
+          { icon: "👔", name: "Belts & Wallets", count: "18 products" },
+          { icon: "🛍️", name: "Ladies Accessories", count: "12 products" },
+          { icon: "🌐", name: "Export Range", count: "Special MOQ" },
+        ],
+        social: [
+          {
+            type: "instagram", name: "Instagram", handle: "@khaliquesonsintl", icon: "📸",
+            color: "#E1306C", bgColor: "#FDE8F0", followers: "3.2K",
+            posts: [
+              { emoji: "👜", likes: "524", caption: "New season leather bag collection — handcrafted in Kolkata. DM for wholesale inquiry." },
+              { emoji: "🧥", likes: "389", caption: "Classic leather jacket — timeless style, premium Nappa leather." },
+              { emoji: "👔", caption: "Formal belt range now available in 8 colours. MOQ 50 pcs for export.", likes: "278" },
+              { emoji: "💼", likes: "312", caption: "Corporate gifting? Customized leather wallets with logo embossing available!" },
+              { emoji: "🌍", likes: "445", caption: "Proud exporters — serving clients in 50+ countries. Quality without compromise." },
+            ]
+          },
+          {
+            type: "facebook", name: "Facebook", handle: "Khalique Sons International", icon: "👍",
+            color: "#1877F2", bgColor: "#E7F0FD", followers: "2.8K",
+            posts: [
+              { emoji: "🏆", likes: "198", caption: "Proud recipients of Best Exporter Award at Kolkata Trade Fair 2025!" },
+              { emoji: "👜", likes: "156", caption: "Winter collection 2025 — leather bags and jackets available for bulk order." },
+              { emoji: "🌐", likes: "143", caption: "Expanding to new markets! Now exporting to Scandinavia and Canada." },
+            ]
+          },
+          {
+            type: "youtube", name: "YouTube", handle: "Khalique Sons Intl", icon: "▶️",
+            color: "#FF0000", bgColor: "#FDE8E8", followers: "1.2K",
+            isYoutube: true,
+            posts: [
+              { emoji: "🏭", title: "Inside Khalique Sons Factory — Leather Crafting Process", views: "11.2K views", duration: "9:45" },
+              { emoji: "👜", title: "Leather Bag Collection 2025 — Full Catalogue Showcase", views: "5.8K views", duration: "7:20" },
+              { emoji: "🌍", title: "Export Process Explained — How We Ship Worldwide", views: "3.4K views", duration: "4:30" },
+            ]
+          }
+        ],
+        reviews: {
+          score: "4.7",
+          count: "124 reviews",
+          bars: [{ star: 5, pct: 80 }, { star: 4, pct: 12 }, { star: 3, pct: 5 }, { star: 2, pct: 2 }, { star: 1, pct: 1 }],
+          list: [
+            { name: "Ahmed Al-Rashid", initials: "AR", color: "#E8F2FB", textColor: "#1A6FBF", source: "Google", stars: 5, text: "Outstanding quality leather bags. We have been importing from Khalique Sons for 3 years. Consistent quality and on-time shipment. Highly recommended for bulk buyers.", date: "Mar 2026" },
+            { name: "Priti Bhattacharya", initials: "PB", color: "#FFF3DC", textColor: "#854F0B", source: "Website", stars: 5, text: "Ordered customized wallets for corporate gifting — logo embossing was perfect and packaging was impressive. Will order again!", date: "Jan 2026" },
+            { name: "Vikram Nair", initials: "VN", color: "#E1F5EE", textColor: "#0F6E56", source: "IndiaMart", stars: 4, text: "Good quality products and very responsive team. Minor delay in shipment but communication was transparent. Overall great experience.", date: "Dec 2025" },
+          ]
+        },
+        contact: {
+          phone: "+91 98300 XXXXX",
+          email: "exports@khaliquesons.com",
+          website: "khaliquesons.com",
+          address: "Kolkata, West Bengal, India",
+          whatsapp: null,
+          gst: "19XXXXX5678X1ZK",
+          socialLinks: [
+            { label: "Instagram", icon: "📸", color: "#E1306C", url: "#" },
+            { label: "Facebook", icon: "👍", color: "#1877F2", url: "#" },
+            { label: "YouTube", icon: "▶️", color: "#FF0000", url: "#" },
+            { label: "X/Twitter", icon: "𝕏", color: "#000", url: "#" },
+          ]
+        },
+        biz: [
+          { label: "Est. Year", val: "~2000" },
+          { label: "Nature", val: "Manufacturer & Exporter" },
+          { label: "Legal Status", val: "Partnership Firm" },
+          { label: "Export Markets", val: "50+ Countries" },
+          { label: "Speciality", val: "Premium Leather Goods" },
+          { label: "Team Size", val: "50+ people" },
+        ]
+      },
+      {
+        id: "40558",
+        name: "Jhas Industries",
+        initials: "JI",
+        tagline: "Manufacturer of Industrial Equipment & Components · India",
+        badges: ["Verified", "MSME Registered", "TradeIndia Listed"],
+        stats: [
+          { val: "20+", label: "Years Active" },
+          { val: "40+", label: "Products" },
+          { val: "300+", label: "Clients" },
+          { val: "4.5★", label: "Rating" },
+          { val: "PAN India", label: "Delivery" }
+        ],
+        about: `<strong>Jhas Industries</strong> is a seasoned MSME-registered manufacturer of industrial equipment, components, and engineering parts. With decades of experience, the company serves diverse industrial sectors including chemical processing, food manufacturing, and general engineering. Registered on TradeIndia and the MSME Portal with verified credentials.`,
+        tags: ["Industrial Equipment", "Engineering Parts", "MSME", "Chemical Processing", "Food Equipment", "Custom Fabrication"],
+        products: [
+          { name: "Industrial Conveyor Belt System", price: "₹45,000 – 1,20,000", emoji: "⚙️", label: "Popular" },
+          { name: "Stainless Steel Tank (Food Grade)", price: "₹28,000 – 75,000", emoji: "🥣" },
+          { name: "Gear Box Assembly", price: "₹8,500 – 22,000", emoji: "🔧", label: "Bestseller" },
+          { name: "Hydraulic Press Machine", price: "₹55,000 – 1,50,000", emoji: "🏗️" },
+          { name: "Industrial Pump (Centrifugal)", price: "₹12,000 – 35,000", emoji: "💧" },
+          { name: "Filter Housing Unit", price: "₹6,500 – 18,000", emoji: "🔩" },
+        ],
+        categories: [
+          { icon: "⚙️", name: "Conveyor Systems", count: "8 products" },
+          { icon: "🥣", name: "Food Processing Equipment", count: "10 products" },
+          { icon: "🔧", name: "Gear & Mechanical", count: "12 products" },
+          { icon: "🏗️", name: "Hydraulic & Pneumatic", count: "7 products" },
+          { icon: "💧", name: "Pumps & Tanks", count: "6 products" },
+        ],
+        social: [
+          {
+            type: "instagram", name: "Instagram", handle: "@jhasindustries", icon: "📸",
+            color: "#E1306C", bgColor: "#FDE8F0", followers: "780",
+            posts: [
+              { emoji: "⚙️", likes: "98", caption: "Custom conveyor belt system installed at a pharmaceutical unit. Precision engineering!" },
+              { emoji: "🥣", likes: "76", caption: "Stainless steel food-grade tank — hygiene certified and built to last." },
+              { emoji: "🔧", caption: "Our gear box assemblies are powering factories across 10 states. Order now!", likes: "89" },
+            ]
+          },
+          {
+            type: "facebook", name: "Facebook", handle: "Jhas Industries", icon: "👍",
+            color: "#1877F2", bgColor: "#E7F0FD", followers: "1.6K",
+            posts: [
+              { emoji: "🏭", likes: "134", caption: "MSME Export Award recognition 2025 — proud to serve Indian manufacturing!" },
+              { emoji: "⚙️", likes: "87", caption: "New product launch: Food-grade centrifugal pumps with 2-year warranty." },
+              { emoji: "🤝", likes: "65", caption: "Partnership with 3 new industrial distributors across Gujarat and Maharashtra." },
+            ]
+          },
+          {
+            type: "youtube", name: "YouTube", handle: "Jhas Industries", icon: "▶️",
+            color: "#FF0000", bgColor: "#FDE8E8", followers: "560",
+            isYoutube: true,
+            posts: [
+              { emoji: "🏭", title: "Jhas Industries Factory Overview — Engineering Excellence", views: "4.6K views", duration: "7:15" },
+              { emoji: "⚙️", title: "Conveyor Belt Installation — Step by Step", views: "2.8K views", duration: "5:40" },
+              { emoji: "🔧", title: "Gear Box Maintenance Guide for Industrial Use", views: "3.1K views", duration: "6:00" },
+            ]
+          },
+          {
+            type: "linkedin", name: "LinkedIn", handle: "Jhas Industries", icon: "💼",
+            color: "#0077B5", bgColor: "#E8F4FA", followers: "420",
+            posts: [
+              { emoji: "🏭", likes: "87", caption: "Excited to announce our expanded manufacturing facility — 2x production capacity from Q2 2025." },
+              { emoji: "📈", likes: "65", caption: "How industrial automation is transforming Indian SMEs — our experience over 20 years." },
+              { emoji: "🤝", caption: "Welcoming our new partnerships with leading distributors in the western region.", likes: "72" },
+            ]
+          }
+        ],
+        reviews: {
+          score: "4.5",
+          count: "67 reviews",
+          bars: [{ star: 5, pct: 62 }, { star: 4, pct: 25 }, { star: 3, pct: 8 }, { star: 2, pct: 3 }, { star: 1, pct: 2 }],
+          list: [
+            { name: "Mahesh Gupta", initials: "MG", color: "#E8F2FB", textColor: "#1A6FBF", source: "TradeIndia", stars: 5, text: "Procured a gear box assembly from Jhas Industries. Excellent build quality, delivered on time, and the support team was helpful with installation queries.", date: "Feb 2026" },
+            { name: "Rekha Tiwari", initials: "RT", color: "#E1F5EE", textColor: "#0F6E56", source: "Google", stars: 4, text: "Good quality industrial pumps at competitive prices. Would like faster delivery next time, but otherwise very satisfied.", date: "Jan 2026" },
+            { name: "Ankit Shah", initials: "AS", color: "#FFF3DC", textColor: "#854F0B", source: "MSME Portal", stars: 5, text: "Jhas Industries is our go-to supplier for conveyor components. Consistent quality, professional team, and fair pricing.", date: "Dec 2025" },
+          ]
+        },
+        contact: {
+          phone: "+91 99XXX XXXXX",
+          email: "info@jhasindustries.com",
+          website: "jhasindustries.com",
+          address: "India (multiple locations, details on request)",
+          whatsapp: "+91 99XXX XXXXX",
+          gst: "GSTIN Registered",
+          socialLinks: [
+            { label: "Instagram", icon: "📸", color: "#E1306C", url: "#" },
+            { label: "Facebook", icon: "👍", color: "#1877F2", url: "#" },
+            { label: "YouTube", icon: "▶️", color: "#FF0000", url: "#" },
+            { label: "LinkedIn", icon: "💼", color: "#0077B5", url: "#" },
+            { label: "TradeIndia", icon: "🔗", color: "#E47F00", url: "#" },
+            { label: "MSME Portal", icon: "🏛️", color: "#1D9E75", url: "#" },
+          ]
+        },
+        biz: [
+          { label: "Est. Year", val: "~2005" },
+          { label: "Nature", val: "Manufacturer" },
+          { label: "Legal Status", val: "MSME Registered" },
+          { label: "Certifications", val: "TradeIndia Listed" },
+          { label: "Sectors Served", val: "Multi-Industry" },
+          { label: "Team Size", val: "25–50 people" },
+        ]
+      }
+    ];
+
+    let currentSeller = 0;
+
+    function loadSeller(idx) {
+      currentSeller = idx;
+      document.querySelectorAll('.seller-tab').forEach((t, i) => t.classList.toggle('active', i === idx));
+      const s = sellers[idx];
+      renderSeller(s);
+    }
+
+    function renderSeller(s) {
+      // Avatar
+      document.getElementById('seller-avatar').textContent = s.initials;
+      document.getElementById('hero-name').textContent = s.name;
+      document.getElementById('hero-subtitle').innerHTML = s.tagline;
+      document.getElementById('cta-title').textContent = `Get Best Quote from ${s.name}`;
+      document.getElementById('map-label').textContent = s.contact.address.split(',').slice(-3).join(',').trim();
+
+      // Badges
+      const badgesEl = document.getElementById('hero-badges');
+      badgesEl.innerHTML = s.badges.map(b => {
+        const cls = b.includes('Verified') ? 'badge-verified' : b.includes('port') ? 'badge-exporter' : 'badge-gst';
+        return `<span class="badge ${cls}">${b.includes('Verified') ? '✓ ' : ''}${b}</span>`;
+      }).join('');
+
+      // Stats
+      document.getElementById('hero-stats').innerHTML = s.stats.map(st =>
+        `<div class="hero-stat"><div class="hero-stat-val">${st.val}</div><div class="hero-stat-label">${st.label}</div></div>`
+      ).join('');
+
+      // About
+      document.getElementById('about-text').innerHTML = s.about;
+      document.getElementById('about-tags').innerHTML = s.tags.map(t => `<span class="tag">${t}</span>`).join('');
+
+      // Products
+      document.getElementById('products-grid').innerHTML = s.products.map(p => `
+    <div class="product-card">
+      <div class="product-img">${p.emoji}${p.label ? `<span class="product-img-label">${p.label}</span>` : ''}</div>
+      <div class="product-info">
+        <div class="product-name">${p.name}</div>
+        <div class="product-price">${p.price}</div>
+      </div>
+    </div>
+  `).join('');
+
+      // Categories
+      document.getElementById('category-grid').innerHTML = s.categories.map(c => `
+    <div class="category-item">
+      <div class="cat-icon">${c.icon}</div>
+      <span class="cat-name">${c.name}</span>
+      <span class="cat-count">${c.count}</span>
+    </div>
+  `).join('');
+
+      // Social
+      const socialEl = document.getElementById('social-sections');
+      socialEl.innerHTML = '';
+      s.social.forEach(soc => {
+        const section = document.createElement('div');
+        section.className = 'social-section';
+        if (soc.isYoutube) {
+          section.innerHTML = `
+        <div class="social-header">
+          <div class="social-icon" style="background:${soc.bgColor};color:${soc.color};">${soc.icon}</div>
+          <div>
+            <div class="social-name" style="color:${soc.color}">${soc.name}</div>
+            <div class="social-handle">${soc.handle} · ${soc.followers} subscribers</div>
+          </div>
+          <button class="social-follow" style="color:${soc.color};border-color:${soc.color}">Subscribe</button>
+        </div>
+        ${soc.posts.map(p => `
+          <div class="yt-card">
+            <div class="yt-thumb">
+              ${p.emoji}
+              <div class="yt-play"><div class="yt-play-btn">▶</div></div>
+            </div>
+            <div class="yt-info">
+              <div class="yt-title">${p.title}</div>
+              <div class="yt-meta">${p.views} · ${p.duration}</div>
+            </div>
+          </div>
+        `).join('')}
+        <hr class="divider">
+      `;
+        } else {
+          section.innerHTML = `
+        <div class="social-header">
+          <div class="social-icon" style="background:${soc.bgColor};color:${soc.color};">${soc.icon}</div>
+          <div>
+            <div class="social-name" style="color:${soc.color}">${soc.name}</div>
+            <div class="social-handle">${soc.handle} · ${soc.followers} followers</div>
+          </div>
+          <button class="social-follow" style="color:${soc.color};border-color:${soc.color}">Follow</button>
+        </div>
+        <div class="posts-grid">
+          ${soc.posts.map(p => `
+            <div class="post-card">
+              <div class="post-thumb">
+                ${p.emoji}
+                <div class="post-likes">❤ ${p.likes}</div>
+              </div>
+              <div class="post-caption">${p.caption}</div>
+            </div>
+          `).join('')}
+        </div>
+        <hr class="divider">
+      `;
+        }
+        socialEl.appendChild(section);
+      });
+
+      // Reviews
+      const rv = s.reviews;
+      document.getElementById('review-score').textContent = rv.score;
+      document.getElementById('review-count').textContent = rv.count;
+      document.getElementById('rating-bars').innerHTML = rv.bars.map(b => `
+    <div class="rating-row">
+      <span>${b.star}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${b.pct}%"></div></div>
+      <span>${b.pct}%</span>
+    </div>
+  `).join('');
+      document.getElementById('reviews-list').innerHTML = rv.list.map(r => `
+    <div class="review-card">
+      <div class="reviewer-row">
+        <div class="reviewer-avatar" style="background:${r.color};color:${r.textColor};">${r.initials}</div>
+        <div>
+          <div class="reviewer-name">${r.name}</div>
+          <div class="reviewer-source">${r.source}</div>
+        </div>
+        <div class="review-stars">${'★'.repeat(r.stars)}${'☆'.repeat(5 - r.stars)}</div>
+      </div>
+      <div class="review-text">${r.text}</div>
+      <div class="review-date">${r.date}</div>
+    </div>
+  `).join('');
+
+      // Contact
+      const c = s.contact;
+      const contactItems = [];
+      contactItems.push({ icon: '📞', iconBg: '#E1F5EE', label: 'Phone', val: `<a href="tel:${c.phone}">${c.phone}</a>` });
+      if (c.whatsapp) contactItems.push({ icon: '💬', iconBg: '#E1F5EE', label: 'WhatsApp', val: `<a href="#">${c.whatsapp}</a>` });
+      if (c.email) contactItems.push({ icon: '✉️', iconBg: '#E8F2FB', label: 'Email', val: `<a href="mailto:${c.email}">${c.email}</a>` });
+      if (c.website) contactItems.push({ icon: '🌐', iconBg: '#E8F2FB', label: 'Website', val: `<a href="#" target="_blank">${c.website}</a>` });
+      contactItems.push({ icon: '📍', iconBg: '#FFF3DC', label: 'Address', val: c.address });
+
+      // Social links
+      document.getElementById('contact-list').innerHTML = contactItems.map(ci => `
+    <li class="contact-item">
+      <div class="contact-icon" style="background:${ci.iconBg}">${ci.icon}</div>
+      <div>
+        <div class="contact-label">${ci.label}</div>
+        <div class="contact-val">${ci.val}</div>
+      </div>
+    </li>
+  `).join('') + `
+    <li class="contact-item" style="flex-direction:column;align-items:flex-start;gap:8px;">
+      <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.04em;">Social Media</div>
+      <div class="social-links-row">
+        ${c.socialLinks.map(sl => `
+          <a href="${sl.url}" class="social-link-pill" style="color:${sl.color};">
+            <span style="font-size:14px;">${sl.icon}</span> ${sl.label}
+          </a>
+        `).join('')}
+      </div>
+    </li>
+  `;
+
+      // Biz info
+      document.getElementById('biz-info').innerHTML = s.biz.map(b => `
+    <div class="info-item">
+      <div class="info-item-label">${b.label}</div>
+      <div class="info-item-val">${b.val}</div>
+    </div>
+  `).join('');
+    }
+
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        this.closest('.tabs').querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Init
+    loadSeller(0);
+  </script>
+</body>
+
+</html>
