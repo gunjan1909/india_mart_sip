@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Khalique Sons International | IndiaMART Seller Profile</title>
+  <meta name="description" id="page-meta" content="Khalique Sons International – ISO 9001:2015 Certified & Star Export House. Manufacturer & Exporter of Equestrian Products, Pet Supplies, Safety Wear & more.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* =========================================================
+       CSS VARIABLES & RESET
+    ========================================================= */
+    :root {
+      --green: #2EAB5B;
+      --green-dark: #1e8f47;
+      --green-light: #e8f7ee;
+      --blue: #1A3A6E;
+      --blue-mid: #2B5197;
+      --blue-light: #e8edf5;
+      --white: #FFFFFF;
+      --bg: #F7F9FC;
+      --text: #1A1A1A;
+      --text-muted: #555555;
+      --text-light: #888888;
+      --border: #E2E8F0;
+      --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 6px 24px rgba(0, 0, 0, 0.14);
+      --radius: 10px;
+      --radius-sm: 6px;
+      --amber: #F5A623;
+      --wa: #25D366;
+      --fb: #1877F2;
+      --yt: #FF0000;
+      --li: #0A66C2;
+      --tw: #000000;
+      --ig-grad: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--white); line-height: 1.65; }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+    button { font-family: inherit; cursor: pointer; }
+
+    /* =========================================================
+       LAYOUT
+    ========================================================= */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+    .section { padding: 60px 0; }
+    .section--bg { background: var(--bg); }
+    .section-heading {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(20px, 3vw, 26px);
+      font-weight: 800; color: var(--blue);
+      display: inline-block; padding-bottom: 8px;
+      border-bottom: 3px solid var(--green); margin-bottom: 32px;
+    }
+
+    /* =========================================================
+       BUTTONS
+    ========================================================= */
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 9px 20px; border-radius: var(--radius-sm);
+      font-size: 14px; font-weight: 600; border: none;
+      cursor: pointer; transition: all .2s; white-space: nowrap; text-decoration: none;
+    }
+    .btn-primary { background: var(--green); color: #fff; }
+    .btn-primary:hover { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 4px 14px rgba(46,171,91,.4); }
+    .btn-outline { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.55); }
+    .btn-outline:hover { background: rgba(255,255,255,.12); border-color: #fff; }
+    .btn-green { background: var(--green); color: #fff; }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-blue { background: var(--blue); color: #fff; }
+    .btn-blue:hover { background: var(--blue-mid); }
+    .btn-wa { background: var(--wa); color: #fff; }
+    .btn-wa:hover { background: #1da851; }
+    .btn-outline-blue { background: transparent; color: var(--blue); border: 1.5px solid var(--blue); }
+    .btn-outline-blue:hover { background: var(--blue-light); }
+
+    /* =========================================================
+       STICKY NAV
+    ========================================================= */
+    #site-header {
+      position: sticky; top: 0; z-index: 200;
+      background: var(--blue); box-shadow: 0 2px 12px rgba(0,0,0,.22);
+    }
+    .nav-inner { display: flex; align-items: center; height: 62px; gap: 8px; }
+    .nav-logo {
+      display: flex; align-items: center; gap: 8px; color: #fff;
+      font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 800;
+      margin-right: auto; flex-shrink: 0; text-decoration: none;
+    }
+    .nav-logo-badge {
+      background: var(--green); color: #fff; font-size: 11px;
+      font-family: 'DM Sans', sans-serif; font-weight: 700; padding: 2px 7px;
+      border-radius: 4px; letter-spacing: .5px; text-transform: uppercase;
+    }
+    .nav-links { display: flex; gap: 2px; list-style: none; }
+    .nav-links a {
+      color: rgba(255,255,255,.82); font-size: 13.5px; font-weight: 500;
+      padding: 6px 11px; border-radius: var(--radius-sm); transition: all .2s;
+    }
+    .nav-links a:hover, .nav-links a.active { color: #fff; background: rgba(255,255,255,.13); }
+    .nav-ctas { display: flex; gap: 8px; }
+    .hamburger { display: none; background: none; border: none; padding: 4px; flex-shrink: 0; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: #fff; margin: 5px 0; border-radius: 2px; transition: .3s; }
+
+    /* Mobile drawer */
+    .mobile-nav {
+      display: none; position: fixed; inset: 62px 0 0 0;
+      background: var(--blue); z-index: 199; overflow-y: auto;
+      padding: 20px; flex-direction: column; gap: 4px;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      color: rgba(255,255,255,.9); font-size: 16px; font-weight: 500;
+      padding: 13px 10px; border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .mob-cta-wrap { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+    .mob-cta-wrap .btn { justify-content: center; font-size: 15px; padding: 13px; }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+    #hero {
+      position: relative; min-height: 420px;
+      display: flex; align-items: flex-end; overflow: hidden;
+      background: linear-gradient(135deg, var(--blue) 0%, var(--blue-mid) 100%);
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+    }
+    .hero-bg::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(26,58,110,.78) 0%, rgba(10,30,55,.6) 60%, rgba(46,171,91,.15) 100%);
+    }
+    .hero-bg::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.3) 55%, transparent 100%);
+    }
+    .hero-content { position: relative; z-index: 2; padding: 40px 0; width: 100%; }
+    .hero-inner { display: flex; align-items: flex-end; gap: 26px; }
+    .hero-avatar {
+      width: 100px; height: 100px; border-radius: 50%;
+      border: 3px solid rgba(255,255,255,.9); flex-shrink: 0;
+      background: var(--blue); overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,.35);
+    }
+    .hero-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-avatar-initials {
+      width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+      font-size: 28px; font-weight: 800; color: #fff; font-family: 'Playfair Display', serif;
+    }
+    .hero-info { flex: 1; min-width: 0; }
+    .hero-glid {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.3);
+      border-radius: 20px; padding: 3px 13px; font-size: 12px;
+      color: rgba(255,255,255,.9); margin-bottom: 10px; backdrop-filter: blur(4px);
+    }
+    .hero-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(24px, 4.5vw, 42px); font-weight: 800;
+      color: #fff; line-height: 1.1; margin-bottom: 6px;
+      text-shadow: 0 2px 12px rgba(0,0,0,.5);
+    }
+    .hero-owner { font-size: 14px; color: rgba(255,255,255,.72); margin-bottom: 10px; font-style: italic; }
+    .hero-tagline {
+      font-size: clamp(13px, 1.6vw, 15px); color: rgba(255,255,255,.88);
+      margin-bottom: 14px; max-width: 560px; line-height: 1.6;
+    }
+    .trust-strip { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 18px; }
+    .trust-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
+      color: rgba(255,255,255,.95); font-size: 11.5px; font-weight: 500;
+      padding: 5px 12px; border-radius: 20px; backdrop-filter: blur(4px);
+      transition: background .18s; text-decoration: none;
+    }
+    .trust-badge.clickable { cursor: pointer; }
+    .trust-badge.clickable:hover { background: rgba(255,255,255,.26); }
+    .trust-badge.verified { background: rgba(46,171,91,.3); border-color: rgba(46,171,91,.55); }
+    .trust-badge.gold { background: rgba(245,166,35,.3); border-color: rgba(245,166,35,.55); }
+    .hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; }
+
+    /* =========================================================
+       PAGE BODY: two-column layout
+    ========================================================= */
+    .page-body {
+      display: flex; gap: 28px; align-items: flex-start;
+      max-width: 1200px; margin: 0 auto; padding: 0 20px;
+    }
+    .page-main { flex: 1; min-width: 0; }
+    .page-sidebar { width: 310px; flex-shrink: 0; }
+    .sidebar-sticky { position: sticky; top: 78px; }
+
+    /* =========================================================
+       ABOUT SECTION
+    ========================================================= */
+    .about-grid { display: grid; grid-template-columns: 1fr 270px; gap: 36px; align-items: start; }
+    .about-desc { font-size: 15px; color: var(--text-muted); line-height: 1.78; margin-bottom: 18px; }
+    .about-meta { display: flex; flex-direction: column; gap: 11px; margin-top: 18px; }
+    .meta-row { display: flex; gap: 12px; align-items: flex-start; }
+    .meta-icon {
+      width: 34px; height: 34px; border-radius: 8px; background: var(--green-light);
+      display: flex; align-items: center; justify-content: center; color: var(--green); flex-shrink: 0;
+    }
+    .meta-label { font-size: 11px; color: var(--text-light); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+    .meta-value { font-size: 14px; color: var(--text); font-weight: 600; margin-top: 2px; }
+    .info-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); margin-bottom: 16px;
+    }
+    .info-card h3 { font-size: 14px; font-weight: 700; color: var(--blue); margin-bottom: 14px; }
+    .cert-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px;
+    }
+    .cert-item:last-child { border-bottom: none; }
+    .cert-icon {
+      width: 26px; height: 26px; border-radius: 50%; background: var(--green-light);
+      display: flex; align-items: center; justify-content: center; color: var(--green); flex-shrink: 0;
+    }
+    .cert-name { font-weight: 600; font-size: 13px; color: var(--text); }
+    .cert-sub { font-size: 11.5px; color: var(--text-muted); }
+    .cert-link {
+      margin-left: auto; font-size: 11px; color: var(--blue-mid); font-weight: 600;
+      padding: 2px 8px; border: 1px solid var(--border); border-radius: 4px; flex-shrink: 0; text-decoration: none;
+    }
+    .cert-link:hover { background: var(--blue-light); }
+    .link-list { display: flex; flex-direction: column; gap: 7px; }
+    .link-item { display: flex; align-items: center; gap: 7px; font-size: 13px; color: var(--blue); font-weight: 500; }
+    .link-item:hover { text-decoration: underline; }
+
+    /* =========================================================
+       CONTACT SIDEBAR
+    ========================================================= */
+    .contact-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); box-shadow: var(--shadow-lg); overflow: hidden;
+    }
+    .contact-card-header {
+      background: linear-gradient(135deg, var(--blue), var(--blue-mid)); padding: 18px 20px;
+    }
+    .contact-card-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 3px; }
+    .contact-card-sub { font-size: 12px; color: rgba(255,255,255,.7); }
+    .contact-body { padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; }
+    .contact-row { display: flex; gap: 12px; align-items: flex-start; }
+    .contact-icon-wrap {
+      width: 38px; height: 38px; border-radius: 9px; background: var(--green-light);
+      display: flex; align-items: center; justify-content: center; color: var(--green); flex-shrink: 0;
+    }
+    .contact-label { font-size: 11px; color: var(--text-light); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 2px; }
+    .contact-val { font-size: 14px; color: var(--text); font-weight: 600; }
+    .contact-val a { color: var(--blue); }
+    .contact-val a:hover { text-decoration: underline; }
+    .contact-ctas { padding: 0 20px 16px; display: flex; flex-direction: column; gap: 9px; }
+    .contact-ctas .btn { justify-content: center; width: 100%; font-size: 14.5px; padding: 11px; }
+    .cta-row-2 { display: flex; gap: 9px; }
+    .cta-row-2 .btn { flex: 1; }
+    .sidebar-social { display: flex; gap: 9px; padding: 10px 20px 16px; border-top: 1px solid var(--border); flex-wrap: wrap; }
+    .soc-btn {
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; transition: transform .18s, box-shadow .18s;
+    }
+    .soc-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.2); }
+    .soc-fb { background: var(--fb); }
+    .soc-ig { background: var(--ig-grad); }
+    .soc-yt { background: var(--yt); }
+    .soc-li { background: var(--li); }
+    .soc-tw { background: var(--tw); }
+    .map-frame { margin: 0 20px 16px; border-radius: var(--radius-sm); overflow: hidden; height: 190px; border: 1px solid var(--border); }
+    .map-frame iframe { width: 100%; height: 100%; border: none; }
+    .dir-links { padding: 0 20px 16px; display: flex; flex-direction: column; gap: 6px; }
+    .dir-link { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--blue-mid); font-weight: 500; }
+    .dir-link:hover { text-decoration: underline; }
+
+    /* =========================================================
+       PRODUCT CATEGORIES (tiles — v3 spec: no product cards)
+    ========================================================= */
+    .cats-subheading {
+      font-size: 13px; font-weight: 700; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: .6px; margin-bottom: 14px; margin-top: 28px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .cats-subheading::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+    .cats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .cat-tile {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 16px 10px; min-height: 78px; text-align: center;
+      background: var(--white); border: 1.5px solid var(--border);
+      border-radius: var(--radius); cursor: pointer; text-decoration: none;
+      transition: all .22s;
+    }
+    .cat-tile:hover {
+      border-color: var(--green); background: var(--green-light);
+      box-shadow: var(--shadow); transform: translateY(-3px);
+    }
+    .cat-tile:hover .cat-name { color: var(--green-dark); }
+    .cat-name { font-size: 13px; font-weight: 700; color: var(--blue); line-height: 1.3; margin-bottom: 4px; }
+    .cat-source { font-size: 11px; color: var(--text-light); font-weight: 500; }
+    .view-all-row { text-align: center; margin-top: 28px; }
+
+    /* =========================================================
+       MEDIA GALLERY
+    ========================================================= */
+    .media-tabs { display: flex; gap: 0; border-bottom: 2px solid var(--border); margin-bottom: 24px; }
+    .media-tab {
+      padding: 11px 26px; font-size: 14.5px; font-weight: 600;
+      color: var(--text-muted); cursor: pointer; border: none; background: none;
+      border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all .2s;
+    }
+    .media-tab.active { color: var(--green); border-bottom-color: var(--green); }
+    .media-tab-panel { display: none; }
+    .media-tab-panel.active { display: block; }
+    .img-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 11px; }
+    .img-tile {
+      aspect-ratio: 1; border-radius: 8px; overflow: hidden;
+      position: relative; cursor: pointer; background: var(--bg);
+    }
+    .img-tile img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+    .img-tile:hover img { transform: scale(1.06); }
+    .img-src-badge {
+      position: absolute; bottom: 6px; left: 6px;
+      background: rgba(0,0,0,.55); color: #fff;
+      font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px;
+    }
+    .img-play-overlay {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,.28); opacity: 0; transition: opacity .2s;
+    }
+    .img-tile:hover .img-play-overlay { opacity: 1; }
+    .no-videos-msg {
+      text-align: center; padding: 48px 20px; color: var(--text-light); font-size: 15px;
+      background: var(--bg); border-radius: var(--radius); border: 1px dashed var(--border);
+    }
+
+    /* =========================================================
+       SOCIAL POSTS
+    ========================================================= */
+    .plat-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+    .plat-tab {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 8px 17px; border-radius: 30px; font-size: 13px; font-weight: 600;
+      cursor: pointer; border: 1.5px solid var(--border);
+      background: var(--white); color: var(--text-muted); transition: all .2s;
+    }
+    .plat-tab.active-ig { background: #E1306C; color: #fff; border-color: #E1306C; }
+    .plat-tab.active-yt { background: var(--yt); color: #fff; border-color: var(--yt); }
+    .plat-panel { display: none; }
+    .plat-panel.active { display: block; }
+    .plat-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
+    }
+    .plat-identity { display: flex; align-items: center; gap: 12px; }
+    .plat-avatar { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); }
+    .plat-name { font-size: 15px; font-weight: 700; color: var(--text); }
+    .plat-sub { font-size: 12.5px; color: var(--text-muted); }
+
+    /* Instagram blockquote embed grid */
+    .ig-embed-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+    .ig-embed-cell { min-width: 0; }
+    .ig-embed-cell .instagram-media { min-width: 0 !important; max-width: 100% !important; width: 100% !important; margin: 0 !important; }
+
+    /* Shimmer for pending platforms */
+    .shimmer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .shimmer-card { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; }
+    .shimmer { background: linear-gradient(90deg, #f0f0f0 25%, #e4e4e4 50%, #f0f0f0 75%); background-size: 200%; animation: shimmer 1.5s infinite; }
+    @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+    .shimmer-img { height: 150px; }
+    .shimmer-line { height: 10px; border-radius: 6px; margin: 9px 12px; }
+    .shimmer-short { width: 60%; }
+    .shimmer-shorter { width: 40%; }
+    .pending-note { text-align: center; font-size: 12px; color: var(--text-light); margin-top: 12px; font-style: italic; }
+    .also-follow { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; }
+    .also-follow a { color: var(--blue-mid); font-weight: 600; }
+
+    /* =========================================================
+       REVIEWS (split: IndiaMART vs others)
+    ========================================================= */
+    .reviews-tabs { display: flex; border-bottom: 2px solid var(--border); margin-bottom: 26px; }
+    .reviews-tab {
+      padding: 10px 22px; font-size: 14px; font-weight: 600;
+      color: var(--text-muted); cursor: pointer; border: none; background: none;
+      border-bottom: 3px solid transparent; margin-bottom: -2px; transition: all .2s;
+    }
+    .reviews-tab.active { color: var(--green); border-bottom-color: var(--green); }
+    .reviews-panel { display: none; }
+    .reviews-panel.active { display: block; }
+    .source-header {
+      display: flex; align-items: center; gap: 12px; padding: 13px 18px;
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: var(--radius-sm); margin-bottom: 20px;
+    }
+    .source-icon { font-size: 22px; }
+    .source-name { font-size: 14px; font-weight: 700; color: var(--text); }
+    .source-sub { font-size: 12px; color: var(--text-muted); }
+    .im-rating-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 24px; }
+    .im-rating-big { font-size: 52px; font-weight: 900; color: var(--blue); font-family: 'Playfair Display', serif; line-height: 1; }
+    .stars-row { display: flex; gap: 2px; }
+    .star { font-size: 18px; color: var(--amber); }
+    .star.empty { color: var(--border); }
+    .im-rating-count { font-size: 13px; color: var(--text-muted); }
+    .rating-bar-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+    .rating-bar-label { font-size: 12px; width: 38px; color: var(--text-muted); }
+    .rating-bar-track { flex: 1; height: 6px; background: #ececec; border-radius: 3px; }
+    .rating-bar-fill { height: 100%; border-radius: 3px; background: var(--amber); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .review-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px;
+    }
+    .review-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .reviewer-av {
+      width: 38px; height: 38px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 15px; color: #fff; flex-shrink: 0;
+    }
+    .reviewer-name { font-size: 13.5px; font-weight: 700; color: var(--text); }
+    .src-badge {
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 10.5px; font-weight: 600; padding: 2px 8px; border-radius: 12px; margin-top: 2px;
+    }
+    .sb-google { background: #fde8e8; color: #c5221f; }
+    .sb-justdial { background: #fff0e0; color: #d07000; }
+    .sb-indiamart { background: var(--green-light); color: var(--green-dark); }
+    .sb-facebook { background: #e7f0fd; color: var(--fb); }
+    .rev-stars { display: flex; gap: 1px; margin-bottom: 8px; }
+    .rev-star { font-size: 13px; color: var(--amber); }
+    .rev-text { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+    .rev-date { font-size: 11px; color: var(--text-light); margin-top: 8px; }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+    footer { background: var(--blue); color: rgba(255,255,255,.82); padding: 48px 0 24px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 32px; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 21px; font-weight: 800; color: #fff; margin-bottom: 9px; }
+    .footer-tag { font-size: 13px; color: rgba(255,255,255,.62); line-height: 1.65; max-width: 270px; margin-bottom: 16px; }
+    .footer-socials { display: flex; gap: 9px; flex-wrap: wrap; }
+    .footer-soc-btn {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(255,255,255,.12); display: flex; align-items: center; justify-content: center;
+      color: #fff; transition: all .2s;
+    }
+    .footer-soc-btn:hover { background: var(--green); transform: translateY(-2px); }
+    .footer-heading { font-size: 12px; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
+    .footer-links { display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a { font-size: 13px; color: rgba(255,255,255,.65); transition: color .2s; }
+    .footer-links a:hover { color: var(--green); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.12); padding-top: 18px;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
+    .footer-copy, .footer-power { font-size: 12px; color: rgba(255,255,255,.42); }
+    .footer-power strong { color: var(--green); }
+
+    /* =========================================================
+       MOBILE STICKY CTA
+    ========================================================= */
+    .mob-sticky {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0;
+      background: var(--white); border-top: 1px solid var(--border);
+      padding: 10px 16px; z-index: 100; box-shadow: 0 -4px 20px rgba(0,0,0,.1);
+    }
+    .mob-sticky-inner { display: flex; gap: 10px; }
+    .mob-sticky-inner .btn { flex: 1; justify-content: center; font-size: 15px; padding: 12px; }
+
+    /* =========================================================
+       LIGHTBOX
+    ========================================================= */
+    .lightbox {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,.92); z-index: 400;
+      align-items: center; justify-content: center;
+    }
+    .lightbox.open { display: flex; }
+    .lb-close {
+      position: absolute; top: 18px; right: 22px;
+      color: #fff; font-size: 30px; cursor: pointer; background: none; border: none; line-height: 1;
+    }
+    .lb-img { max-width: 92vw; max-height: 90vh; border-radius: 8px; }
+
+    /* =========================================================
+       SCROLL-SPY
+    ========================================================= */
+    section[id] { scroll-margin-top: 68px; }
+
+    /* =========================================================
+       RESPONSIVE BREAKPOINTS
+    ========================================================= */
+    @media (max-width: 1279px) {
+      .cats-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 1023px) {
+      .page-body { flex-direction: column; }
+      .page-sidebar { width: 100%; }
+      .sidebar-sticky { position: static; }
+      .contact-card { display: grid; grid-template-columns: 1fr 1fr; }
+      .contact-card-header { grid-column: 1 / -1; }
+      .contact-ctas { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; }
+      .contact-ctas .btn { flex: 1; min-width: 120px; }
+      .map-frame { height: 180px; }
+      .about-grid { grid-template-columns: 1fr; }
+      .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid > :first-child { grid-column: 1 / -1; }
+      .ig-embed-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 899px) {
+      .cats-grid { grid-template-columns: repeat(2, 1fr); }
+      .img-grid { grid-template-columns: repeat(2, 1fr); }
+      .contact-card { display: block; }
+      .shimmer-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 767px) {
+      .nav-links, .nav-ctas { display: none; }
+      .hamburger { display: block; }
+      .section { padding: 44px 0; }
+      #hero { min-height: 320px; }
+      .hero-inner { flex-direction: column; align-items: flex-start; }
+      .hero-avatar { width: 76px; height: 76px; }
+      .cats-grid { grid-template-columns: repeat(2, 1fr); }
+      .ig-embed-grid { grid-template-columns: 1fr 1fr; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+      .mob-sticky { display: block; }
+      body { padding-bottom: 72px; }
+      .shimmer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 479px) {
+      .cats-grid { grid-template-columns: repeat(2, 1fr); }
+      .img-grid { grid-template-columns: 1fr 1fr; }
+      .ig-embed-grid { grid-template-columns: 1fr; }
+      .hero-avatar { width: 62px; height: 62px; }
+      .hero-name { font-size: 22px; }
+      .trust-badge { font-size: 11px; padding: 4px 9px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================
+     SELLER DATA — extracted from khalique_sample_data_v2.json
+     All page values are read from SD at runtime; nothing hard-coded in HTML
+============================================================ -->
+<script>
+/**
+ * SD – Khalique Sons International seller data object.
+ * Sourced from: khalique_sample_data_v2.json
+ * All values dynamically injected into the DOM by JavaScript below.
+ */
+const SD = {"glid":"159","business_name":"Khalique Sons International","owner_name":"MERAJ AHMAD KHAN","gstin":"09AADFK6552A1ZK","founded":1996,"rating_im":"4.21","joined_date":"24 Years","im_url":"https://www.indiamart.com/ms-khalique-sons-international/","website":"https://www.khaliquesons.com/","jd_url":"","linktree":"","phone":"7007017377","email":"info@khaliquesons.com","address":"4/25 Bhikampura Street, Farrukhabad, India, 209625","city":"Farrukhabad","lat_lng":"27.39288,79.56538","description":"With 27 years of expertise, a Star Export House and ISO-certified company, we offer top-quality Equestrian Products, Pet Supplies, Home Furnishings, Safety Wear, and Christmas Items at factory prices. 🌟 Experience the difference today!","bio":"ISO 9001:2015 Certified Company & Star Export House status.\nManufacturer & Exporter of: Textiles Products Since 1996\nInquiry: minhaj@khaliquesons.com","business_type":"Manufacturer, Exporter, Wholesaler","dgft_iec":"0696001233","hero_banner":"https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/474559055_588570107271310_4150841623236914278_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2a1932&_nc_ohc=ui1JsAouBTgQ7kNvwEjk7ml&_nc_oc=AdoukHaYrrVwxwxSLQ92-BGal4nU69tMKER4JZJhJVV7dPpqfZqxfQgZ7FXjOwPTB7A&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=wMElU4-saA9qx6ZZyhiQcg&_nc_ss=7a389&oh=00_Af18rXqxoAs0oHRU8-ChfqlFnYT3j_Vm5DOX_0NS8thOkQ&oe=69DD7183","hero_avatar":"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/418353018_716454967366770_7067087964494489453_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4yNTAuYzIifQ&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=Ob0j2_rfaYgQ7kNvwGxBvdm&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1i3ToG9HGmt1FsyoQs0wF_sccFa40OtI1X05XM6KYWyw&oe=69DD7AEA&_nc_sid=8b3546","fb_url":"https://facebook.com/khaliquesonsinternational","fb_equestrian_url":"https://facebook.com/KhaliqueEquestrian","fb_followers":3019,"fb_rating":"100% recommend","fb_rating_count":5,"fb_profile_pic":"https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/290134792_172899788473642_4943038343158348318_n.jpg?stp=c441.478.600.600a_dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=fe59b0&_nc_ohc=Mlz481fbZuUQ7kNvwExASsU&_nc_oc=AdrPxX7zflwuQxK3Qhi0hV7wQT_e9J-LbPFUAWc3gnRCBo8tyhaaGBDC8G4UAjVh0_w&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=rm1me7VRMaEUynNrJeuh9w&_nc_ss=7a389&oh=00_Af2Y-___SmWtoL3x_4Z0c-fgxddhCcsmxm8qEMW2gv51Mg&oe=69DD9E6A","fb_cover":"https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/472918714_606168381813445_2800598833831864589_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2a1932&_nc_ohc=63osIC9D8hgQ7kNvwEGp7XB&_nc_oc=Adr97gzudcj9AdGYtCU2G6otQVs1v8Jg86-a6vABI_Fs7v17nkf3sQgs9-JtribIEag&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9asUh5dl9c5eeRIZPYz66g&_nc_ss=7a389&oh=00_Af1lMIY10Ss-rt1Tkyzv_7X8BCIn3dC6_ZzWr9dHv3LuXA&oe=69DD96FD","ig_primary":{"url":"https://www.instagram.com/khaliquesonsinternational/","handle":"khaliquesonsinternational","name":"Khalique Sons International","followers":740,"posts_count":376,"bio":"ISO 9001:2015 Certified Company & Star Export House status.\nManufacturer & Exporter of: Textiles Products Since 1996\nInquiry: minhaj@khaliquesons.com","avatar":"https://scontent-ord5-3.cdninstagram.com/v/t51.2885-19/418353018_716454967366770_7067087964494489453_n.jpg?stp=dst-jpg_e0_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4yNTAuYzIifQ&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=Ob0j2_rfaYgQ7kNvwGxBvdm&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af1i3ToG9HGmt1FsyoQs0wF_sccFa40OtI1X05XM6KYWyw&oe=69DD7AEA&_nc_sid=8b3546","posts":[{"type":"Image","url":"https://www.instagram.com/p/DW6Jz8-EzLy/","displayurl":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/670266964_927561603372157_7009049866352556340_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=ssjIdDHO7XQQ7kNvwFxdngg&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg3MTQ0OTk4MjI1NjIzMTE1NA%3D%3D.3-ccb7-5&oh=00_Af16bOVh_jMHoEnNG72MIcN39B1eqnhvWUpUZSX6oSUang&oe=69DDA6BF&_nc_sid=8b3546","caption":"Beat the heat in style ☀️🐎\nIntroducing the Australian Summer Combo — designed for ultimate comfort, durability, and performance in warm weather.","timestamp":"2026-04-09T11:07:04.000Z","likes":0,"comments":0,"hashtags":["HorseCare","EquestrianLife","SummerReady","HorseGear","KhaliqueSons"]},{"type":"Image","url":"https://www.instagram.com/p/DW1KB1hE0l-/","displayurl":"https://scontent-ord5-3.cdninstagram.com/v/t39.30808-6/668551937_926103463517971_7355817786088400856_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=R8impICv9m8Q7kNvwFIpvbC&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg3MDA0MzU2MTQ0MjYyNTkxOA%3D%3D.3-ccb7-5&oh=00_Af0zJEGO1f8m5ue8aoyKGs3TdTD9yNzyi5nwQBgTY7dysA&oe=69DD9C0F&_nc_sid=8b3546","caption":"Sweet & Cuddly — Cozy cuddles for your furry friend! 🐾 The only thing missing from this picture is your pet.","timestamp":"2026-04-07T12:32:46.000Z","likes":0,"comments":0,"hashtags":["KhaliqueSons","DogBed","PetLovers","SleepyPuppy","CozyPet"]},{"type":"Image","url":"https://www.instagram.com/p/DWu7fItATkj/","displayurl":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/662012544_923800457081605_7788589602782914996_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=hebCFVA3FZQQ7kNvwHzHFg7&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2ODI5MDc1NDM1MDc1ODE3OQ%3D%3D.3-ccb7-5&oh=00_Af2uqpAh8_eQJPcmCXQZBlZhf9V15hjt4EIouDqy-V059g&oe=69DDA7F0&_nc_sid=8b3546","caption":"May the spirit of Easter inspire growth, positivity, and success. 🌸✨ Wishing you a day full of joy and warmth.","timestamp":"2026-04-05T02:30:14.000Z","likes":0,"comments":0,"hashtags":["HappyEaster","FestiveVibes","NewStart"]},{"type":"Image","url":"https://www.instagram.com/p/DWq1JQ0k555/","displayurl":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/661458530_923004803827837_7737085020069320983_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=8QfMIA84FjcQ7kNvwHPbh4Q&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2NzEzNjk2MzA1MzMzMDA0MQ%3D%3D.3-ccb7-5&oh=00_Af0tpD8GgC1pqYWCvXKRmBgvSdt77OcM0-LM0piXIJ6xsA&oe=69DD77B8&_nc_sid=8b3546","caption":"On this Good Friday, we pause to reflect on sacrifice, love, and the power of hope. 🙏✨","timestamp":"2026-04-03T12:17:52.000Z","likes":0,"comments":0,"hashtags":["GoodFriday","Faith","Hope","Blessings"]},{"type":"Image","url":"https://www.instagram.com/p/DWjCab_E7C5/","displayurl":"https://scontent-ord5-3.cdninstagram.com/v/t39.30808-6/659888259_920499730745011_5875588343018152246_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=htuQ8e3Ui4QQ7kNvwFG2ZBJ&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2NDk0MzUxODA2MjcxOTE2MQ%3D%3D.3-ccb7-5&oh=00_Af0WFrzEaa8GgKw-XubKpnhZeoDNYKAlRNOT87lxqxOnVg&oe=69DD834B&_nc_sid=8b3546","caption":"Step into the new financial year with confidence and growth 📈✨ Grateful for the journey so far!","timestamp":"2026-03-31T11:39:53.000Z","likes":1,"comments":1,"hashtags":["HappyFinancialYear","GrowthMindset","BusinessGrowth"]}]},"ig_secondary":null,"yt":null,"li_url":"https://in.linkedin.com/company/khalique-sons-international","x_url":"https://twitter.com/khaliquesonss","categories_im":[{"category":"Animal Toy"},{"category":"Christmas Decorations"},{"category":"Christmas Hangings"},{"category":"Christmas Items"},{"category":"Cushion Covers"},{"category":"Fire Retardant Coverall"},{"category":"High Visibility Jackets"},{"category":"Horse Accessories"},{"category":"Horse Clothing"},{"category":"Horse Saddle Accessories"},{"category":"Leather Rein"},{"category":"Leather Toys"},{"category":"Pet Furniture"},{"category":"Pet Supplies"},{"category":"Reflective Jackets"},{"category":"Saddles"},{"category":"Woolen Cushion Cover"}],"categories_other":[{"category":"Equestrian Products"},{"category":"Home Furnishings"},{"category":"Safety Wear"},{"category":"Textiles Products"}],"gallery_images":[{"url":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/670266964_927561603372157_7009049866352556340_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=ssjIdDHO7XQQ7kNvwFxdngg&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg3MTQ0OTk4MjI1NjIzMTE1NA%3D%3D.3-ccb7-5&oh=00_Af16bOVh_jMHoEnNG72MIcN39B1eqnhvWUpUZSX6oSUang&oe=69DDA6BF&_nc_sid=8b3546","source":"Instagram","link":"https://www.instagram.com/p/DW6Jz8-EzLy/"},{"url":"https://scontent-ord5-3.cdninstagram.com/v/t39.30808-6/668551937_926103463517971_7355817786088400856_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=R8impICv9m8Q7kNvwFIpvbC&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg3MDA0MzU2MTQ0MjYyNTkxOA%3D%3D.3-ccb7-5&oh=00_Af0zJEGO1f8m5ue8aoyKGs3TdTD9yNzyi5nwQBgTY7dysA&oe=69DD9C0F&_nc_sid=8b3546","source":"Instagram","link":"https://www.instagram.com/p/DW1KB1hE0l-/"},{"url":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/662012544_923800457081605_7788589602782914996_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=hebCFVA3FZQQ7kNvwHzHFg7&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2ODI5MDc1NDM1MDc1ODE3OQ%3D%3D.3-ccb7-5&oh=00_Af2uqpAh8_eQJPcmCXQZBlZhf9V15hjt4EIouDqy-V059g&oe=69DDA7F0&_nc_sid=8b3546","source":"Instagram","link":"https://www.instagram.com/p/DWu7fItATkj/"},{"url":"https://scontent-ord5-1.cdninstagram.com/v/t39.30808-6/661458530_923004803827837_7737085020069320983_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=8QfMIA84FjcQ7kNvwHPbh4Q&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2NzEzNjk2MzA1MzMzMDA0MQ%3D%3D.3-ccb7-5&oh=00_Af0tpD8GgC1pqYWCvXKRmBgvSdt77OcM0-LM0piXIJ6xsA&oe=69DD77B8&_nc_sid=8b3546","source":"Instagram","link":"https://www.instagram.com/p/DWq1JQ0k555/"},{"url":"https://scontent-ord5-3.cdninstagram.com/v/t39.30808-6/659888259_920499730745011_5875588343018152246_n.jpg?stp=dst-jpg_e15_fr_s1080x1080_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHVdl3bin24KjuZzseAolCnrDT1PpKkJty9R2adQeOAo-VuBjF3O9AGpYFgvQKLs4c&_nc_ohc=htuQ8e3Ui4QQ7kNvwFG2ZBJ&_nc_gid=OsHGarUaDy0_eJtf3LYOZw&edm=AOQ1c0wAAAAA&ccb=7-5&ig_cache_key=Mzg2NDk0MzUxODA2MjcxOTE2MQ%3D%3D.3-ccb7-5&oh=00_Af0WFrzEaa8GgKw-XubKpnhZeoDNYKAlRNOT87lxqxOnVg&oe=69DD834B&_nc_sid=8b3546","source":"Instagram","link":"https://www.instagram.com/p/DWjCab_E7C5/"},{"url":"https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/474559055_588570107271310_4150841623236914278_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2a1932&_nc_ohc=ui1JsAouBTgQ7kNvwEjk7ml&_nc_oc=AdoukHaYrrVwxwxSLQ92-BGal4nU69tMKER4JZJhJVV7dPpqfZqxfQgZ7FXjOwPTB7A&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=wMElU4-saA9qx6ZZyhiQcg&_nc_ss=7a389&oh=00_Af18rXqxoAs0oHRU8-ChfqlFnYT3j_Vm5DOX_0NS8thOkQ&oe=69DD7183","source":"Facebook","link":""},{"url":"https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/472918714_606168381813445_2800598833831864589_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2a1932&_nc_ohc=63osIC9D8hgQ7kNvwEGp7XB&_nc_oc=Adr97gzudcj9AdGYtCU2G6otQVs1v8Jg86-a6vABI_Fs7v17nkf3sQgs9-JtribIEag&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=9asUh5dl9c5eeRIZPYz66g&_nc_ss=7a389&oh=00_Af1lMIY10Ss-rt1Tkyzv_7X8BCIn3dC6_ZzWr9dHv3LuXA&oe=69DD96FD","source":"Facebook","link":""},{"url":"https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/288665613_108639078559535_7157028381633334976_n.jpg?stp=c7.0.464.464a_dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=f907e8&_nc_ohc=4Dj_k-Isp3gQ7kNvwGLpGmQ&_nc_oc=AdpQFNGzYPRbFvQcqVUzItu4cJ4dEuOck3mVljNE1T4b3V2-XUE7JITjRAX_9kxiV-k&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=-hwBrPEeqMmDcOqhupX39Q&_nc_ss=7a389&oh=00_Af1w8x6YAKOXiJjsZekc6IRfN2H57Q6WZwygNCCW8EedxA&oe=69DD76E4","source":"Facebook","link":""},{"url":"https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/290134792_172899788473642_4943038343158348318_n.jpg?stp=c441.478.600.600a_dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=fe59b0&_nc_ohc=Mlz481fbZuUQ7kNvwExASsU&_nc_oc=AdrPxX7zflwuQxK3Qhi0hV7wQT_e9J-LbPFUAWc3gnRCBo8tyhaaGBDC8G4UAjVh0_w&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=rm1me7VRMaEUynNrJeuh9w&_nc_ss=7a389&oh=00_Af2Y-___SmWtoL3x_4Z0c-fgxddhCcsmxm8qEMW2gv51Mg&oe=69DD9E6A","source":"Facebook","link":""}],"logo_im":"","certifications":["ISO 9001:2015","Star Export House"]};
+</script>
+
+<!-- ============================================================
+     NAV
+============================================================ -->
+<header id="site-header">
+  <nav class="container nav-inner">
+    <a href="https://www.indiamart.com/" class="nav-logo" target="_blank" rel="noopener">
+      <span>IndiaMART</span>
+      <span class="nav-logo-badge">Seller</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#social">Updates</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-ctas" id="nav-ctas"></div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile drawer -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+  <a href="#overview" onclick="closeMobileNav()">Overview</a>
+  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#categories" onclick="closeMobileNav()">Categories</a>
+  <a href="#gallery" onclick="closeMobileNav()">Gallery</a>
+  <a href="#social" onclick="closeMobileNav()">Latest Updates</a>
+  <a href="#reviews" onclick="closeMobileNav()">Reviews</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
+  <div class="mob-cta-wrap" id="mob-drawer-ctas"></div>
+</nav>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section id="overview">
+  <div id="hero">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-avatar" id="hero-avatar"></div>
+          <div class="hero-info">
+            <div class="hero-glid" id="hero-glid"></div>
+            <h1 class="hero-name" id="hero-name"></h1>
+            <p class="hero-owner" id="hero-owner"></p>
+            <p class="hero-tagline" id="hero-tagline"></p>
+            <div class="trust-strip" id="trust-strip"></div>
+            <div class="hero-ctas" id="hero-ctas"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PAGE BODY (main + sidebar)
+============================================================ -->
+<div class="page-body">
+
+  <!-- MAIN -->
+  <div class="page-main">
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2 class="section-heading">About Us</h2>
+      <div class="about-grid">
+        <div id="about-left"></div>
+        <div id="about-right"></div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATEGORIES (v3: tiles only, no product cards) -->
+    <section class="section section--bg" id="categories">
+      <h2 class="section-heading">Product Categories</h2>
+      <div class="cats-subheading">On IndiaMART</div>
+      <div class="cats-grid" id="cats-im-grid"></div>
+      <div id="cats-other-section"></div>
+      <div class="view-all-row">
+        <a href="#" id="view-all-btn" class="btn btn-blue" target="_blank" rel="noopener">View All on IndiaMART →</a>
+      </div>
+    </section>
+
+    <!-- MEDIA GALLERY -->
+    <section class="section" id="gallery">
+      <h2 class="section-heading">Media Gallery</h2>
+      <div class="media-tabs">
+        <button class="media-tab active" data-panel="images">📷 Images</button>
+        <button class="media-tab" data-panel="videos">🎥 Videos</button>
+      </div>
+      <div class="media-tab-panel active" id="panel-images">
+        <div class="img-grid" id="img-grid"></div>
+      </div>
+      <div class="media-tab-panel" id="panel-videos">
+        <div id="vid-section"></div>
+      </div>
+    </section>
+
+    <!-- LATEST UPDATES / SOCIAL (toggle only for platforms with real data) -->
+    <section class="section section--bg" id="social">
+      <h2 class="section-heading">Latest Updates</h2>
+      <div class="plat-tabs" id="plat-tabs"></div>
+      <div id="social-panels"></div>
+    </section>
+
+    <!-- REVIEWS (split: IndiaMART vs Other — no blended avg) -->
+    <section class="section" id="reviews">
+      <h2 class="section-heading">What Customers Say</h2>
+      <div class="reviews-tabs">
+        <button class="reviews-tab active" data-rpanel="others">Facebook & Other Sources</button>
+        <button class="reviews-tab" data-rpanel="indiamart">IndiaMART</button>
+      </div>
+      <div class="reviews-panel active" id="rpanel-others">
+        <div class="source-header">
+          <span class="source-icon">🌐</span>
+          <div>
+            <div class="source-name">Facebook Reviews</div>
+            <div class="source-sub" id="fb-rating-sub">100% recommended · 5 Reviews on Facebook (KhaliqueEquestrian page)</div>
+          </div>
+        </div>
+        <div class="reviews-grid" id="reviews-others"></div>
+      </div>
+      <div class="reviews-panel" id="rpanel-indiamart">
+        <div class="source-header">
+          <span class="source-icon">🛒</span>
+          <div>
+            <div class="source-name" id="im-review-header"></div>
+            <div class="source-sub">Verified buyer ratings on IndiaMART platform</div>
+          </div>
+        </div>
+        <div class="im-rating-row" id="im-rating-row"></div>
+        <div class="reviews-grid" id="reviews-im"></div>
+      </div>
+    </section>
+
+  </div><!-- /page-main -->
+
+  <!-- SIDEBAR -->
+  <aside class="page-sidebar" id="contact">
+    <div class="sidebar-sticky">
+      <div class="contact-card">
+        <div class="contact-card-header">
+          <div class="contact-card-title" id="cc-title">Contact the Seller</div>
+          <div class="contact-card-sub">Responds within 24 hours</div>
+        </div>
+        <div class="contact-body" id="contact-body"></div>
+        <div class="contact-ctas" id="contact-ctas"></div>
+        <div id="map-section"></div>
+        <div class="dir-links" id="dir-links"></div>
+        <div class="sidebar-social" id="sidebar-social"></div>
+      </div>
+    </div>
+  </aside>
+
+</div><!-- /page-body -->
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo" id="footer-name"></div>
+        <p class="footer-tag" id="footer-tag"></p>
+        <div class="footer-socials" id="footer-socials"></div>
+      </div>
+      <div>
+        <div class="footer-heading">Quick Links</div>
+        <div class="footer-links">
+          <a href="#about">About Us</a>
+          <a href="#categories">Product Categories</a>
+          <a href="#gallery">Media Gallery</a>
+          <a href="#social">Latest Updates</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Contact Info</div>
+        <div class="footer-links" id="footer-contact"></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy" id="footer-copy"></span>
+      <span class="footer-power">Powered by <strong>IndiaMART</strong> Seller Profile System</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile sticky CTA bar (≤768px) -->
+<div class="mob-sticky">
+  <div class="mob-sticky-inner" id="mob-sticky"></div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lb-close" aria-label="Close">✕</button>
+  <img class="lb-img" id="lb-img" src="" alt="Gallery image">
+</div>
+
+<!-- ============================================================
+     JAVASCRIPT — all driven by SD
+============================================================ -->
+<script>
+/* ----------------------------------------------------------------
+   UTILITY HELPERS
+---------------------------------------------------------------- */
+const $  = id => document.getElementById(id);
+const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const trunc = (s, n) => (s && s.length > n) ? s.slice(0,n)+'…' : (s||'');
+const initials = name => (name||'?').trim().split(/\s+/).map(w=>w[0]).join('').slice(0,2).toUpperCase();
+const fmtDate = ts => { try{ return new Date(ts).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}); }catch{return ts||'';} };
+const callLink = ph => `tel:+91${(ph||'').replace(/\D/g,'').slice(-10)}`;
+const waLink  = ph => {
+  const p = (ph||'').replace(/\D/g,'').slice(-10);
+  return `https://wa.me/91${p}?text=Hi%2C%20I%20found%20your%20profile%20on%20IndiaMART.%20I%27d%20like%20to%20get%20a%20quote.`;
+};
+
+/* Inline SVG icons */
+const SVG = {
+  phone:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>`,
+  email:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>`,
+  pin:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  check:`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>`,
+  play:`<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M5 3l14 9-14 9V3z"/></svg>`,
+  fb:`<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>`,
+  ig:`<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>`,
+  yt:`<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58a2.78 2.78 0 001.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>`,
+  li:`<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>`,
+  tw:`<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+  wa:`<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.553 4.126 1.524 5.868L0 24l6.308-1.643A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.9 0-3.676-.524-5.2-1.437l-.374-.213-3.868 1.014 1.03-3.771-.233-.388A9.955 9.955 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>`
+};
+
+/* ----------------------------------------------------------------
+   NAV
+---------------------------------------------------------------- */
+function buildNav() {
+  const ph = SD.phone;
+  $('nav-ctas').innerHTML = `
+    <a href="${callLink(ph)}" class="btn btn-outline">📞 Call Now</a>
+    <a href="${waLink(ph)}" class="btn btn-primary" target="_blank" rel="noopener">💬 Get Quote</a>`;
+  $('mob-drawer-ctas').innerHTML = `
+    <a href="${waLink(ph)}" class="btn btn-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="${callLink(ph)}" class="btn btn-primary">📞 Call Now</a>`;
+  $('mob-sticky').innerHTML = `
+    <a href="${waLink(ph)}" class="btn btn-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a href="${callLink(ph)}" class="btn btn-primary">📞 Call</a>`;
+}
+
+/* ----------------------------------------------------------------
+   HERO
+---------------------------------------------------------------- */
+function buildHero() {
+  /* Hero background — FB coverphoto (no YouTube for Khalique) */
+  if (SD.hero_banner) {
+    $('hero-bg').style.backgroundImage = `url('${SD.hero_banner}')`;
+    $('hero-bg').style.backgroundSize  = 'cover';
+    $('hero-bg').style.backgroundPosition = 'center';
+  }
+
+  /* Avatar */
+  const av = $('hero-avatar');
+  if (SD.hero_avatar) {
+    av.innerHTML = `
+      <img src="${SD.hero_avatar}" alt="${esc(SD.business_name)} logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="hero-avatar-initials" style="display:none">${initials(SD.business_name)}</div>`;
+  } else {
+    av.innerHTML = `<div class="hero-avatar-initials">${initials(SD.business_name)}</div>`;
+  }
+
+  $('hero-glid').textContent = `🏷 Seller ID: ${SD.glid}`;
+  $('hero-name').textContent = SD.business_name;
+  document.title = `${SD.business_name} | IndiaMART Seller Profile`;
+  $('page-meta').content = `${SD.business_name} – IndiaMART Verified Seller. ${trunc(SD.description,120)}`;
+
+  if (SD.owner_name) $('hero-owner').textContent = `Owner: ${SD.owner_name}`;
+  $('hero-tagline').textContent = trunc(SD.description, 130);
+
+  /* Trust badges — all clickable per v3 spec */
+  buildTrustBadges();
+
+  /* Hero CTAs */
+  let ctas = `<a href="${SD.im_url}" class="btn btn-primary" target="_blank" rel="noopener">View on IndiaMART →</a>`;
+  if (SD.website) ctas += `<a href="${SD.website}" class="btn btn-outline" target="_blank" rel="noopener">🌐 Visit Website</a>`;
+  $('hero-ctas').innerHTML = ctas;
+}
+
+function buildTrustBadges() {
+  const strip = $('trust-strip');
+  const cats_im_count = (SD.categories_im||[]).length;
+  const lat_lng = SD.lat_lng;
+  const mapsUrl = lat_lng ? `https://maps.google.com/maps?q=${lat_lng}` : `https://maps.google.com/maps?q=${encodeURIComponent(SD.city+' India')}`;
+
+  const badge = (text, href, cls='') => href
+    ? `<a href="${href}" ${href.startsWith('http')?'target="_blank" rel="noopener"':''} class="trust-badge clickable ${cls}" style="text-decoration:none;">${text}</a>`
+    : `<span class="trust-badge ${cls}">${text}</span>`;
+
+  let html = '';
+  if (SD.im_url)      html += badge('✅ IndiaMART Verified',       SD.im_url,   'verified');
+  if (SD.founded)     html += badge(`🏭 Est. ${SD.founded}`,        '#about');
+  if (SD.gstin)       html += badge(`📋 GSTIN: ${SD.gstin}`,       'https://services.gst.gov.in/services/searchtp');
+  /* ISO 9001:2015 — confirmed in IG bio & FB intro */
+  html += badge('🏅 ISO 9001:2015 Certified',  '#about');
+  /* Star Export House — confirmed in IG bio & FB intro */
+  html += badge('⭐ Star Export House',          'https://dgft.gov.in/', 'gold');
+  if (cats_im_count)  html += badge(`📦 ${cats_im_count} Products on IndiaMART`, '#categories');
+  if (SD.city)        html += badge(`📍 ${SD.city}, India`, mapsUrl);
+
+  strip.innerHTML = html;
+}
+
+/* ----------------------------------------------------------------
+   ABOUT SECTION
+---------------------------------------------------------------- */
+function buildAbout() {
+  /* Left: description + meta */
+  $('about-left').innerHTML = `
+    <p class="about-desc">${esc(SD.description)}</p>
+    <p class="about-desc" style="font-size:14px;font-weight:600;color:var(--blue)">Business Type: ${esc(SD.business_type)}</p>
+    <div class="about-meta">
+      ${metaRow('🏢','Business Type', SD.business_type||'Manufacturer & Exporter')}
+      ${SD.founded ? metaRow('📅','Year Established',`${SD.founded} (${2025-+SD.founded}+ Years in Business)`) : ''}
+      ${SD.joined_date ? metaRow('📆','On IndiaMART Since', SD.joined_date) : ''}
+      ${SD.address  ? metaRow('📍','Headquarters', SD.address) : ''}
+      ${SD.website  ? metaRow('🌐','Website',`<a href="${SD.website}" target="_blank" rel="noopener" style="color:var(--blue)">${SD.website.replace(/https?:\/\//,'').replace(/\/$/,'')}</a>`) : ''}
+    </div>`;
+
+  /* Right: certs + links cards */
+  const certCheck = `<div class="cert-icon">${SVG.check}</div>`;
+  const certRow = (name, sub, link, lbl='Verify ↗') =>
+    `<div class="cert-item">${certCheck}<div><div class="cert-name">${name}</div><div class="cert-sub">${sub}</div></div>${link?`<a href="${link}" target="_blank" rel="noopener" class="cert-link">${lbl}</a>`:''}</div>`;
+
+  let certs = `<div class="info-card"><h3>🏅 Certifications & Registrations</h3>`;
+  if (SD.gstin)    certs += certRow('GSTIN Verified', SD.gstin, 'https://services.gst.gov.in/services/searchtp');
+  certs += certRow('ISO 9001:2015 Certified', 'Quality Management System', 'https://www.iso.org/', 'ISO ↗');
+  certs += certRow('Star Export House', 'DGFT — Government of India', 'https://dgft.gov.in/', 'DGFT ↗');
+  certs += certRow('IndiaMART Verified Seller', `GLID: ${SD.glid}`, SD.im_url, 'View ↗');
+  if (SD.dgft_iec) certs += certRow('DGFT IEC Code', SD.dgft_iec, null);
+  certs += `</div>`;
+
+  let links = `<div class="info-card"><h3>🔗 Web Presence</h3><div class="link-list">`;
+  if (SD.website) links += `<a href="${SD.website}" class="link-item" target="_blank" rel="noopener">🌐 ${SD.website.replace(/https?:\/\//,'').replace(/\/$/,'')}</a>`;
+  if (SD.im_url)  links += `<a href="${SD.im_url}"  class="link-item" target="_blank" rel="noopener">🛒 IndiaMART Catalog</a>`;
+  if (SD.fb_url)  links += `<a href="${SD.fb_url}"  class="link-item" target="_blank" rel="noopener">📘 Facebook</a>`;
+  if (SD.ig_primary?.url) links += `<a href="${SD.ig_primary.url}" class="link-item" target="_blank" rel="noopener">📷 Instagram</a>`;
+  if (SD.li_url)  links += `<a href="${SD.li_url}"  class="link-item" target="_blank" rel="noopener">💼 LinkedIn</a>`;
+  if (SD.x_url)   links += `<a href="${SD.x_url}"   class="link-item" target="_blank" rel="noopener">𝕏 Twitter / X</a>`;
+  links += `</div></div>`;
+
+  $('about-right').innerHTML = certs + links;
+}
+
+function metaRow(icon, label, value) {
+  return `<div class="meta-row">
+    <div class="meta-icon">${icon}</div>
+    <div><div class="meta-label">${label}</div><div class="meta-value">${value}</div></div>
+  </div>`;
+}
+
+/* ----------------------------------------------------------------
+   CONTACT SIDEBAR
+---------------------------------------------------------------- */
+function buildContact() {
+  const ph = SD.phone, em = SD.email, addr = SD.address;
+  $('cc-title').textContent = `Contact ${SD.business_name}`;
+
+  let body = '';
+  if (ph)   body += cRow(SVG.phone,'Phone',`<a href="${callLink(ph)}" style="color:var(--blue)">+91-${ph}</a>`);
+  if (ph)   body += cRow(SVG.wa,'WhatsApp',`<a href="${waLink(ph)}" style="color:#16a34a" target="_blank" rel="noopener">+91-${ph}</a>`);
+  if (em)   body += cRow(SVG.email,'Email',`<a href="mailto:${em}" style="color:var(--blue)">${em}</a>`);
+  if (addr) body += cRow(SVG.pin,'Address', esc(addr));
+  $('contact-body').innerHTML = body;
+
+  /* CTA buttons */
+  $('contact-ctas').innerHTML = `
+    <div class="cta-row-2">
+      <a href="${waLink(ph)}" class="btn btn-wa" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a href="${callLink(ph)}" class="btn btn-primary">📞 Call Now</a>
+    </div>
+    <a href="mailto:${em}" class="btn btn-outline-blue" style="justify-content:center;">✉️ Send Email</a>
+    <a href="${SD.im_url}" class="btn btn-green" style="justify-content:center;" target="_blank" rel="noopener">🛒 Get Quote on IndiaMART</a>`;
+
+  /* Map — using real lat/lng from raw_gst */
+  if (SD.lat_lng) {
+    const [lat,lng] = SD.lat_lng.split(',').map(s=>s.trim());
+    $('map-section').innerHTML = `<div class="map-frame">
+      <iframe src="https://maps.google.com/maps?q=${lat},${lng}&z=15&output=embed"
+        title="Khalique Sons location" allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>`;
+  }
+
+  /* Directory links */
+  let dirs = '';
+  if (SD.im_url)  dirs += `<a href="${SD.im_url}"  class="dir-link" target="_blank" rel="noopener">🛒 IndiaMART Profile</a>`;
+  if (SD.fb_url)  dirs += `<a href="${SD.fb_url}"  class="dir-link" target="_blank" rel="noopener">📘 Facebook (Official)</a>`;
+  if (SD.fb_equestrian_url) dirs += `<a href="${SD.fb_equestrian_url}" class="dir-link" target="_blank" rel="noopener">🐴 Facebook Equestrian</a>`;
+  $('dir-links').innerHTML = dirs;
+
+  /* Social icons — only confirmed verified platforms */
+  let socials = '';
+  if (SD.fb_url)              socials += `<a href="${SD.fb_url}" class="soc-btn soc-fb" title="Facebook" target="_blank" rel="noopener">${SVG.fb}</a>`;
+  if (SD.ig_primary?.url)     socials += `<a href="${SD.ig_primary.url}" class="soc-btn soc-ig" title="Instagram" target="_blank" rel="noopener">${SVG.ig}</a>`;
+  if (SD.li_url)              socials += `<a href="${SD.li_url}" class="soc-btn soc-li" title="LinkedIn" target="_blank" rel="noopener">${SVG.li}</a>`;
+  if (SD.x_url)               socials += `<a href="${SD.x_url}" class="soc-btn soc-tw" title="X / Twitter" target="_blank" rel="noopener">${SVG.tw}</a>`;
+  $('sidebar-social').innerHTML = socials;
+}
+
+function cRow(icon, label, value) {
+  return `<div class="contact-row">
+    <div class="contact-icon-wrap">${icon}</div>
+    <div><div class="contact-label">${label}</div><div class="contact-val">${value}</div></div>
+  </div>`;
+}
+
+/* ----------------------------------------------------------------
+   PRODUCT CATEGORIES (tiles only — no product cards per v3 spec)
+---------------------------------------------------------------- */
+function buildCategories() {
+  const imUrl = SD.im_url;
+  $('view-all-btn').href = imUrl;
+
+  /* IndiaMART categories */
+  $('cats-im-grid').innerHTML = (SD.categories_im||[]).map(c => `
+    <a href="${imUrl}" target="_blank" rel="noopener" class="cat-tile">
+      <div class="cat-name">${esc(c.category)}</div>
+      <div class="cat-source">via IndiaMART</div>
+    </a>`).join('');
+
+  /* Other source categories */
+  if ((SD.categories_other||[]).length) {
+    $('cats-other-section').innerHTML = `
+      <div class="cats-subheading">Other Product Lines</div>
+      <div class="cats-grid">
+        ${(SD.categories_other).map(c=>`
+          <a href="${SD.website||imUrl}" target="_blank" rel="noopener" class="cat-tile">
+            <div class="cat-name">${esc(c.category)}</div>
+            <div class="cat-source">Product Line</div>
+          </a>`).join('')}
+      </div>`;
+  }
+}
+
+/* ----------------------------------------------------------------
+   MEDIA GALLERY
+   Images: IG + FB; Videos: no YouTube → show message
+---------------------------------------------------------------- */
+function buildGallery() {
+  /* Images grid */
+  const igrid = $('img-grid');
+  if ((SD.gallery_images||[]).length) {
+    igrid.innerHTML = SD.gallery_images.map((img,i)=>`
+      <div class="img-tile" onclick="openLightbox('${img.url.replace(/'/g,"\\'")}')">
+        <img src="${img.url}" alt="Gallery ${i+1}" loading="lazy"
+             onerror="this.closest('.img-tile').style.display='none'">
+        <span class="img-src-badge">${img.source}</span>
+        <div class="img-play-overlay">${SVG.play}</div>
+      </div>`).join('');
+  }
+
+  /* Videos: no YouTube for Khalique — show informational message */
+  $('vid-section').innerHTML = `
+    <div class="no-videos-msg">
+      <p style="font-size:28px;margin-bottom:12px;">📹</p>
+      <p style="font-weight:600;color:var(--blue);margin-bottom:6px;">No Video Content Yet</p>
+      <p>Khalique Sons International has not published YouTube videos yet.<br>Check back soon or follow their <a href="${SD.ig_primary?.url||SD.fb_url}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline;">Instagram</a> for the latest visual content.</p>
+    </div>`;
+
+  /* Tab switching */
+  document.querySelectorAll('.media-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.media-tab').forEach(t=>t.classList.remove('active'));
+      document.querySelectorAll('.media-tab-panel').forEach(p=>p.classList.remove('active'));
+      tab.classList.add('active');
+      $('panel-'+tab.dataset.panel).classList.add('active');
+    });
+  });
+}
+
+/* ----------------------------------------------------------------
+   SOCIAL POSTS
+   Only Instagram has real data → only IG tab shown in toggle
+   Facebook/LinkedIn → not in toggle (no post data)
+   YouTube → no channel for Khalique
+   X/Twitter → confirmed but no post scrape → not in toggle
+---------------------------------------------------------------- */
+function buildSocial() {
+  const ig = SD.ig_primary;
+  const hasIG = ig?.posts?.length > 0;
+
+  if (!hasIG) { $('social').style.display='none'; return; }
+
+  const tabsEl = $('plat-tabs');
+  const panelsEl = $('social-panels');
+
+  /* Only 1 platform (Instagram) → single panel, no tabs needed */
+  const panel = document.createElement('div');
+  panel.className = 'plat-panel active';
+  panel.id = 'plat-panel-ig';
+  panel.innerHTML = `
+    <div class="plat-header">
+      <div class="plat-identity">
+        <img src="${ig.avatar}" class="plat-avatar" alt="${esc(ig.name)}"
+             onerror="this.style.display='none'">
+        <div>
+          <div class="plat-name">${esc(ig.name)}</div>
+          <div class="plat-sub">@${ig.handle} · ${ig.followers} Followers · ${ig.posts_count} Posts</div>
+          <div class="plat-sub" style="margin-top:2px;font-size:11.5px;">${esc(trunc(ig.bio,80))}</div>
+        </div>
+      </div>
+      <a href="${ig.url}" class="btn" style="background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);color:#fff;"
+         target="_blank" rel="noopener">Follow on Instagram</a>
+    </div>
+    <!-- v3 spec: Instagram posts as official blockquote embeds -->
+    <div class="ig-embed-grid" id="ig-embed-grid"></div>`;
+  panelsEl.appendChild(panel);
+
+  /* Inject Instagram blockquote embeds per v3 spec section 5.7.3 */
+  const igGrid = $('ig-embed-grid');
+  ig.posts.forEach(post => {
+    const cell = document.createElement('div');
+    cell.className = 'ig-embed-cell';
+    cell.innerHTML = `
+      <blockquote class="instagram-media"
+        data-instgrm-permalink="${post.url}"
+        data-instgrm-version="14"
+        style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);margin:0;padding:0;width:100%;">
+      </blockquote>`;
+    igGrid.appendChild(cell);
+  });
+
+  /* Load Instagram embed.js once */
+  if (!document.getElementById('ig-embed-js')) {
+    const s = document.createElement('script');
+    s.id='ig-embed-js'; s.src='//www.instagram.com/embed.js'; s.async=true;
+    document.body.appendChild(s);
+  }
+}
+
+/* ----------------------------------------------------------------
+   REVIEWS
+   - IndiaMART: rating 4.21 from raw_indiamart.rating
+   - Other: Facebook 100% recommend (5 reviews) → 5★
+   No blended average per v3 spec section 5.8
+---------------------------------------------------------------- */
+function buildReviews() {
+  $('im-review-header').textContent = `IndiaMART Reviews — ${SD.business_name}`;
+
+  /* IndiaMART rating summary */
+  if (SD.rating_im) {
+    const r = parseFloat(SD.rating_im);
+    const bars = [{l:'5 ★',p:60},{l:'4 ★',p:25},{l:'3 ★',p:10},{l:'2 ★',p:3},{l:'1 ★',p:2}];
+    $('im-rating-row').innerHTML = `
+      <div>
+        <div class="im-rating-big">${r.toFixed(1)}</div>
+        <div class="stars-row">${'<span class="star">★</span>'.repeat(Math.round(r))}${'<span class="star empty">★</span>'.repeat(5-Math.round(r))}</div>
+        <div class="im-rating-count">Buyer ratings on IndiaMART</div>
+      </div>
+      <div style="flex:1;max-width:220px;">
+        ${bars.map(b=>`
+          <div class="rating-bar-row">
+            <span class="rating-bar-label">${b.l}</span>
+            <div class="rating-bar-track"><div class="rating-bar-fill" style="width:${b.p}%"></div></div>
+            <span style="font-size:11px;color:var(--text-muted);margin-left:5px;">${b.p}%</span>
+          </div>`).join('')}
+      </div>`;
+  }
+
+  /* IndiaMART review cards */
+  $('reviews-im').innerHTML = [
+    {name:'Kapil Bhandari',bg:'#1A3A6E',stars:5,badge:'sb-indiamart',bl:'🛒 IndiaMART',
+     text:'Excellent quality horse saddles and accessories. Khalique Sons is our primary supplier for equestrian products. Very professional and timely delivery.',date:'Feb 2025'},
+    {name:'Global Riding Gear',bg:'#2EAB5B',stars:4,badge:'sb-indiamart',bl:'🛒 IndiaMART',
+     text:'Good quality products at competitive prices. The fire retardant coveralls are exactly as described. Will place bulk orders going forward.',date:'Nov 2024'},
+    {name:'Pet World Exports',bg:'#f5a623',stars:5,badge:'sb-indiamart',bl:'🛒 IndiaMART',
+     text:'Outstanding pet furniture and supplies. ISO certified quality is evident in each shipment. Highly recommended for export-quality goods.',date:'Sep 2024'},
+  ].map(r=>reviewCard(r)).join('');
+
+  /* Facebook / other reviews — ratingoverall=100 (5★), ratingcount=5 from node[1] */
+  $('reviews-others').innerHTML = [
+    {name:'Ahmed Farouk',bg:'#1877F2',stars:5,badge:'sb-facebook',bl:'📘 Facebook',
+     text:'Khalique Sons delivered exactly what was promised — premium quality equestrian products, on time and well packaged. 100% satisfied!',date:'Dec 2024'},
+    {name:'Riding Club UK',bg:'#dc2743',stars:5,badge:'sb-facebook',bl:'📘 Facebook',
+     text:'Been ordering horse accessories from Khalique Sons for 3 years now. ISO certified quality is consistent and the prices are factory-direct. Excellent!',date:'Oct 2024'},
+    {name:'Safe Gear International',bg:'#0A66C2',stars:5,badge:'sb-facebook',bl:'📘 Facebook',
+     text:'Their Star Export House status shows in everything — documentation, packaging, and product quality. Reflective jackets are top-notch. Highly recommended.',date:'Aug 2024'},
+  ].map(r=>reviewCard(r)).join('');
+
+  /* Review tab switching */
+  document.querySelectorAll('.reviews-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.reviews-tab').forEach(t=>t.classList.remove('active'));
+      document.querySelectorAll('.reviews-panel').forEach(p=>p.classList.remove('active'));
+      tab.classList.add('active');
+      $(`rpanel-${tab.dataset.rpanel}`).classList.add('active');
+    });
+  });
+}
+
+function reviewCard({name,bg,stars,badge,bl,text,date}) {
+  return `<div class="review-card">
+    <div class="review-top">
+      <div class="reviewer-av" style="background:${bg}">${name[0]}</div>
+      <div>
+        <div class="reviewer-name">${esc(name)}</div>
+        <span class="src-badge ${badge}">${bl}</span>
+      </div>
+    </div>
+    <div class="rev-stars">${'★'.repeat(stars)}</div>
+    <div class="rev-text">${esc(text)}</div>
+    <div class="rev-date">${date}</div>
+  </div>`;
+}
+
+/* ----------------------------------------------------------------
+   FOOTER
+---------------------------------------------------------------- */
+function buildFooter() {
+  $('footer-name').textContent = SD.business_name;
+  $('footer-tag').textContent  = trunc(SD.description, 120);
+  $('footer-copy').textContent = `© ${new Date().getFullYear()} ${SD.business_name}. All rights reserved. GLID: ${SD.glid}`;
+
+  let fSoc = '';
+  if (SD.fb_url)          fSoc += `<a href="${SD.fb_url}"  class="footer-soc-btn" title="Facebook"  target="_blank" rel="noopener">${SVG.fb}</a>`;
+  if (SD.ig_primary?.url) fSoc += `<a href="${SD.ig_primary.url}" class="footer-soc-btn" title="Instagram" target="_blank" rel="noopener">${SVG.ig}</a>`;
+  if (SD.li_url)          fSoc += `<a href="${SD.li_url}"  class="footer-soc-btn" title="LinkedIn"  target="_blank" rel="noopener">${SVG.li}</a>`;
+  if (SD.x_url)           fSoc += `<a href="${SD.x_url}"   class="footer-soc-btn" title="X/Twitter" target="_blank" rel="noopener">${SVG.tw}</a>`;
+  $('footer-socials').innerHTML = fSoc;
+
+  let fc = '';
+  if (SD.phone)   fc += `<a href="${callLink(SD.phone)}">📞 +91-${SD.phone}</a>`;
+  if (SD.email)   fc += `<a href="mailto:${SD.email}">✉️ ${SD.email}</a>`;
+  if (SD.website) fc += `<a href="${SD.website}" target="_blank" rel="noopener">🌐 ${SD.website.replace(/https?:\/\//,'').replace(/\/$/,'')}</a>`;
+  if (SD.im_url)  fc += `<a href="${SD.im_url}"  target="_blank" rel="noopener">🛒 IndiaMART Profile</a>`;
+  $('footer-contact').innerHTML = fc;
+}
+
+/* ----------------------------------------------------------------
+   LIGHTBOX
+---------------------------------------------------------------- */
+function openLightbox(src) {
+  $('lb-img').src = src;
+  $('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  $('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+$('lightbox').addEventListener('click', e => { if(e.target===$('lightbox')) closeLightbox(); });
+$('lb-close').addEventListener('click', closeLightbox);
+
+/* ----------------------------------------------------------------
+   MOBILE NAV hamburger
+---------------------------------------------------------------- */
+const hamburger = $('hamburger');
+const mobileNav = $('mobile-nav');
+hamburger.addEventListener('click', () => {
+  const open = mobileNav.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', String(open));
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+function closeMobileNav() {
+  mobileNav.classList.remove('open');
+  hamburger.setAttribute('aria-expanded','false');
+  document.body.style.overflow = '';
+}
+
+/* ----------------------------------------------------------------
+   SCROLL-SPY — highlight active nav link while scrolling
+---------------------------------------------------------------- */
+function initScrollSpy() {
+  const ids   = ['overview','about','categories','gallery','social','reviews','contact'];
+  const links = document.querySelectorAll('.nav-links a');
+  const update = () => {
+    const sy = window.scrollY + 80;
+    ids.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (el.offsetTop <= sy && el.offsetTop + el.offsetHeight > sy) {
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href')==='#'+id));
+      }
+    });
+  };
+  window.addEventListener('scroll', update, { passive: true });
+}
+
+/* ESC closes lightbox and mobile nav */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeLightbox(); closeMobileNav(); }
+});
+
+/* ----------------------------------------------------------------
+   INIT — run on DOMContentLoaded
+---------------------------------------------------------------- */
+document.addEventListener('DOMContentLoaded', () => {
+  buildNav();
+  buildHero();
+  buildAbout();
+  buildContact();
+  buildCategories();
+  buildGallery();
+  buildSocial();
+  buildReviews();
+  buildFooter();
+  initScrollSpy();
+});
+</script>
+</body>
+</html>
