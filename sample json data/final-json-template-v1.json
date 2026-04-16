@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "glid": "",
+    "generated_at": "",
+    "data_sources": [],
+    "confidence_score": ""
+  },
+
+  "seller": {
+    "business_name": "",
+    "tagline": "",
+    "description": "",
+    "logo": {
+      "url": "",
+      "source": ""
+    },
+    "banner": {
+      "url": "",
+      "source": ""
+    },
+    "owner": {
+      "name": "",
+      "designation": ""
+    },
+    "established_year": "",
+    "years_in_business": "",
+    "business_types": [],
+    "gst": {
+      "number": "",
+      "status": ""
+    },
+    "certifications": [
+      {
+        "name": "",
+        "type": "",
+        "issuing_authority": "",
+        "source_url": "",
+        "verified": ""
+      }
+    ]
+  },
+
+  "links": {
+    "indiamart_profile": "",
+    "catalog_url": "",
+    "website_primary": "",
+    "websites_other": [],
+    "directory_profiles": [
+      {
+        "platform": "",
+        "url": "",
+        "verified": ""
+      }
+    ],
+    "social_profiles": [
+      {
+        "platform": "",
+        "url": "",
+        "username": "",
+        "followers": "",
+        "verified": ""
+      }
+    ],
+    "linktree": []
+  },
+
+  "contact": {
+    "primary_phone": "",
+    "alternate_phones": [],
+    "whatsapp_number": "",
+    "emails": [
+      {
+        "value": "",
+        "source": ""
+      }
+    ],
+    "address": {
+      "full": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "country": ""
+    },
+    "geo": {
+      "lat": "",
+      "lng": "",
+      "google_maps_url": ""
+    }
+  },
+
+  "cta": {
+    "primary": {
+      "type": "",
+      "value": "",
+      "url": ""
+    },
+    "secondary": {
+      "type": "",
+      "value": "",
+      "url": ""
+    },
+    "quote_form_enabled": ""
+  },
+
+  "categories": {
+    "indiamart": [
+      {
+        "name": "",
+        "slug": "",
+        "url": "",
+        "image": "",
+        "product_count": ""
+      }
+    ],
+    "external": [
+      {
+        "name": "",
+        "url": "",
+        "source": "",
+        "image": ""
+      }
+    ],
+    "total_count": ""
+  },
+
+  "media": {
+    "images": [
+      {
+        "url": "",
+        "source": "",
+        "context": "",
+        "platform": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": "",
+        "platform": "",
+        "video_id": "",
+        "thumbnail": "",
+        "embed_url": "",
+        "title": "",
+        "published_at": ""
+      }
+    ]
+  },
+
+  "social_posts": {
+    "instagram": [
+      {
+        "post_id": "",
+        "post_url": "",
+        "caption": "",
+        "hashtags": [],
+        "likes": "",
+        "comments": "",
+        "media_type": "",
+        "media_urls": [],
+        "thumbnail": "",
+        "published_at": ""
+      }
+    ],
+    "youtube": [
+      {
+        "video_id": "",
+        "video_url": "",
+        "title": "",
+        "description": "",
+        "thumbnail": "",
+        "views": "",
+        "likes": "",
+        "published_at": ""
+      }
+    ],
+    "facebook": [],
+    "linkedin": [],
+    "twitter": []
+  },
+
+  "reviews": {
+    "indiamart": {
+      "rating": "",
+      "total_reviews": "",
+      "reviews": [
+        {
+          "author": "",
+          "rating": "",
+          "comment": "",
+          "date": ""
+        }
+      ]
+    },
+    "google": {
+      "rating": "",
+      "total_reviews": "",
+      "reviews": [
+        {
+          "author": "",
+          "rating": "",
+          "comment": "",
+          "date": ""
+        }
+      ]
+    },
+    "other": [
+      {
+        "platform": "",
+        "rating": "",
+        "total_reviews": "",
+        "reviews": []
+      }
+    ]
+  },
+
+  "trust_signals": {
+    "indiamart_verified": "",
+    "gst_verified": "",
+    "msme_registered": "",
+    "iso_certified": "",
+    "export_house": "",
+    "other_badges": [
+      {
+        "label": "",
+        "value": "",
+        "link": ""
+      }
+    ]
+  },
+
+  "analytics": {
+    "profile_views": "",
+    "engagement_score": "",
+    "lead_conversion_rate": ""
+  },
+
+  "ui_config": {
+    "theme": {
+      "primary_color": "",
+      "secondary_color": "",
+      "accent_color": ""
+    },
+    "features": {
+      "show_gallery": "",
+      "show_reviews": "",
+      "show_social": "",
+      "show_certifications": ""
+    }
+  }
+}
