@@ -1,3 +1,5 @@
-# IndiaMART SIP 2026(MBA 2025-27)
 ## Role: Product Intern (tech r&d)
-### Project: Aggregated seller catalog
+
+# Project: Aggregated seller catalog
+
+### IndiaMART SIP 2026(IIM Raipur MBA 2025-27)
