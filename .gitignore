@@ -1,0 +1,10 @@
+/redacted files
+node_modules/
+dist/
+build/
+coverage/
+*.log
+*.env
+.DS_Store
+.idea/
+.vscode/

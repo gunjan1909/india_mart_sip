@@ -1,9 +1,7 @@
 {
   "seller_id": 1860359,
   "company_profile": {
-    "emails": [
-      "info@gridpx.com"
-    ],
+    "emails": ["info@gridpx.com"],
     "photos_api_url": "https://api.scrapingdog.com/google_maps/photos?api_key=69859b2025968963c82b2349&data_id=0x390ce127cc3a7429:0x6dbed46e17b7849e",
     "confidence": 0.95,
     "google_location": "https://www.google.com/maps/place/GPX+Diamonds/@28.543561399999998,77.2446634,undefined/data=!3m1!1e3!4m6!3m5!1s0x390ce127cc3a7429:0x6dbed46e17b7849e!8m2!3d28.543561399999998!4d77.2446634!16s",
@@ -20,9 +18,7 @@
       "https://gridpx.com"
     ],
     "name": "GPX Diamonds",
-    "phones": [
-      "+918851762100"
-    ],
+    "phones": ["+918851762100"],
     "standardized_address": {
       "street_address": "Basement, B-273, Block B, Chittaranjan Park",
       "city": "New Delhi",
@@ -1203,9 +1199,7 @@
         "gst_percent": 0.25,
         "country_of_origin": "India",
         "brand": null,
-        "certifications": [
-          "Certified"
-        ]
+        "certifications": ["Certified"]
       },
       "price_single": null,
       "price_min": 98500,
@@ -1432,9 +1426,7 @@
         "gst_percent": 3,
         "country_of_origin": "India",
         "brand": null,
-        "certifications": [
-          "Certified Gold"
-        ]
+        "certifications": ["Certified Gold"]
       },
       "price_single": null,
       "price_min": 68200,
@@ -1545,9 +1537,7 @@
         "gst_percent": 3,
         "country_of_origin": "India",
         "brand": null,
-        "certifications": [
-          "Hallmarked"
-        ]
+        "certifications": ["Hallmarked"]
       },
       "price_single": null,
       "price_min": 68600,

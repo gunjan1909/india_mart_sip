@@ -1,0 +1,16 @@
+Review of Catalog 1 JSON:
+
+- social_urls: wrong urls/ maybe social profiles were expected but receiving company website, and pdp urls
+- reviews_summary : lacks data
+- reviews: empty array
+- company_profile:
+    - emails, address, name, description, phone, website: ok
+    - scraping dog urls not 
+    - rating and review count redundant
+- product(0th product checked):
+    - color from product name issue
+    - tags array needs a verification check
+    - tags{}, domain_attributes{}, specifications{} : data duplicated(not all, can reduce it all to a single object)
+    - b2b attributes - empty, inside that certifications also empty
+    - media_data - good 
+    - warnings[] and dedup_actions?
